@@ -17,6 +17,9 @@ Tags:
 - faster rcnn
 description: A thorough walkthrough in the object detection space
 toc : false
+thumbnail : images/id1.png
+images:
+ - https://mlwhiz.com/images/id1.png
 ---
 
 We all know about the image classification problem. Given an image can you find out the class the image belongs to? We can solve any new image classification problem with ConvNets and [Transfer Learning](https://medium.com/@14prakash/transfer-learning-using-keras-d804b2e04ef8) using pre-trained nets.

@@ -1,7 +1,7 @@
 ---
-title: "NLP  Learning Series: Text Preprocessing Methods for Deep Learning"
+title: "NLP  Learning Series: Part 1 - Text Preprocessing Methods for Deep Learning"
 date:  2019-01-17
-draft: true
+draft: false
 url : blog/2019/01/17/deeplearning_nlp_preprocess/
 slug: deeplearning_nlp_preprocess
 Category: ai, deep learning,kaggle, NLP
@@ -17,10 +17,10 @@ Keywords:
 -  pytorch for text classification
 -  kaggle text classification
 -  text classification
--  NLP
--  preprocessing
--  preprocessing for NLP
--  Natural language processing
+-  NLP deep learning preprocess
+-  preprocessing deep learning
+-  preprocessing for NLP deep learning
+-  Natural language processing deep learning
 - artificial intelligence
 - deep learning
 Tags: 
@@ -28,20 +28,20 @@ Tags:
 - deep learning
 - kaggle
 description: Recently, I started up with an NLP competition on Kaggle called Quora Question insincerity challenge. It is an NLP Challenge on text classification and as the problem has become more clear after working through the competition as well as by going through the invaluable kernels put up by the kaggle experts, I thought of sharing the knowledge.
-
+thumbnail : /images/text_processing_flow_1.png
 images:
- - /images/text_processing_flow_1.png
+ - https://mlwhiz.com/images/text_processing_flow_1.png
 
 toc : true
 ---
 
 Recently, I started up with an NLP competition on Kaggle called Quora Question insincerity challenge. It is an NLP Challenge on text classification and as the problem has become more clear after working through the competition as well as by going through the invaluable kernels put up by the kaggle experts, I thought of sharing the knowledge. 
 
-Since we have a large amount of material to cover, I am splitting this post into a series of posts. The first post i.e. this one will be based on **preprocessing techniques that work with Deep learning models** and we will also talk about **increasing embeddings coverage**. In the second post, I will try to take you through some **basic conventional models** like TFIDF and SVM that have been used in text classification and try to access their performance to create a baseline. We will delve deeper into **Deep learning models** in the third post which will focus on different architectures for solving the text classification problem. We will try to use various other models which we were not able to use in this competition like **ULMFit transfer learning** approaches in the fourth post in the series.
+Since we have a large amount of material to cover, I am splitting this post into a series of posts. The first post i.e. this one will be based on **preprocessing techniques that work with Deep learning models** and we will also talk about **increasing embeddings coverage**. In the [second post](/blog/2019/02/08/deeplearning_nlp_conventional_methods/), I will try to take you through some **basic conventional models** like TFIDF, Count Vectorizer, Hashing etc. that have been used in text classification and try to access their performance to create a baseline. We will delve deeper into **Deep learning models** in the third post which will focus on different architectures for solving the text classification problem. We will try to use various other models which we were not able to use in this competition like **ULMFit transfer learning** approaches in the fourth post in the series.
 
-**As a side note**: if you want to know more about NLP, I would like to recommend this awesome course on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few. 
+**As a side note**: if you want to know more about NLP, I would like to recommend this awesome course on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few. You can start for free with the 7-day Free Trial.
 
-It might take me a little time to write the whole series. Till then you can take a look at my other posts: [What Kagglers are using for Text Classification](https://mlwhiz.com/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP and [how to switch from Keras to Pytorch](https://mlwhiz.com/blog/2019/01/06/pytorch_keras_conversion/).
+It might take me a little time to write the whole series. Till then you can take a look at my other posts: [What Kagglers are using for Text Classification](/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP and [how to switch from Keras to Pytorch](/blog/2019/01/06/pytorch_keras_conversion/).
 
 So first let me start with explaining a little more about the text classification problem. **Text classification** is a common task in natural language processing, which transforms a sequence of a text of indefinite length into a category of text. How could you use that?
 
@@ -446,7 +446,7 @@ def add_features(df):
 ```
 
 ## Conclusion:
-NLP is still a very interesting problem in Deep Learning space and thus I would encourage you to do a lot of experimentation to see what works and what doesn't. I have tried to provide a wholesome perspective of the preprocessing steps for a Deep Learning Neural network for any NLP problem. But that doesn't mean it is definitive. If you want to learn more about NLP [here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an awesome course. If you think we can add something to the flow, do mention it in the comments. 
+NLP is still a very interesting problem in Deep Learning space and thus I would encourage you to do a lot of experimentation to see what works and what doesn't. I have tried to provide a wholesome perspective of the preprocessing steps for a Deep Learning Neural network for any NLP problem. But that doesn't mean it is definitive. If you want to learn more about NLP [here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an awesome course. You can start for free with the 7-day Free Trial. If you think we can add something to the flow, do mention it in the comments. 
 
 ## Endnotes and References
 

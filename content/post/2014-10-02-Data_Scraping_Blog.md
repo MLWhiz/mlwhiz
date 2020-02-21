@@ -2,8 +2,8 @@
 title: "Data Science 101 : Playing with Scraping in Python"
 date:  2014-10-02
 draft: false
-url : blog/2014/10/02/data_science_cs_109_download_rtmdump/
-slug: data_science_cs_109_download_rtmdump
+url : blog/2014/10/02/data_science_101_python_pattern/
+slug: data_science_101_python_pattern
 Category: Python
 Keywords: 
 - Web Scraping

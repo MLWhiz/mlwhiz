@@ -30,6 +30,9 @@ Tags:
 - probability
 description:  Distributions play an important role in the life of every Statistician. Properties of famous discrete distributions
 toc : false
+thumbnail: images/output_14_0.png
+images:
+- images/output_14_0.png
 ---
 
 Distributions play an important role in the life of every Statistician. I coming from a non-statistic background am not so well versed in these and keep forgetting about the properties of these famous distributions. That is why I chose to write my own understanding in an intuitive way to keep a track.
@@ -144,7 +147,7 @@ $$Var[X] = E[X^2] - E[X]^2$$
 Now we find,
 $$E[X]^2 = q^2/p^2$$
 and
-$$E[X^2] = \sum_0^k k^2q^kp= qp + 4q^2p + 9q^3p +16q^4p ... = qp(1+4q+9q^2+16q^3....)$$
+$$E[X^2] = \sum_{k=0}^{inf} k^2q^kp= qp + 4q^2p + 9q^3p +16q^4p ... = qp(1+4q+9q^2+16q^3....)$$
 $$E[X^2] = qp^{-2}(1+q)$$
 
 Thus,
@@ -186,7 +189,7 @@ $$X = X^1+X^2.... X^{r-1} +X^r$$
 Thus,
 $$Var[X] = Var[X^1]+Var[X^2].... Var[X^{r-1}] +Var[X^r]$$
 
-$$E[X] = rq/p^2$$
+$$Var[X] = rq/p^2$$
 
 <strong>Example:</strong>
 
@@ -222,7 +225,7 @@ $$ P(X=k) = \frac{e^{-\lambda}\lambda^k} {k!}$$
 <div>$$Var[X] = E[X^2] - E[X]^2$$</div>
 
 Now we find,
-<div>$$E[X]^2 = \lambda + \lambda^2$$</div>
+<div>$$E[X^2] = \lambda + \lambda^2$$</div>
 Thus,
 $$Var[X] = \lambda$$
 

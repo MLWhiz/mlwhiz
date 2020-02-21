@@ -2,8 +2,11 @@
 title: "Behold the power of MCMC"
 date:  2015-08-21
 draft: false
-url : blog/2015/08/21/MCMC_Algorithms_Cryptography/
-slug: MCMC_Algorithms_Cryptography
+url : blog/2015/08/21/mcmc_algorithm_cryptography/
+slug: mcmc_algorithm_cryptography
+
+aliases: 
+- blog/2015/08/21/MCMC_Algorithms_Cryptography/
 Category: Python, Statistics
 Keywords: 
 - Statistics
@@ -32,7 +35,7 @@ Last time I wrote an article on MCMC and how they could be useful. We learned ho
 
 So MCMC Methods may sound interesting to some (for these what follows is a treat) and for those who don't really appreciate MCMC till now, I hope I will be able to pique your interest by the end of this blog post. 
 
-So here goes. This time we will cover some applications of MCMC in various areas of Computer Science using Python. If you feel the problems difficult to follow with, I would advice you to go back and read the [previous post](http://mlwhiz.com/blog/2015/08/19/MCMC_Algorithms_Beta_Distribution/), which tries to explain MCMC Methods. We Will try to solve the following two problems:
+So here goes. This time we will cover some applications of MCMC in various areas of Computer Science using Python. If you feel the problems difficult to follow with, I would advice you to go back and read the [previous post](/blog/2015/08/19/mcmc_algorithms_beta_distribution/), which tries to explain MCMC Methods. We Will try to solve the following two problems:
 
 1. **Breaking the Code** - This problem has got somewhat of a great pedigree as this method was suggested by Persi Diaconis- The Mathemagician. So Someone comes to you with the below text. This text looks like gibberish but this is a code, Could you decrypyt it?<br><br>
 <em>XZ STAVRK HXVR MYAZ OAKZM JKSSO SO MYR OKRR XDP JKSJRK XBMASD SO YAZ TWDHZ  MYR JXMBYNSKF BSVRKTRM NYABY NXZ BXKRTRZZTQ OTWDH SVRK MYR AKSD ERPZMRXP  KWZMTRP  MYR JXTR OXBR SO X QSWDH NSIXD NXZ KXAZRP ORRETQ OKSI MYR JATTSN  XDP X OXADM VSABR AIJRKORBMTQ XKMABWTXMRP MYR NSKPZ  TRM IR ZRR MYR BYATP  XDP PAR  MYR ZWKHRSD YXP ERRD ZAMMADH NAMY YAZ OXBR MWKDRP MSNXKPZ MYR OAKR  HAVADH MYR JXTIZ SO YAZ YXDPZ X NXKI XDP X KWE XTMRKDXMRTQ  XZ MYR QSWDH NSIXD ZJSFR  YR KSZR  XDP XPVXDBADH MS MYR ERP Z YRXP  ZXAP  NAMY ISKR FADPDRZZ MYXD IAHYM YXVR ERRD RGJRBMRP SO YAI</em><br><br>

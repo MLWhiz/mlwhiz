@@ -1,7 +1,7 @@
-baseurl = "/"
+baseurl = "https://mlwhiz.com/"
 title = "MLWhiz"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
+paginate = "7" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "mlwhiz" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-54777926-1" # Enable Google Analytics by entering your tracking id
@@ -11,6 +11,7 @@ pygmentsStyle = "monokai"
 
 [outputs]
 home = ["HTML","RSS"]
+
 
 [mediaTypes]
 [mediaTypes."application/rss"]
@@ -28,7 +29,7 @@ baseName = "atom"
 
 [Params]
   subtitle = "Deep Learning, Data Science and NLP Enthusiast" # Subtitle of your site. Used in site header
-  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+  description = "Rahul Agarwal's Personal blog about AI, Deep Learning, NLP" # Site description. Used in meta description
   copyright = "Rahul Agarwal" # copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   twitter_cards = true # Enable Twitter Cards if true
@@ -55,7 +56,7 @@ baseName = "atom"
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "right"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  single = true # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent"]
   #["search", "recent", "categories", "taglist", "social"]
@@ -95,3 +96,4 @@ baseName = "atom"
 	name="RSS"
 	url="/atom.xml"
 	weight=5
+

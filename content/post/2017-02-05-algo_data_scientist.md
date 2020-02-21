@@ -2,8 +2,11 @@
 title: "Machine Learning Algorithms for Data Scientists"
 date:  2017-02-05
 draft: false
-url : blog/2017/02/05/Machine_learning_algorithms_for_data_scientist/
-slug: Machine_learning_algorithms_for_data_scientist
+url : blog/2017/02/05/ml_algorithms_for_data_scientist/
+slug: ml_algorithms_for_data_scientist
+aliases:
+- blog/2017/02/05/Machine_learning_algorithms_for_data_scientist/
+
 Category: Python, Algorithms, Statistics
 Keywords: 
 - Python

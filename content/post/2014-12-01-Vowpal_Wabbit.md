@@ -2,8 +2,9 @@
 title: "Exploring Vowpal Wabbit with the Avazu Clickthrough Prediction Challenge"
 date:  2014-12-01
 draft: false
-url : blog/2014/12/01/Exploring_Vowpal_Wabbit_with_Avazu/
-slug: Exploring_Vowpal_Wabbit_with_Avazu
+url : blog/2014/12/01/exploring_vowpal_wabbit_avazu/
+aliases: 
+- blog/2014/12/01/Exploring_Vowpal_Wabbit_with_Avazu/
 Category: Python
 Keywords: 
 - VW 

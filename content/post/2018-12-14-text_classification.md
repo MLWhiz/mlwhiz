@@ -12,14 +12,17 @@ Keywords:
 -  bidirectional LSTM for text
 - bidirectional GRU for text
 -  Attention models for text
+- deep learning nlp keras
+- nlp deep learning with keras
 Tags: 
 - deep learning
 - NLP
 - Python
 description: An overview of the newest methods in text classification
 toc : false
+thumbnail: images/text_convolution.png
 images:
- - /images/text_convolution.png
+ - https://mlwhiz.com/images/text_convolution.png
 ---
 
 With the problem of Image Classification is more or less solved by Deep learning, *Text Classification is the next new developing theme in deep learning*. For those who don't know, Text classification is a common task in natural language processing, which transforms a sequence

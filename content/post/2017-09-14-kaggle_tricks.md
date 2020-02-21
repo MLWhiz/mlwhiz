@@ -17,6 +17,9 @@ Tags:
 - Kaggle
 description:  Here is the list of ideas I gather in day to day life, where people have used creativity to get great results on Kaggle 
 toc : false
+thumbnail: https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png
+images:
+- https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png
 ---
 
 Often times it happens that we fall short of creativity. And creativity is one of the basic ingredients of what we do. Creating features needs creativity. So here is the list of ideas I gather in day to day life, where people have used creativity to get great results on Kaggle leaderboards.

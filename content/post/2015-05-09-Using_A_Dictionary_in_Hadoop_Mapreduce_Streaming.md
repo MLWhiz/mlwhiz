@@ -2,8 +2,10 @@
 title: "Hadoop Mapreduce Streaming Tricks and Techniques"
 date:  2015-05-09
 draft: false
-url : blog/2015/05/09/Hadoop_Mapreduce_Streaming_Tricks_and_Techniques/
-slug: Hadoop_Mapreduce_Streaming_Tricks_and_Techniques
+url : blog/2015/05/09/hadoop_mapreduce_streaming_tricks_and_technique/
+slug: hadoop_mapreduce_streaming_tricks_and_technique
+aliases:
+- blog/2015/05/09/Hadoop_Mapreduce_Streaming_Tricks_and_Techniques/
 Category: Python, Hadoop
 Keywords: 
 - Hadoop
@@ -15,15 +17,6 @@ Tags:
 description: I have been using Hadoop a lot now a days and thought about writing some of the novel techniques that a user could use to get the most out of the Hadoop Ecosystem.
 toc : false
 ---
-
-Title: Hadoop Mapreduce Streaming Tricks and Techniques
-date:  2015-05-09 13:43
-comments: true
-slug: Hadoop_Mapreduce_Streaming_Tricks_and_Techniques
-Category: Hadoop
-Tags: hadoop,python
-description: Hadoop Description of hidden techniques that can be used to improve the way you use hadoop.
-Keywords: Big Data, Hadoop
 
 I have been using Hadoop a lot now a days and thought about writing some of the novel techniques that a user could use to get the most out of the Hadoop Ecosystem.
 

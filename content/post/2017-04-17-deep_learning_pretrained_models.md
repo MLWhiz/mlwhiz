@@ -17,6 +17,9 @@ Tags:
 - pretrained models
 description:  Your Daily dose of data science.This is a series of post in which I write about the things I learn almost everyday. This post particularly provides a way to use pretrained neural nets for classifying images.
 toc : false
+thumbnail: https://image.slidesharecdn.com/practicaldeeplearning-160329181459/95/practical-deep-learning-16-638.jpg
+images:
+- https://image.slidesharecdn.com/practicaldeeplearning-160329181459/95/practical-deep-learning-16-638.jpg
 ---
 
 Deeplearning is the buzz word right now. I was working on the [course](http://www.fast.ai/) for deep learning by Jeremy Howard and one thing I noticed were pretrained deep Neural Networks. In the first lesson he used the pretrained NN to predict on the [Dogs vs Cats](https://www.kaggle.com/c/dogs-vs-cats) competition on Kaggle to achieve very good results.

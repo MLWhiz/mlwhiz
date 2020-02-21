@@ -16,7 +16,8 @@ Keywords:
 -  pytorch better than keras
 -  pytorch for text classification
 -  kaggle text classification
-- text classification
+-  deep learning and nlp with pytorch 
+- text classification pytorch
 -  birnn
 -  bidirectional RNN
 -  bidirectional LSTM for text
@@ -28,8 +29,9 @@ Tags:
 - Python
 description: Recently I started up with a competition on kaggle on text classification, and as a part of the competition I had to somehow move to Pytorch to get deterministic results. Here are some of my findings.
 toc : false
+thumbnail: images/artificial-neural-network.png
 images:
- - /images/artificial-neural-network.png
+ - https://mlwhiz.com/images/artificial-neural-network.png
 ---
 
 <div style="margin-top: 9px; margin-bottom: 10px;">
@@ -40,7 +42,7 @@ Recently I started up with a competition on kaggle on text classification, and a
 
 As a **side note**: if you want to know more about **NLP**, I would like to recommend this awesome course on **[Natural Language Processing](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)** in the **[Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)**. You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: Sentiment Analysis, summarization, dialogue state tracking, to name a few. 
 
-Also take a look at my other post: [Text Preprocessing Methods for Deep Learning](https://mlwhiz.com/blog/2019/01/17/deeplearning_nlp_preprocess/), which talks about different preprocessing techniques you can use for your NLP task and [What Kagglers are using for Text Classification](https://mlwhiz.com/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP.
+Also take a look at my other post: [Text Preprocessing Methods for Deep Learning](/blog/2019/01/17/deeplearning_nlp_preprocess/), which talks about different preprocessing techniques you can use for your NLP task and [What Kagglers are using for Text Classification](/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP.
 
 Ok back to the task at hand. *While Keras is great to start with deep learning, with time you are going to resent some of its limitations.* I sort of thought about moving to Tensorflow. It seemed like a good transition as TF is the backend of Keras. But was it hard? With the whole `session.run` commands and tensorflow sessions, I was sort of confused. It was not Pythonic at all.
 
@@ -57,7 +59,7 @@ So without further ado let me translate Keras to Pytorch for you.
 <center><img src="/images/structured.jpeg"  height="400" width="700" ></center>
 </div>
 
-Ok, let us create an example network in keras first which we will try to port into Pytorch. Here I would like to give a piece of advice too. When you try to move from Keras to Pytorch **take any network you have and try porting it to Pytorch**. It will make you understand Pytorch in a much better way. Here I am trying to write one of the networks that gave pretty good results in the Quora Insincere questions classification challenge for me. This model has all the bells and whistles which at least any Text Classification deep learning network could contain with its GRU, LSTM and embedding layers and also a meta input layer. And thus would serve as a good example. Also if you want to read up more on how the BiLSTM/GRU and Attention model work do visit my post [here](https://mlwhiz.com/blog/2018/12/17/text_classification/).
+Ok, let us create an example network in keras first which we will try to port into Pytorch. Here I would like to give a piece of advice too. When you try to move from Keras to Pytorch **take any network you have and try porting it to Pytorch**. It will make you understand Pytorch in a much better way. Here I am trying to write one of the networks that gave pretty good results in the Quora Insincere questions classification challenge for me. This model has all the bells and whistles which at least any Text Classification deep learning network could contain with its GRU, LSTM and embedding layers and also a meta input layer. And thus would serve as a good example. Also if you want to read up more on how the BiLSTM/GRU and Attention model work do visit my post [here](/blog/2018/12/17/text_classification/).
 
 ```py
 def get_model(features,clipvalue=1.,num_filters=40,dropout=0.1,embed_size=501):
@@ -184,7 +186,14 @@ class Alex_NeuralNet_Meta(nn.Module):
         and the second one is a additional feature vector(x[1])
         '''
         h_embedding = self.embedding(x[0])
-        h_embedding = torch.squeeze(self.embedding_dropout(torch.unsqueeze(h_embedding, 0)))
+        # Based on comment by Ivank to integrate spatial dropout. 
+        embeddings = h_embedding.unsqueeze(2)    # (N, T, 1, K)
+        embeddings = embeddings.permute(0, 3, 2, 1)  # (N, K, 1, T)
+        embeddings = self.embedding_dropout(embeddings)  # (N, K, 1, T), some features are masked
+        embeddings = embeddings.permute(0, 3, 2, 1)  # (N, T, 1, K)
+        h_embedding = embeddings.squeeze(2)  # (N, T, K)
+        #h_embedding = torch.squeeze(self.embedding_dropout(torch.unsqueeze(h_embedding, 0)))
+        
         #print("emb", h_embedding.size())
         h_lstm, _ = self.lstm(h_embedding)
         #print("lst",h_lstm.size())
@@ -214,7 +223,6 @@ class Alex_NeuralNet_Meta(nn.Module):
         out = self.out(conc)
         # return the final output
         return out
-
 ```
 
 
