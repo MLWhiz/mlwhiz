@@ -96,7 +96,7 @@ We start by installing miniconda and adding its path to the environment variable
 
     sudo apt-get update
 
-    wget [https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh](https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh) -O ~/miniconda.sh
+    wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
 
     bash ~/miniconda.sh -b -p ~/miniconda
 
@@ -118,7 +118,7 @@ And our machine is now prepped and ready to run.
 
 As I am set up with the instance, I can get the code for my demo app from [Github](https://github.com/MLWhiz/streamlit_football_demo.git). Or you can choose to create or copy another app as you wish.
 
-    git clone [https://github.com/MLWhiz/streamlit_football_demo.git](https://github.com/MLWhiz/streamlit_football_demo.git)
+    git clone https://github.com/MLWhiz/streamlit_football_demo.git
 
     cd streamlit_football_demo
     streamlit run helloworld.py

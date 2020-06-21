@@ -91,9 +91,13 @@ baseName = "atom"
 	url="/archive"
 	weight=3
 
-[[menu.main]]
-	identifier="rss"
-	name="RSS"
-	url="/atom.xml"
-	weight=5
+#[[menu.main]]
+#	identifier="rss"
+#	name="RSS"
+#	url="/atom.xml"
+#	weight=5
 
+[[menu.main]]
+ name = "Learning Resources"
+ url = "/resources/index.html"
+ weight = 50  
