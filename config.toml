@@ -7,10 +7,17 @@ disqusShortname = "mlwhiz" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-54777926-1" # Enable Google Analytics by entering your tracking id
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
-
+enableGitInfo = true
 
 [outputs]
 home = ["HTML","RSS"]
+
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [ "lastmod" , ":git"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
 
 
 [mediaTypes]
@@ -47,6 +54,8 @@ baseName = "atom"
   highlight = false
   customCSS = ["css/custom.css"] # Include custom CSS files
   logo = "images/M_2000.png"
+  
+
 
 [blackfriday]
   plainIDAnchors = true
