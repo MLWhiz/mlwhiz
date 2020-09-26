@@ -1,112 +1,211 @@
-baseurl = "https://mlwhiz.com/"
-title = "MLWhiz"
+######################## default configuration ####################
+baseURL = "https://mlwhiz.com/"
 languageCode = "en-us"
-paginate = "7" # Number of posts per page
-theme = "mainroad"
-disqusShortname = "mlwhiz" # Enable comments by entering your Disqus shortname
-googleAnalytics = "UA-54777926-1" # Enable Google Analytics by entering your tracking id
+title = "MLWhiz: Helping You Learn Data Science!"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 10
+disqusShortname = "mlwhiz"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
+
+# TODO
 enableGitInfo = true
-
+enableRobotsTXT = true
 [outputs]
-home = ["HTML","RSS"]
+  home = ["HTML", "RSS", "JSON"]
 
 
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 1
+
+#ME
 [frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = [ "lastmod" , ":git"]
-publishDate = ["publishDate", "date"]
-expiryDate = ["expiryDate"]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
 
 
-[mediaTypes]
-[mediaTypes."application/rss"]
-suffixes = ["xml"]
-[outputFormats]
-[outputFormats.RSS]
-mediatype = "application/rss"
-baseName = "atom"
+#ME
+[markup.goldmark.renderer]
+  unsafe = true
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/compressjscss/main.css"
+  # [[params.plugins.css]]
+  # URL = "plugins/bootstrap/bootstrap.min.css"
+  # [[params.plugins.css]]
+  # URL = "plugins/slick/slick.css"
+  # [[params.plugins.css]]
+  # URL = "plugins/themify-icons/themify-icons.css"
+  # [[params.plugins.css]]
+  # URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  # [[params.plugins.js]]
+  # URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/compressjscss/main.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/bootstrap/bootstrap.min.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/slick/slick.min.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/venobox/venobox.min.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/search/fuse.min.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/search/mark.js"
+  # [[params.plugins.js]]
+  # URL = "plugins/search/search.js"
 
 
-[Author] # Used in authorbox
-  name = "Rahul Agarwal"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
-
-[Params]
-  subtitle = "Deep Learning, Data Science and NLP Enthusiast" # Subtitle of your site. Used in site header
-  description = "Rahul Agarwal's Personal blog about AI, Deep Learning, NLP" # Site description. Used in meta description
-  copyright = "Rahul Agarwal" # copyright holder, otherwise will use site title
-  opengraph = true # Enable OpenGraph if true
-  twitter_cards = true # Enable Twitter Cards if true
-  readmore = false # Show "Read more" button in list if true
-  authorbox = false # Show authorbox at bottom of pages if true
-  toc = true # Enable Table of Contents
-  post_navigation = true # Show post navigation at bottom of pages if true
-  # post_meta = ["date", "categories"] # Order of post meta information. Use ["none"] to turn off completely.
-  postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
-  #postSections = ["blog", "news"] # alternative that shows more than one section's pages
-  #dateformat = "2006-01-02" # change the format of dates
-  #mathjax = true # Enable MathJax
-  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
-  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  highlight = false
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  logo = "images/M_2000.png"
-  
-
-
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
-  nofollowLinks = true
-
-[Params.sidebar]
-  home = "right" # Configure layout for home page
-  list = "right"  # Configure layout for list pages
-  single = true # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["search", "recent"]
-  #["search", "recent", "categories", "taglist", "social"]
-
-[Params.widgets]
-  recent_num = 10 # Set the number of articles in the "Recent articles" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
-
-[Params.widgets.social]
-  # Enable parts of social widget
-  facebook = "username"
-  twitter = "username"
-  instagram = "username"
-  linkedin = "username"
-  telegram = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  email = "example@example.com"
-  google_plus = "profileid"
-
+############################## navigation ###############################
 [menu]
 
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
+  # main menu
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 1
 
-[[menu.main]]
-	identifier="archive"
-	name="Archive"
-	url="/archive"
-	weight=3
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 2
 
-#[[menu.main]]
-#	identifier="rss"
-#	name="RSS"
-#	url="/atom.xml"
-#	weight=5
 
-[[menu.main]]
- name = "Learning Resources"
- url = "/resources/index.html"
- weight = 50  
+  [[menu.main]]
+      identifier = "topic"
+      name = "Topics"
+      url = "/categories"
+      weight = 4
+      [[menu.main]]
+          identifier = "deep-learning"
+          name = "Deep Learning"
+          url = "/categories/deep-learning"
+          parent = "topic"
+          weight = 3
+      [[menu.main]]
+          identifier = "natural-language-processing"
+          name = "NLP"
+          url = "/categories/natural-language-processing"
+          parent = "topic"
+          weight = 1
+      [[menu.main]]
+          identifier = "computer-vision"
+          name = "Computer Vision"
+          url = "/categories/computer-vision"
+          parent = "topic"
+          weight = 2
+      [[menu.main]]
+          identifier = "data-science"
+          name = "DS/ML"
+          url = "/categories/data-science"
+          parent = "topic"
+          weight = 4
+
+      [[menu.main]]
+          identifier = "awesome-guides"
+          name = "My Best Content"
+          url = "/categories/awesome-guides"
+          parent = "topic"
+          weight = 6
+
+      [[menu.main]]
+          identifier = "learning-resources"
+          name = "Learning Resources"
+          url = "/categories/learning-resources"
+          parent = "topic"
+          weight = 7
+      [[menu.main]]
+          identifier = "big-data"
+          name = "Big Data"
+          url = "/categories/big-data"
+          parent = "topic"
+          weight = 5
+
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Post"
+  URL = "blog"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+opengraph = true # Enable OpenGraph if true
+twitter_cards = true # Enable Twitter Cards if true
+description = "Want to Learn Computer Vision and NLP? - MLWhiz"
+author = "Rahul Agarwal"
+# Google Analitycs
+googleAnalitycsID = "UA-54777926-1"
+# Contact Information
+mobile = "+91-9711261345"
+email = "rahul@mlwhiz.com"
+location = "India, Bangalore"
+# copyright
+copyright = "Copyright &copy; 2020 [MLWhiz](https://mlwhiz.com) All Rights Reserved "
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+[params.newsletter]
+enable = false
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+
+############################# social site ########################
+
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/rahulagwl/"
+
+[[params.social]]
+title = "medium"
+icon = "ti-book" # themify icon : https://themify.me/themify-icons
+link = "https://medium.com/@rahul_agarwal"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/MLWhiz"
+
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/mlwhizblog"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/MLWhiz"
