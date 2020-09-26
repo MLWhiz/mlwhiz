@@ -24,7 +24,7 @@ enableRobotsTXT = true
 #ME
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
-  lastmod = [":git"]
+  lastmod = [ "lastmod" , ":git", ":fileModTime"]
   publishDate = ["publishDate", "date"]
   expiryDate = ["expiryDate"]
 
