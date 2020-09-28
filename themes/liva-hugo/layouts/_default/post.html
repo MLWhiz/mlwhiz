@@ -1,0 +1,38 @@
+<div class="col-md-6 mb-4">
+    <article class="card">
+
+
+        {{ if .Params.Image }}
+        {{ $image := .Params.Image }}
+        {{ $src := resources.Get $image }}
+
+            {{if $src}}
+                {{ $small := $src.Resize "720x q85 Box" }}
+                <a href="{{ .Permalink }}">
+                <img src="{{ $small.RelPermalink | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+                </a>
+            {{else}}
+              <a href="{{ .Permalink }}">
+              <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+              </a>
+            {{ end }}
+        {{ end }}
+        
+        <div class="card-body px-0">
+        {{ range .Params.Categories }}
+        <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+            class="categoryStyle">{{ . | title | humanize | title }}</a>
+        {{ end }}
+        <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
+        <div class="mb-3 post-meta">
+            <span>By {{ .Site.Params.Author }}</span>
+            {{ if not .Params.HideDate }}
+            {{ partial "clock.html" . }}
+            <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+            {{ end }}
+        </div>
+        <p class="card-text">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="rmStyle">read more</a>
+        </div>
+    </article>
+</div>

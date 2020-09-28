@@ -1,0 +1,54 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Title }}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .URL | absURL }} ">
+  {{ end }}
+
+	{{ if .Site.Params.opengraph }}{{ template "partials/opengraph.html" . }}{{ end }}
+	{{ if .Site.Params.twitter_cards }}{{ template "partials/twitter_cards.html" . }}{{ end }}
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+
+	{{ with .OutputFormats.Get "rss" -}}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+  <link rel="stylesheet" type="text/css" href="{{ "css/font/flaticon.css" | relURL }}" >
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon-200x200.png` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
+
+    <link rel="canonical" href="{{ .Permalink }}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+{{ if .IsHome }}
+{{ partial "seo_schema" . }}
+{{else if .IsPage}}
+{{ partial "seo_schema_page" . }}
+{{ end }}
+<!-- ConvertKit CODE FOR Floater -->
+<script async data-uid="a0ebaf958d" src="https://mlwhiz.ck.page/a0ebaf958d/index.js"></script>
+{{ partial "mathjax_support.html" . }}
+
+<!-- BEGIN SHAREAHOLIC CODE -->
+<link href='//apps.shareaholic.com/assets/pub/shareaholic.js' as='script' />
+<script type="text/javascript" data-cfasync="false" async src="//apps.shareaholic.com/assets/pub/shareaholic.js" data-shr-siteid="fd1ffa7fd7152e4e20568fbe49a489d0"></script>
+<!-- END SHAREAHOLIC CODE -->
+
+</head>

@@ -1,0 +1,93 @@
+{{ $image := .Destination }}
+{{ $src := resources.Get $image }}
+
+
+
+
+{{ if or (or (in $image "http") (in $image "gif")) ( in $image "svg" ) }}
+      {{ if .Title }}
+        <figure>
+          {{if .Text}}
+              <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+          {{else}}
+            <img src="{{ .Destination | safeURL }}" alt={{ .Title }}>
+            {{end}}
+          <figcaption>{{ .Title }}</figcaption>
+        </figure>
+      {{ else }}
+        {{if .Text}}
+            <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+        {{else}}
+          <img src="{{ .Destination | safeURL }}" alt="MLWhiz: Data Science, Machine Learning, Artificial Intelligence">
+          {{end}}
+      {{ end }}
+{{ else if $src}}
+    {{ $tiny := $src.Resize "500x" }}
+    {{ $small := $src.Resize "800x" }}
+    {{ $medium := $src.Resize "1200x" }}
+    {{ $large := $src.Resize "1500x" }}
+    {{ $alternatetext := "MLWhiz: Data Science, Machine Learning, Artificial Intelligence" }}
+
+    {{ if .Title }}
+          {{ if .Text }}
+              {{ $alternatetext = .Text }}
+          {{ else }}
+            {{ $alternatetext = .Title }}
+          {{ end }}
+
+    {{else if .Text }}
+          {{ $alternatetext = .Text }}
+    {{ else }}
+          {{ $alternatetext = "MLWhiz: Data Science, Machine Learning, Artificial Intelligence" }}
+    {{ end }}
+
+              {{ if .Title }}
+                <figure>
+
+                  <img
+
+                    sizes="(min-width: 35em) 1200px, 100vw"
+
+                    srcset='
+                    {{ if ge $src.Width "500" }}
+                      {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+                    {{ end }}
+                    {{ if ge $src.Width "800" }}
+                      {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+                    {{ end }}
+                    {{ if ge $src.Width "1200" }}
+                      {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+                    {{ end }}
+                    {{ if ge $src.Width "1500" }}
+                      {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+                    {{ end }}'
+
+                    src="{{ $src.RelPermalink }}"
+
+                    alt="{{ $alternatetext }}">
+
+                <figcaption>{{ .Title }}</figcaption>
+                </figure>
+              {{ else }}
+                <img
+                  sizes="(min-width: 35em) 1200px, 100vw"
+                  srcset='
+                  {{ if ge $src.Width "500" }}
+                    {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+                  {{ end }}
+                  {{ if ge $src.Width "800" }}
+                    {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+                  {{ end }}
+                  {{ if ge $src.Width "1200" }}
+                    {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+                  {{ end }}
+                  {{ if ge $src.Width "1500" }}
+                    {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+                  {{ end }}'
+                    src="{{ $src.RelPermalink }}"
+
+                  alt="{{ $alternatetext }}">
+              {{ end }}
+{{else}}
+    <img src="{{ .Destination | safeURL }}" alt="MLWhiz: Data Science, Machine Learning, Artificial Intelligence">
+{{ end }}

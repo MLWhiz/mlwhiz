@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <!-- "col-lg-8 mx-auto"-->
+        {{ range .Params.Categories }}
+        <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+          class="categoryStyle">{{ . | title | humanize | title }}</a>
+        {{ end }}
+        <h1>{{ .Title | markdownify }}</h1>
+        <div class="mb-3 post-meta">
+          <span>By {{if .Params.Author}}{{ .Params.Author }}{{else}}{{.Site.Params.Author}}{{end}}</span>
+          {{ if not .Params.HideDate }}
+          {{ partial "clock.html" . }}
+          <span>{{ .PublishDate.Format "02 January 2006" }}</span>
+          {{ end }}
+        </div>
+        {{ if .Params.image }}
+        <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
+        {{ end }}
+        <div class="content mb-5">
+          {{ .Content }}
+
+        {{ partial "coursera_share_convertkit.html" . }}
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+
+
+  </div>
+</section>
+
+{{ end }}

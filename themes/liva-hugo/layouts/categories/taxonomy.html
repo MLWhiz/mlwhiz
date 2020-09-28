@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<!-- blog post -->
+
+		<section id="hero" class="block block-hero has-gradient outer" style="padding-top:3.5em;padding-bottom:3.5em">
+			 	{{if (isset .Params "image")}}
+				<div class="bg-img" style="background-image: url('/images/category_bgs/{{.Params.image}}')"></div>
+				{{else}}
+				<div class="bg-img" style="background-image: url('/images/category_bgs/default_bg.jpg')"></div>
+				{{end}}
+        <div class="inner-sm">
+
+          <div class="block-header">
+
+						{{if (isset .Params "icon")}}
+								<i class="{{.Params.icon}}"></i>
+						{{else}}
+								<i class="flaticon-infographic"></i>
+						{{end}}
+            <h1 class="block-title">{{.Title}}</h1>
+							{{if (isset .Params "summary")}}
+									<h4 style="color:white;width:80%">{{.Params.Summary}}</h4>
+							{{end}}
+          </div>
+					{{if .Params.flag}}
+	          <div class="block-content" style="font-color:white">
+	            <p style="color:white;font-size:1em"> So, Want to Learn {{.Title}} with Me?</p>
+	          </div>
+						<div class="block-buttons">
+	            <a class="herobutton" style="font-size:1em" data-formkit-toggle="a0ebaf958d" href="https://mlwhiz.ck.page/a0ebaf958d">Sure</a>
+	          </div>
+						{{end}}
+        </div>
+      </section>
+
+
+<section class="section-sm">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-8 mb-5 mb-lg-0">
+
+        <div class="row">
+
+          {{ $paginator := .Paginate .Data.Pages }}
+          {{ range $paginator.Pages }}
+          {{ .Render "post" }}
+          {{ end }}
+        </div>
+      </div>
+      <!-- sidebar -->
+      {{ partial "sidebar.html" . }}
+      <!-- /sidebar -->
+
+      <!-- pagination -->
+      <div class="col-12 mt-5">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
+
+{{ end }}

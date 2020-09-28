@@ -1,0 +1,40 @@
+{{ $image := .Destination }}
+
+{{ $src := resources.Get $image }}
+{{if and $src (not (in $image ".gif")) (not (in $image "https"))}}
+
+    {{ $small := $src.Resize "720x q85 Box" }}
+    {{ if .Title }}
+      <figure>
+        {{if .Text}}
+            <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+        {{else}}
+          <img src="{{ .Destination | safeURL }}" alt={{ .Title }}>
+          {{end}}
+        <figcaption>{{ .Title }}</figcaption>
+      </figure>
+    {{ else }}
+      {{if .Text}}
+          <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+      {{else}}
+        <img src="{{ .Destination | safeURL }}" alt="Data Science, Machine Learning, Artificial Intelligence">
+        {{end}}
+    {{ end }}
+{{else}}
+    {{ if .Title }}
+      <figure>
+        {{if .Text}}
+            <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+        {{else}}
+          <img src="{{ .Destination | safeURL }}" alt={{ .Title }}>
+          {{end}}
+        <figcaption>{{ .Title }}</figcaption>
+      </figure>
+    {{ else }}
+      {{if .Text}}
+          <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+      {{else}}
+        <img src="{{ .Destination | safeURL }}" alt="Data Science, Machine Learning, Artificial Intelligence">
+        {{end}}
+    {{ end }}
+{{ end }}
