@@ -87,7 +87,7 @@ The process to push a commit is:
 
 Below, I am pushing a very simple commit to Github, where I add a title to my Markdown file. Its a GIF file, so it might take some time to load.
 
-![Committing in Atom](/images/atom_for_data_science/4.png)*Committing in Atom*
+![Committing in Atom](/images/atom_for_data_science/4.gif)*Committing in Atom*
 
 
 ---
@@ -102,7 +102,7 @@ Using Markdown in Atom is again a piece of cake and is activated by default. To 
 
 * Whatever changes you do in the document will reflect near real-time in the preview window.
 
-![Markdown Split Screen editor](/images/atom_for_data_science/5.png)*Markdown Split Screen editor*
+![Markdown Split Screen editor](/images/atom_for_data_science/5.gif)*Markdown Split Screen editor*
 
 ### 3. Minimap — A navigation map for Large code files
 
@@ -111,11 +111,11 @@ Till now, we haven’t installed any new package to Atom, so let’s install an 
 To install a package, you can go to settings and click on Install Packages.
 `Ctrl+Shift+P > Settings > + Install > Minimap> Install`
 
-![Installing Minimap or any package](/images/atom_for_data_science/6.png)*Installing Minimap or any package*
+![Installing Minimap or any package](/images/atom_for_data_science/6.gif)*Installing Minimap or any package*
 
 Once you install the package, you can see the minimap on the side of your screen.
 
-![Sidebar to navigate large files with ease](/images/atom_for_data_science/7.png)*Sidebar to navigate large files with ease*
+![Sidebar to navigate large files with ease](/images/atom_for_data_science/7.gif)*Sidebar to navigate large files with ease*
 
 ### 4. Python Autocomplete with function definitions in Text Editor
 
@@ -127,7 +127,7 @@ So, to enable autocomplete with Kite, we can use the package named [autocomplete
 
 You will also see the option of using Kite along with it. I usually end up using Kite instead of Jedi(Another autocomplete option). This is how it looks when you work on a Python document with Kite autocompletion.
 
-![Autocomplete with Kite lets you see function definitions too.](/images/atom_for_data_science/8.png)*Autocomplete with Kite lets you see function definitions too.*
+![Autocomplete with Kite lets you see function definitions too.](/images/atom_for_data_science/8.gif)*Autocomplete with Kite lets you see function definitions too.*
 
 ### 5. Hydrogen — Run Python code in Jupyter environment
 
@@ -139,7 +139,7 @@ Want to run Python also in your Atom Editor with any Jupyter Kernel? There is a 
 
 * Now I can continue working in pyt kernel.
 
-![Runnin command using Ctrl+Enter will ask you which environment to use.](/images/atom_for_data_science/9.png)*Runnin command using Ctrl+Enter will ask you which environment to use.*
+![Runnin command using Ctrl+Enter will ask you which environment to use.](/images/atom_for_data_science/9.gif)*Runnin command using Ctrl+Enter will ask you which environment to use.*
 
 Sometimes it might happen that you don’t see an environment/kernel in Atom. In such cases, you can install ipykernel to make that kernel visible to Jupyter as well as Atom.
 
@@ -154,7 +154,7 @@ Once you run these commands, your kernel will be installed. You can now update t
 
 `Ctrl+Shift+P` >Hydrogen: Update Kernels
 
-![](/images/atom_for_data_science/10.png)
+![](/images/atom_for_data_science/10.gif)
 
 And your kernel should now be available in your Atom editor.
 
@@ -162,7 +162,7 @@ And your kernel should now be available in your Atom editor.
 
 Stack Overflow is an integral part of any developer’s life. But you know what the hassle is? To leave the coding environment and go to Chrome to search for every simple thing you need to do. And we end up doing it back and forth throughout the day. So, what if we can access Stack Overflow from Atom? You can do precisely that through the **“[ask-stack](https://atom.io/packages/ask-stack)”** package, which lets one search for questions on SO. We can access it using `Ctrl+Alt+A`
 
-![Access Stack Overflow in Atom using Ctrl+Alt+A.](/images/atom_for_data_science/11.png)*Access Stack Overflow in Atom using Ctrl+Alt+A.*
+![Access Stack Overflow in Atom using Ctrl+Alt+A.](/images/atom_for_data_science/11.gif)*Access Stack Overflow in Atom using Ctrl+Alt+A.*
 
 Some other honorable mentions of packages you could use are:
 

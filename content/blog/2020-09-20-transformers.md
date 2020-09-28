@@ -335,7 +335,7 @@ If you realize what we have at this point is a generative model and we will have
 ---
 ## Prediction Time
 
-![Predicting with a greedy search using the Transformer](/images/transformers/30.png "Predicting with a greedy search using the Transformer")
+![Predicting with a greedy search using the Transformer](/images/transformers/30.gif "Predicting with a greedy search using the Transformer")
 
 This model does piece-wise predictions. In the original paper, they use the Beam Search to do prediction. But a greedy search would work fine as well for the purpose of explaining it. In the above example, I have shown how a greedy search would work exactly. The greedy search would start with:
 

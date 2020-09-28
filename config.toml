@@ -8,7 +8,7 @@ paginate = 10
 disqusShortname = "mlwhiz"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
-
+timeout = 120000
 # TODO
 enableGitInfo = true
 enableRobotsTXT = true
@@ -20,6 +20,32 @@ enableRobotsTXT = true
   changefreq = "daily"
   filename = "sitemap.xml"
   priority = 1
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      decimals = -1
+      keepCSS2 = true
+    [minify.tdewolff.html]
+      keepConditionalComments = true
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+    [minify.tdewolff.json]
+    [minify.tdewolff.svg]
+      decimals = -1
+    [minify.tdewolff.xml]
+      keepWhitespace = false
 
 #ME
 [frontmatter]
