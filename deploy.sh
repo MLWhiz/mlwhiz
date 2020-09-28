@@ -1,5 +1,5 @@
 rsync -avu --delete "static/images/" "assets/images"
-~/bin/hugo --minify
+hugo --minify
 cd public
 echo "mlwhiz.com" >CNAME
 git add .
