@@ -375,7 +375,7 @@ Also, the authors average the last k checkpoints to create an ensembling effect 
 
 ***Q: Can you show me some code?***
 
-This post has already been so long, so I will do that in the next post. Stay tuned.
+This post has already been so long, so I will do that in the [next post](https://mlwhiz.com/blog/2020/10/10/create-transformer-from-scratch/). Stay tuned.
 
 ***Now, finally, my turn to ask the question: Did you get how a transformer works? Yes, or No, you can answer in the comments. :)***
 
@@ -388,4 +388,10 @@ This post has already been so long, so I will do that in the next post. Stay tun
 
 * [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/): This is one of the best posts on transformers.
 
-In this post, I covered how the Transformer architecture works. If you’re interested in more technical machine learning articles, you can check out my other articles in the related resources section below. And if you’d like machine learning articles delivered directly to your inbox, you can subscribe to the Lionbridge AI newsletter [here](https://lionbridge.ai/ai-newsletter-subscription/).
+In this post, I covered how the Transformer architecture works. If you want to learn more about NLP, I would like to call out an excellent course on [**Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing)** from the Advanced Machine Learning Specialization. Do check it out.
+
+I am going to be writing more of such posts in the future too. Let me know what you think about them. Should I write on heavily technical topics or more beginner level articles? The comment section is your friend. Use it. Also, follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+
+And, finally a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
+
+This post was first published [here](https://lionbridge.ai/articles/what-are-transformer-models-in-machine-learning/)
