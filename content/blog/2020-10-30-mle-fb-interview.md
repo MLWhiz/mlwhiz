@@ -7,21 +7,22 @@ url : blog/2020/10/30/mle-fb-interview/
 slug: mle-fb-interview
 
 Keywords:
-- transformers from scratch
-- create own transformer
-- understanding transformers
-- layman transformers
-- layman transformers guide
+- machine learning
+- interview
+- job
+- facebook
+
 
 Tags:
-- Python
-- Transformers
-- Programming
+- Machine Learning
+- Algorithms
+- Jobs
+
 
 Categories:
-- Deep Learning
-- Natural Language Processing
-- Awesome Guides
+- Programming
+- Learning Resources
+
 
 description:
 
@@ -88,9 +89,10 @@ Once, I was done with the telephonic interviews, the recruiter returned in a sho
 Once in London, I reached the Facebook Office from the hotel they provided at around 9 on D Day. A full one hour before the scheduled time because I was anxious and I normally try to reach interviews on/before time(More so when I am giving them). I knew beforehand the whole itinerary of the day as it was shared with me by my recruiter. I also knew which interview would happen at what time and who would take it. It was in fact the most organized interview experience I have rather had.
 
 ---
+
 ## 2. Onsite Coding Round 1
 
-![Image by [StartupStockPhotos](https://pixabay.com/users/startupstockphotos-690514/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=593370) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=593370)](/images/mle-fb-interview/0.png)*Image by [StartupStockPhotos](https://pixabay.com/users/startupstockphotos-690514/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=593370) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=593370)*
+![](/images/mle-fb-interview/0.jpg)
 
 I have been in Data Science for so long that I read DS as Data Science and not Data Structures. And this interview was essentially a pain point for me. This is something that I learned in a period of 2 months rather than having my whole experience around it. And here I was to be evaluated on this rather than all my experience and Data Science background. But as told to me by the recruiter they have pretty much-fixed processes and I had to go through these rounds for the MLE position. So I played along.
 
@@ -107,6 +109,7 @@ The interviewer also gave me an option to code on my own laptop which I had spec
 Just the same plan for the telephonic one but more extensive Leetcoding. I remember I did Leetcode straight for 30 days for these coding rounds around 3–4 hours a day. I used to solve as many medium level questions I could with very little time spent on Hard level questions.
 
 ---
+
 ## **3. Onsite Coding Round 2:**
 
 Till this time I was in my Data Structure groove and ready for anything that the interviewer was gonna throw at me. My state of mind being — *“ What’s the worst that could happen?”*. And so I just carried on. The people at Facebook were really nice as they asked for refreshments before and after each interview and took care of not overextending any interview. There was a lot of stock given to the fact that each interview starts at exactly the time it needs to with a cool-off period of 15 mins between interviews.
@@ -123,14 +126,14 @@ A tip for interviewees would be to call out all solutions you have along with th
 
 Also, what I found out through these two interviews was that it was really helpful to talk to your interviewers and explain your approach while you are working. They sometimes provide hints and sometimes stop you from going to the wrong tangent. Even telling your interviewer where you are stuck would help you as it sends out the signal to the interviewer as to which direction you are thinking in. This also makes the whole interview more collaborative and I think that is one of the qualities that the interviewers are looking for in a person.
 
-![Food is just awesome at FB. Though, I wasn’t able to enjoy much as I was a little anxious. Photo by [Dan Gold](https://unsplash.com/@danielcgold?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](/images/mle-fb-interview/1.png)*Food is just awesome at FB. Though, I wasn’t able to enjoy much as I was a little anxious. Photo by [Dan Gold](https://unsplash.com/@danielcgold?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
+![Food at FB](/images/mle-fb-interview/1.png "Food is just awesome at FB. Though, I wasnt able to enjoy much as I was a little anxious")
 
 Till this point, I was a little exhausted with all that whiteboard coding and just the general interview pressure, and since it was around lunchtime, I went to the Facebook cafeteria with an assigned colleague/buddy. This is the part where you can ask about the company and this time is not rated on the interviews so you can be quite open with questions about Facebook life and such. And you can enjoy a wide variety of food in the Facebook Cafeteria.
 
 ---
 ## 4. System Design
 
-![Photo by [Jeswin Thomas](https://unsplash.com/@jeswinthomas?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](/images/mle-fb-interview/2.png)*Photo by [Jeswin Thomas](https://unsplash.com/@jeswinthomas?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
+![](/images/mle-fb-interview/2.png)
 
 This was another interview which I dreaded. As you can see, I was dreading most of the interviews as it was quite an unnatural interview format for me. In a system design interview, you are expected to create a service end to end on a whiteboard. Some example problems for you to practice would be:
 
@@ -169,7 +172,7 @@ I spent a week where I just jumped from watching videos to reading the repositor
 
 This interview tries to look at how you handle difficult situations. And, you can prepare for this interview by assimilating and organizing all the work experiences you have had in the past, the problems you faced and solutions you devised. You will need to collect all the instances where you diffused an impossible situation or failed to deal with one.
 
-![Photo by [Michelle Bonkosky](https://unsplash.com/@m_bonkosky?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](/images/mle-fb-interview/3.png)*Photo by [Michelle Bonkosky](https://unsplash.com/@m_bonkosky?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
+![](/images/mle-fb-interview/3.png)
 
 All that said the best way to steer this interview is to **Be Yourself!**
 
@@ -180,7 +183,7 @@ As far as what I think, for me, this interview went pretty well.
 ---
 ## 6. ML System Design
 
-![Source: [Facebook ML Video Series](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/)](/images/mle-fb-interview/4.png)*Source: [Facebook ML Video Series](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/)*
+![](/images/mle-fb-interview/4.png)
 
 This was the interview which played to my strengths and honestly, I didn't prepare much for it. In this interview, I was expected to create a system to solve an ML problem end to end.
 
@@ -201,8 +204,8 @@ So, I am joining Facebook London just a year later now as a Software Engineer(ML
 
 ### Continue Learning
 
-If you want to read up more on Algorithms and Data Structures in a more structured way, here is an [**Algorithm Specialization on Coursera by UCSanDiego](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdata-structures-algorithms). **I sort of audited this course while preparing.
+If you want to read up more on Algorithms and Data Structures in a more structured way, here is an [Algorithm Specialization on Coursera by UCSanDiego](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdata-structures-algorithms). I sort of audited this course while preparing.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium](https://medium.com/@rahul_agarwal?source=post_page---------------------------) **or Subscribe to my [**blog](https://mlwhiz.ck.page/a9b8bda70c) **to be informed about them**.**
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://medium.com/@rahul_agarwal?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them.
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
