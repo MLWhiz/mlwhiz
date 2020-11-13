@@ -69,16 +69,19 @@ try:
 except:
     pass
 for i, url in enumerate(urls):
+    print(url)
     ext = url.split(".")[-1]
-    if ext not in ["png",'jpg','jpeg', 'gif']:
-        ext = 'png'
-        f = open(f"{img_dir}/{args.output}"+"/"+str(i)+'.png', 'wb')
+    if ext in ["png",'jpg','jpeg', 'gif']:
+
+        fname = f"{img_dir}/{args.output}"+"/"+str(i)+'.png'
+        f = open(f"{img_dir}/{args.output}"+"/"+str(i)+"."+ext, 'wb')
         f.write(requests.get(url).content)
         f.close()
 
 namedict = {}
 for i, url in enumerate(urls):
-    namedict[url]="/images/"+args.output+"/"+str(i)+'.png'
+    ext = url.split(".")[-1]
+    namedict[url]="/images/"+args.output+"/"+str(i)+'.'+ext
 
 for k,v in namedict.items():
     contents = contents.replace(k, v)
