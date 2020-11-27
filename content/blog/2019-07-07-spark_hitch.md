@@ -1047,4 +1047,4 @@ Hopefully, I’ve covered the basics well enough to pique your interest and help
 
 Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293556&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-essentials) which is part of the [Big Data Specialization](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293466&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fbig-data-engineering) provided by Yandex.
 
-I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://medium.com/@rahul_agarwal) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).

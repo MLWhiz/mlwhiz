@@ -219,7 +219,7 @@ link = "https://www.linkedin.com/in/rahulagwl/"
 [[params.social]]
 title = "medium"
 icon = "ti-book" # themify icon : https://themify.me/themify-icons
-link = "https://medium.com/@rahul_agarwal"
+link = "https://mlwhiz.medium.com/"
 
 [[params.social]]
 title = "twitter"

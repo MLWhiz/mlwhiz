@@ -481,7 +481,7 @@ Here are the final results of all the different approaches I have tried on the K
 ----------
 ## Conclusion
 
-In this post, I went through with the explanations of various deep learning architectures people are using for Text classification tasks. In the next post, we will delve further into the next new phenomenon in NLP space - Transfer Learning with BERT and ULMFit. Follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my blog to be informed about my next post.
+In this post, I went through with the explanations of various deep learning architectures people are using for Text classification tasks. In the next post, we will delve further into the next new phenomenon in NLP space - Transfer Learning with BERT and ULMFit. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my blog to be informed about my next post.
 
 Also if you want to [**learn more about NLP** here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an excellent course. You can start for free with the 7-day Free Trial.
 

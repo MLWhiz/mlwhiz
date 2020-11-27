@@ -129,6 +129,6 @@ Do read some of my previous articles on working with shell commands also if you 
 
 If you would like to know more about the command line, which I guess you would, there is [The UNIX workbench](https://www.coursera.org/learn/unix?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-EK0XnncSGKDui6jU1GFilw&siteID=lVarvwc5BD0-EK0XnncSGKDui6jU1GFilw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course on Coursera which you can try out.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://medium.com/@rahul_agarwal?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them.
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them.
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

@@ -97,6 +97,6 @@ In this post, I talked about the best courses I would recommend for people who a
 
 Also, here are my [course recommendations](https://towardsdatascience.com/top-10-resources-to-become-a-data-scientist-in-2020-99a315194701?source=---------2------------------) to become a Data Scientist in 2020.
 
-I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

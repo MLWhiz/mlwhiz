@@ -723,7 +723,7 @@ You can find the complete code for this post on [Github](https://github.com/MLWh
 
 If you would like to learn more about Image Classification and Convolutional Neural Networks take a look at the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-qdJc22ApgTq6oWNEbD8fdw&siteID=lVarvwc5BD0-qdJc22ApgTq6oWNEbD8fdw&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) from Andrew Ng. Also, to learn more about PyTorch and start from the basics, you can take a look at the [Deep Neural Networks with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-qRrseBA2NWUg_WxbnxmDwQ&siteID=lVarvwc5BD0-qRrseBA2NWUg_WxbnxmDwQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course offered by IBM.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
 

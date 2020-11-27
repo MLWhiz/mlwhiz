@@ -672,4 +672,4 @@ You can find all the code for this post and run it yourself in this [Kaggle Kern
 
 Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) by Kazanova. This course talks about a lot of intuitive ways to improve your model. Definitely recommended.
 
-I am going to be writing more beginner friendly posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://medium.com/@rahul_agarwal) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more beginner friendly posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).

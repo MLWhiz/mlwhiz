@@ -102,7 +102,7 @@ This concludes my post about one of the most efficient editors I have ever known
 
 ---
 
-Let me know if you liked this post. I will continue writing such Tips and Tricks in a series of posts. Also, do [follow me on Medium](https://medium.com/@rahul_agarwal) to get notified about my future posts.
+Let me know if you liked this post. I will continue writing such Tips and Tricks in a series of posts. Also, do [follow me on Medium](https://mlwhiz.medium.com/) to get notified about my future posts.
 
 ---
 

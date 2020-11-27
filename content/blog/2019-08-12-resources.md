@@ -282,4 +282,4 @@ Though I did not complete any professional training, I consider myself more of a
 
 I hope they help you too.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://medium.com/@rahul_agarwal?source=post_page---------------------------) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).

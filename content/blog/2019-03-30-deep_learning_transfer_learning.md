@@ -278,7 +278,7 @@ Even if this approach didn't work well for this dataset, it is a valid approach 
 ----------
 ## Conclusion:
 
-Finally, this post concludes my NLP Learning series. It took a lot of time to write, but the effort was well worth it. I hope you found it helpful in your work. I will try to write some more on this topic when I get some time. Follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my blog to be informed about my next posts.
+Finally, this post concludes my NLP Learning series. It took a lot of time to write, but the effort was well worth it. I hope you found it helpful in your work. I will try to write some more on this topic when I get some time. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my blog to be informed about my next posts.
 
 Also if you want to [**learn more about NLP** here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an excellent course. You can start for free with the 7-day Free Trial.
 

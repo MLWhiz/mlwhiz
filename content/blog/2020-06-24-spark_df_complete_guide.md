@@ -651,6 +651,6 @@ Hopefully, I’ve covered the Dataframe basics well enough to pique your interes
 
 Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out these excellent courses on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293556&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-essentials) and [Big Data Analysis: Hive, Spark SQL, DataFrames and GraphFrames](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293488&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-analysis) by Yandex on Coursera.
 
-I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

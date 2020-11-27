@@ -280,6 +280,6 @@ Hopefully, I’ve covered the column creation process well to help you with your
 
 Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [**Big Data Essentials**](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293556&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-essentials), which is part of the [Big Data Specialization](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293466&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fbig-data-engineering) provided by Yandex.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://medium.com/@rahul_agarwal?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c)
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c)
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

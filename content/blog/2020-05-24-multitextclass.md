@@ -429,7 +429,7 @@ Also, if you want to learn more about NLP, [here](https://click.linksynergy.com/
 
 If you want to learn more about NLP, I would like to call out an excellent course on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) from the Advanced Machine Learning Specialization. Do check it out.
 
-I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://medium.com/@rahul_agarwal) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
 
