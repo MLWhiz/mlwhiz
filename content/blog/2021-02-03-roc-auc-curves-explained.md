@@ -1,6 +1,6 @@
 ---
-title:   An Understandable Guide to ROC Curves And AUC and Why and When to use them?
-date:  2021-02-04
+title: A Layman's guide to ROC Curves And AUC 
+date:  2021-02-03
 draft: false
 url : blog/2021/02/03/roc-auc-curves-explained/
 slug: roc-auc-curves-explained
@@ -14,7 +14,6 @@ Tags:
 
 Categories:
 - Data Science
-
 
 description: ROC curves, or receiver operating characteristic curves, are one of the most common evaluation metrics for checking a classification model’s performance. Unfortunately, many data scientists often just end up seeing the ROC curves and then quoting an AUC (short for the area under the ROC curve) value without really understanding what the AUC value means and how they can use them more effectively.Other times, they don’t understand the various problems that ROC curves solve and the multiple properties of AUC like threshold invariance and scale invariance, which necessarily means that the AUC metric doesn’t depend on the chosen threshold or the scale of probabilities. These properties make AUC pretty valuable for evaluating binary classifiers as it provides us with a way to compare them without caring about the classification threshold. That’s why it’s important for data scientists to have a fuller understanding of both ROC curves and AUC.
 
@@ -40,7 +39,7 @@ The answer is that accuracy doesn’t capture the whole essence of a probabilist
 
 Assuming a threshold of 0.5 for a logistic regression classifier, what do you think the accuracy of this classifier is?
 
-![Source: Image by Author](/images/roc-auc-curves-explained/0.png)*Source: Image by Author*
+![Source: Image by Author](/images/roc-auc-curves-explained/0.png)
 
 If you said 50 per cent, congratulations. We would misclassify the two zeroes as ones. This result isn’t that great. But is our classifier really that bad? Based on accuracy as an evaluation metric, it seems that it is. But what if we change the threshold in the same example to 0.75? Now, our classifier becomes 100 per cent accurate. **This should lead us to ask how we can come up with an evaluation metric that doesn’t depend on the threshold**. That is, we want a threshold-invariant metric.
 
@@ -48,7 +47,7 @@ If you said 50 per cent, congratulations. We would misclassify the two zeroes as
 
 Now, let’s do the same exercise again, but this time our classifier predicts different probabilities but in the **same rank order**. This means that the probability values change, but the order remains the same. So in Classifier B, the rank of predictions remains the same while Classifier C predicts on a whole different scale. So, which of the following is the best?
 
-![Source: Image by Author](/images/roc-auc-curves-explained/1.png)*Source: Image by Author*
+![Source: Image by Author](/images/roc-auc-curves-explained/1.png)
 
 In all these cases, we can see that each classifier is largely the same. That is, if we have a threshold of 0.75 for Classifier A, 0.7 for Classifier B and 68.5 for Classifier C, we have a 100 per cent accuracy on all of them.
 
@@ -58,7 +57,7 @@ So, finally, we want an evaluation metric that satisfies the following two condi
 
 * It is **threshold invariant** **i.e.** the value of the metric doesn’t depend on a chosen threshold.
 
-* It is **scale-invariant i.e. **It measures how well predictions are ranked, rather than their absolute values.
+* It is **scale-invariant i.e.** It measures how well predictions are ranked, rather than their absolute values.
 
 The excellent news is that AUC fulfils both the above conditions. Before we can even look at how AUC is calculated, however, let’s understand ROC curves in more detail.
 
@@ -69,17 +68,17 @@ A quick historical fun fact about ROC curves is that they were first used during
 
 But how do we make these curves ourselves? To understand this, we need to understand **true positive rate** (TPR) and **false positive rate** (FPR) first. So, let’s say we have the following sample confusion matrix for a model with a particular probability threshold:
 
-![Source: Author Image](/images/roc-auc-curves-explained/2.png)*Source: Author Image*
+![Source: Author Image](/images/roc-auc-curves-explained/2.png)
 
 To explain TPR and FPR, I usually give the example of a justice system. Naturally, any justice system only wants to punish people guilty of crimes and doesn’t want to charge an innocent person. Now let’s say that the model above is a justice system that evaluates each citizen and predicts either a zero (innocent) or a one (guilty).
 
 In this case, the TPR is the proportion of guilty criminals our model was able to capture. Thus, the numerator is guilty criminals captured, and the denominator is total criminals. This ratio is also known as recall or sensitivity.
 
-**TPR(True Positive Rate)/Sensitivity/Recall**= TP/(TP+FN)
+    TPR(True Positive Rate)/Sensitivity/Recall= TP/(TP+FN)
 
 The FPR is the proportion of innocents we incorrectly predicted as criminal (false positives) divided by the total number of actual innocent citizens. Thus, the numerator is innocents captured, and the denominator is total innocents.
 
-**FPR(False Positive Rate)**= FP/(TN+FP)
+    FPR(False Positive Rate)= FP/(TN+FP)
 
 Usually, we would want high TPR (because we want to capture all the criminals) and low FPR (because we don’t want to capture innocent people).
 
@@ -87,35 +86,40 @@ So, how do we plot ROC Curves using TPR and FPR? We plot false positive rate (FP
 
 Let’s go through a simple code example here to understand how to do this in Python. Below, we just create a small sample classification data set and fit a logistic regression model on the data. We also get the probability values from the classifier.
 
-    from sklearn.datasets import make_classification
-    from sklearn.linear_model import LogisticRegression
-    from sklearn.metrics import roc_curve
-    from sklearn.metrics import roc_auc_score
-    import plotly.express as px
-    import pandas as pd
+```py
+from sklearn.datasets import make_classification
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_curve
+from sklearn.metrics import roc_auc_score
+import plotly.express as px
+import pandas as pd
 
-    # Random Classification dataset
-    X, y = make_classification(n_samples=1000, n_classes=2, random_state=1)
+# Random Classification dataset
+X, y = make_classification(n_samples=1000, n_classes=2, random_state=1)
 
-    model = LogisticRegression()
-    model.fit(X, y)
+model = LogisticRegression()
+model.fit(X, y)
 
-    # predict probabilities
-    preds = model.predict_proba(X)[:,1]
+# predict probabilities
+preds = model.predict_proba(X)[:,1]
+```
 
 Now we want to evaluate how good our model is using ROC curves. To do this, we need to find FPR and TPR for various threshold values. We can do this pretty easily by using the function roc_curve from sklearn.metrics, which provides us with FPR and TPR for various threshold values as shown below:
 
-    fpr, tpr, thresh = roc_curve(y, preds)
+```py
+fpr, tpr, thresh = roc_curve(y, preds)
 
-    roc_df = pd.DataFrame(zip(fpr, tpr, thresh),columns = ["FPR","TPR","Threshold"])
+roc_df = pd.DataFrame(zip(fpr, tpr, thresh),columns = ["FPR","TPR","Threshold"])
+```
 
-![We start by getting FPR and TPR for various threshold values. Source: Author Image](/images/roc-auc-curves-explained/3.png)*We start by getting FPR and TPR for various threshold values. Source: Author Image*
+![We start by getting FPR and TPR for various threshold values. Source: Author Image](/images/roc-auc-curves-explained/3.png "We start by getting FPR and TPR for various threshold values.")
 
 Now all that remains is plotting the curve using the above data. We can do this by using any graphing library, but I prefer [plotly.express](https://mlwhiz.com/blog/2019/05/05/plotly_express/) as it is pretty easy to use and even allows you to use plotly constructs on top of plotly express figures. As you can see in the below curve, we plotted FPR vs TPR for various threshold values.
 
-![Source: Image by Author](/images/roc-auc-curves-explained/4.png)*Source: Image by Author*
+![Source: Image by Author](/images/roc-auc-curves-explained/4.png)
 
-### **How to use the ROC Curve?**
+
+**How to use the ROC Curve?**
 
 We can generally use ROC curves to decide on a threshold value. The choice of threshold value will also depend on how the classifier is intended to be used. So, if the above curve was for a cancer prediction application, you want to capture the maximum number of positives (i.e., have a high TPR) and you might choose a low value of threshold like 0.16 even when the FPR is pretty high here.
 
@@ -128,13 +132,13 @@ Otherwise, in a case like the criminal classifier from the previous example, we 
 
 The AUC is the area under the ROC Curve. This area is always represented as a value between 0 to 1 (just as both TPR and FPR can range from 0 to 1), and we essentially want to maximize this area so that we can have the highest TPR and lowest FPR for some threshold.
 
-Scikit also provides a utility function that lets us get AUC if we have predictions and actual y values using roc_auc_score(y, preds).
+Scikit also provides a utility function that lets us get AUC if we have predictions and actual y values using `roc_auc_score(y, preds)`.
 
-![[Source](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#/media/File:Roc-draft-xkcd-style.svg): Wikipedia](/images/roc-auc-curves-explained/5.png)*[Source](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#/media/File:Roc-draft-xkcd-style.svg): Wikipedia*
+![[Source](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#/media/File:Roc-draft-xkcd-style.svg): Wikipedia](/images/roc-auc-curves-explained/5.png)
 
 It can also be mathematically proven that AUC is equal to the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one. Thus, an AUC of 0.5 means that the probability of a positive instance ranking higher than a negative instance is 0.5 and hence random. A perfect classifier would always rank a positive instance higher than a negative one and have an AUC of 1.
 
-### So, is AUC threshold-invariant and Scale-Invariant?
+**So, is AUC threshold-invariant and Scale-Invariant?**
 
 Yes, AUC is threshold-invariant as we don’t have to set a threshold to calculate AUC.
 
@@ -142,7 +146,7 @@ For checking scale invariance, I will essentially do an experiment in which I mu
 
 ![](/images/roc-auc-curves-explained/6.png)
 
-![Scaling(Left) and Exponentiation Rank Order(Right)](/images/roc-auc-curves-explained/7.png)*Scaling(Left) and Exponentiation Rank Order(Right)*
+![Scaling(Left) and Exponentiation Rank Order(Right)](/images/roc-auc-curves-explained/7.png "Scaling(Above) and Exponentiation Rank Order(Below)")
 
 And that is in fact what I got. Only the threshold changes as the scale changes. The shape of the curve, as well as the AUC, remains precisely the same.
 
@@ -153,6 +157,6 @@ An important step while creating any [Machine learning pipeline](https://towards
 
 If you want to learn more about how to structure a machine learning project and the best practices for doing so, I would recommend this excellent [third course](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11421702016&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fmachine-learning-projects) named “Structuring Machine Learning Projects” in the Coursera [Deep Learning Specialization](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdeep-learning). Do check it out. It addresses the pitfalls and a lot of basic ideas to improve your models.
 
-I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [**Medium](http://mlwhiz.medium.com)** or Subscribe to my [**blog](https://mlwhiz.ck.page/a9b8bda70c)** to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
+I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](http://mlwhiz.medium.com) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
