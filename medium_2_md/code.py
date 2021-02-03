@@ -48,8 +48,8 @@ import os
 
 # remember the / at end
 
-img_dir = "/Users/raha/web/mlwhiz/static/images"
-post_dir = "/Users/raha/web/mlwhiz/content/blog"
+img_dir = "/home/rahul/projects/web/new_blog/mlwhiz/static/images"
+post_dir = "/home/rahul/projects/web/new_blog/mlwhiz/content/blog"
 os.system(f"mkdir {img_dir}/{args.output}")
 
 # In[10]:
