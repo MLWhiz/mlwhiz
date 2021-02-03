@@ -7,30 +7,26 @@ url : blog/2021/02/03/dunder-methods-python/
 slug: dunder-methods-python
 
 Keywords:
-- transformers from scratch
-- create own transformer
-- understanding transformers
-- layman transformers
-- layman transformers guide
+- magic methods in python
+- dunder methods
+- OOP Python
 
 Tags:
 - Python
-- Transformers
 - Programming
 
 Categories:
-- Deep Learning
-- Natural Language Processing
-- Awesome Guides
+- Programming
+- Data Science
 
-description:
+
+description: In this post, I would talk about five of the most used magic functions or "Dunder" methods.
 
 thumbnail : /images/dunder-methods-python/main.png
 image : /images/dunder-methods-python/main.png
 toc : false
 type : "post"
 ---
-
 
 In my last post, I talked about Object-Oriented Programming(OOP). And I specifically talked about a single magic method `__init__` which is also called as a constructor method in the OOP terminology.
 
