@@ -6,7 +6,7 @@ url : blog/2021/02/03/roc-auc-curves-explained/
 slug: roc-auc-curves-explained
 
 Keywords:
--
+- ROC AUC
 
 Tags:
 - Statistics
@@ -16,9 +16,7 @@ Categories:
 - Data Science
 
 
-description: ROC curves, or receiver operating characteristic curves, are one of the most common evaluation metrics for checking a classification model’s performance. Unfortunately, many data scientists often just end up seeing the ROC curves and then quoting an AUC (short for the area under the ROC curve) value without really understanding what the AUC value means and how they can use them more effectively.
-
-Other times, they don’t understand the various problems that ROC curves solve and the multiple properties of AUC like threshold invariance and scale invariance, which necessarily means that the AUC metric doesn’t depend on the chosen threshold or the scale of probabilities. These properties make AUC pretty valuable for evaluating binary classifiers as it provides us with a way to compare them without caring about the classification threshold. That’s why it’s important for data scientists to have a fuller understanding of both ROC curves and AUC.
+description: ROC curves, or receiver operating characteristic curves, are one of the most common evaluation metrics for checking a classification model’s performance. Unfortunately, many data scientists often just end up seeing the ROC curves and then quoting an AUC (short for the area under the ROC curve) value without really understanding what the AUC value means and how they can use them more effectively.Other times, they don’t understand the various problems that ROC curves solve and the multiple properties of AUC like threshold invariance and scale invariance, which necessarily means that the AUC metric doesn’t depend on the chosen threshold or the scale of probabilities. These properties make AUC pretty valuable for evaluating binary classifiers as it provides us with a way to compare them without caring about the classification threshold. That’s why it’s important for data scientists to have a fuller understanding of both ROC curves and AUC.
 
 thumbnail : /images/roc-auc-curves-explained/main.png
 image : /images/roc-auc-curves-explained/main.png
