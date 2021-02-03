@@ -1,5 +1,5 @@
 ---
-title:   Five Dunder Methods in Python you should know about
+title:  Do you know about the Magic Methods in Python?
 date:  2021-02-03
 draft: false
 url : blog/2021/02/03/dunder-methods-python/
