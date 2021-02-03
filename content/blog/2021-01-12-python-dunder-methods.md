@@ -27,7 +27,7 @@ toc : false
 type : "post"
 ---
 
-In my last post, I talked about Object-Oriented Programming(OOP). And I specifically talked about a single magic method `__init__` which is also called as a constructor method in the OOP terminology.
+In my last [post](https://towardsdatascience.com/object-oriented-programming-explained-simply-for-data-scientists-ce2c7b5db1d?source=post_stats_page-------------------------------------), I talked about Object-Oriented Programming(OOP). And I specifically talked about a single magic method `__init__` which is also called as a constructor method in the OOP terminology.
 
 The magic part of `__init__` is that it gets called whenever an object is created automatically. But it is not the only one in any sense. Python provides us with many other magic methods that we end up using without even knowing about them. Ever used `len()`, `print()` or the `[]` operator on a list? You have been using Dunder methods.
 
