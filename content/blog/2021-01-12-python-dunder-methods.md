@@ -1,4 +1,3 @@
-
 ---
 title:   Five Dunder Methods in Python you should know about
 date:  2021-02-03
