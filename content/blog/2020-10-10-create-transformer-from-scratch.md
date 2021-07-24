@@ -6,20 +6,15 @@ url : blog/2020/10/10/create-transformer-from-scratch/
 slug: create-transformer-from-scratch
 
 Keywords:
-- transformers from scratch
-- create own transformer
-- understanding transformers
-- layman transformers
-- layman transformers guide
+- Interview Preparation
+- binary search
 
 Tags:
 - Python
-- Transformers
 - Programming
 
 Categories:
-- Deep Learning
-- Natural Language Processing
+- Programming
 - Awesome Guides
 
 description:
