@@ -31,7 +31,7 @@ type : post
 
 Just Kidding, Nothing is hotter than Jennifer Lawrence. But as you are here, let's proceed.
 
-For a practitioner in any field, they turn out as good as the tools they use. Data Scientists are no different. But sometimes we don't even know which tools we need and also if we need them. We are not able to fathom if there could be a more natural way to solve the problem we face. We could learn about Data Science using awesome MOOCs like [Machine Learning](https://www.coursera.org/learn/machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-IlsUicNUO2OWJZj6q7k7Hw&siteID=lVarvwc5BD0-IlsUicNUO2OWJZj6q7k7Hw&utm_content=3&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) by Andrew Ng but no one teaches the spanky tools of the trade. This motivated me to write about the tools and skills that one is not taught in any course in my new series of short posts - **Tools For Data Science**. As it is rightly said:
+For a practitioner in any field, they turn out as good as the tools they use. Data Scientists are no different. But sometimes we don't even know which tools we need and also if we need them. We are not able to fathom if there could be a more natural way to solve the problem we face. We could learn about Data Science using awesome MOOCs like [Machine Learning](https://coursera.pxf.io/NKERRq) by Andrew Ng but no one teaches the spanky tools of the trade. This motivated me to write about the tools and skills that one is not taught in any course in my new series of short posts - **Tools For Data Science**. As it is rightly said:
 
 > We shape our tools and afterward our tools shape us.
 

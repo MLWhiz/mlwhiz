@@ -45,7 +45,7 @@ And much more. The whole internet is filled with text and to categorise that inf
 
 Here I am going to use the data from Quora's Insincere questions to talk about the different models that people are building and sharing to perform this task. Obviously these standalone models are not going to put you on the top of the leaderboard, yet I hope that this ensuing discussion would be helpful for people who want to learn more about text classification. This is going to be a long post in that regard.
 
-As a side note: if you want to know more about NLP, I would like to recommend this awesome course on [Natural Language Processing](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+As a side note: if you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Also take a look at my other post: [Text Preprocessing Methods for Deep Learning](/blog/2019/01/17/deeplearning_nlp_preprocess/), which talks about different preprocessing techniques you can use for your NLP task and [how to switch from Keras to Pytorch](/blog/2019/01/06/pytorch_keras_conversion/).
 
@@ -77,7 +77,7 @@ def model_cnn(embedding_matrix):
                                      kernel_initializer='he_normal', activation='elu')(x)
         maxpool_pool.append(MaxPool2D(pool_size=(maxlen - filter_sizes[i] + 1, 1))(conv))
 
-    z = Concatenate(axis=1)(maxpool_pool)   
+    z = Concatenate(axis=1)(maxpool_pool)
     z = Flatten()(z)
     z = Dropout(0.1)(z)
 
@@ -160,7 +160,7 @@ In essense we want to create scores for every word in the text, which are the at
 
 To do this we start with a weight matrix(W), a bias vector(b) and a context vector u. All of them will be learned by the optimmization algorithm.
 
-Then there are a series of mathematical operations. See the figure for more clarification. We can think of u1 as non linearity on RNN word output. After that v1 is a dot product of u1 with a context vector u raised to an exponentiation. From an intuition viewpoint, the value of v1 will be high if u and u1 are similar. Since we want the sum of scores to be 1, we divide v by the sum of v’s to get the Final Scores,s  
+Then there are a series of mathematical operations. See the figure for more clarification. We can think of u1 as non linearity on RNN word output. After that v1 is a dot product of u1 with a context vector u raised to an exponentiation. From an intuition viewpoint, the value of v1 will be high if u and u1 are similar. Since we want the sum of scores to be 1, we divide v by the sum of v’s to get the Final Scores,s
 
 These final scores are then multiplied by RNN output for words to weight them according to their importance. After which the outputs are summed and sent through dense layers and softmax for the task of text classification.
 

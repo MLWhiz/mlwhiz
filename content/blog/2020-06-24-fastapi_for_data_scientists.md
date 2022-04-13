@@ -214,7 +214,7 @@ You can find the code for this post as well as all my posts at my [GitHub](https
 ---
 ## Continue Learning
 
-If you want to learn more about building and putting a Machine Learning model in production, this [course on AWS](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.14884356434&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Faws-machine-learning) for implementing Machine Learning applications promises just that.
+If you want to learn more about building and putting a Machine Learning model in production, this [course on AWS](https://coursera.pxf.io/e45BJ6) for implementing Machine Learning applications promises just that.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c)
 

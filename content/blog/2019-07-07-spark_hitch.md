@@ -183,14 +183,14 @@ I like to learn by examples so let’s get done with the “Hello World” of Di
 lines = sc.textFile("/FileStore/tables/shakespeare.txt")
 
 # Create a list with all words, Create tuple (word,1), reduce by key i.e. the word
-counts = (lines.flatMap(lambda x: x.split(' '))          
-                  .map(lambda x: (x, 1))                 
+counts = (lines.flatMap(lambda x: x.split(' '))
+                  .map(lambda x: (x, 1))
                   .reduceByKey(lambda x,y : x + y))
 
 # get the output on local
-output = counts.take(10)                                 
+output = counts.take(10)
 # print output
-for (word, count) in output:                             
+for (word, count) in output:
     print("%s: %i" % (word, count))
 ```
 <div style="margin-top: 9px; margin-bottom: 10px;">
@@ -565,8 +565,8 @@ This RDD is of the form:
 
 This next line is actually the workhorse function in the whole script.
 
-    counts = (lines.flatMap(lambda x: x.split(' '))          
-                      .map(lambda x: (x, 1))                 
+    counts = (lines.flatMap(lambda x: x.split(' '))
+                      .map(lambda x: (x, 1))
                       .reduceByKey(lambda x,y : x + y))
 
 It contains a series of transformations that we do to the lines RDD. First of all, we do a `flatmap` transformation.
@@ -591,7 +591,7 @@ This next line is an action that takes the first 10 elements of the resulting RD
 
 This line just prints the output
 
-    for (word, count) in output:                 
+    for (word, count) in output:
         print("%s: %i" % (word, count))
 
 And that is it for the wordcount program. Hope you understand it now.
@@ -1045,6 +1045,6 @@ Hopefully, I’ve covered the basics well enough to pique your interest and help
 
 ***You can find all the code at the [GitHub](https://github.com/MLWhiz/data_science_blogs/tree/master/spark_post) repository.***
 
-Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293556&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-essentials) which is part of the [Big Data Specialization](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293466&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fbig-data-engineering) provided by Yandex.
+Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://coursera.pxf.io/4exq73) on Coursera.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).

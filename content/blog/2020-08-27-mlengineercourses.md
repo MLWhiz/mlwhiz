@@ -40,7 +40,7 @@ My main criteria for selecting these particular courses is the practical utility
 ---
 ## Google
 
-**[1. Google IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-oKuODr04YWNc5gCSbsYjjg&siteID=lVarvwc5BD0-oKuODr04YWNc5gCSbsYjjg&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)**
+**[1. Google IT Automation with Python Professional Certificate](https://coursera.pxf.io/3Pqz7y)**
 
 ![Photo by [Mitchell Luo](https://unsplash.com/@mitchel3uo?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](/images/mlengineercourses/0.png)
 
@@ -50,7 +50,7 @@ The professional certificate from Google essentially talks about Python, Regex, 
 
 *Most of these might not look so beginner-friendly right now, but they are some super cool skills to have in your portfolio and actually not that hard once you start understanding about the whole coding ecosystem.*
 
-**[2. Cloud Engineering with Google Cloud Professional Certificate](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=759505.14939696062&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fcloud-engineering-gcp)**
+**[2. Cloud Engineering with Google Cloud Professional Certificate](https://coursera.pxf.io/VyvdOJ)**
 
 A lot of companies have started using Google Cloud Platform nowadays. If yours is such a company, this particular professional certificate might provide a lot of value. This specialization particularly focusses on the GCP platform and its various services like Google App Engine, Google Compute Engine, Google Kubernetes Engine, Google Cloud Storage, and BigQuery. You will also learn about other engineering concepts like load balancing, autoscaling, infrastructure automation, and managed services.
 
@@ -59,7 +59,7 @@ A lot of companies have started using Google Cloud Platform nowadays. If yours i
 ---
 ## Amazon:
 
-**[1. AWS Fundamentals](https://www.coursera.org/specializations/aws-fundamentals?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-VPyxwnKqzURK.dxLwxNbPg&siteID=lVarvwc5BD0-VPyxwnKqzURK.dxLwxNbPg&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)**
+**[1. AWS Fundamentals](https://coursera.pxf.io/RyNER2)**
 
 For people who aim to work at Amazon or the companies that use Amazon Web Services (AWS), this specialization teaches the AWS fundamentals and provides an overview of the features, benefits, and capabilities of AWS.
 
@@ -67,20 +67,20 @@ The main services you learn in this specialization are ***AWS Lambda***(serverle
 
 *This particular Amazon specialization is engineering heavy and by the end, you would understand how to build and deploy serverless applications with AWS.*
 
-**[2. Getting Started with AWS Machine Learning](https://www.coursera.org/learn/aws-machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-qmCcak47PtFuYsmuRVdvjw&siteID=lVarvwc5BD0-qmCcak47PtFuYsmuRVdvjw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)**
+**[2. Getting Started with AWS Machine Learning](https://coursera.pxf.io/e45BJ6)**
 
 ![Photo by [Pietro Jeng](https://unsplash.com/@pietrozj?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](/images/mlengineercourses/1.png)
 
 There are a lot of things to consider while building a great machine learning system. We, as data scientists, only worry about the data and modeling part of the project but do we ever think about how we will deploy our models once we have them?
 
-I have seen a lot of ML projects, and a lot of them are doomed to fail as they don’t have a set plan for production from the onset. Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.14884356434&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Faws-machine-learning) for implementing Machine Learning applications promises just that.
+I have seen a lot of ML projects, and a lot of them are doomed to fail as they don’t have a set plan for production from the onset. Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://coursera.pxf.io/e45BJ6) for implementing Machine Learning applications promises just that.
 
 > This course will teach you:<br>
 >	1. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance.<br>
 > 2. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others.<br><br>
-> [Source](https://www.coursera.org/learn/aws-machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-qmCcak47PtFuYsmuRVdvjw&siteID=lVarvwc5BD0-qmCcak47PtFuYsmuRVdvjw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
+> [Source](https://coursera.pxf.io/e45BJ6)
 
-**[3. AWS Computer Vision: Getting Started with GluonCV](https://www.coursera.org/learn/aws-computer-vision-gluoncv?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-hknTBoRF1rKlj.l5AYMmJA&siteID=lVarvwc5BD0-hknTBoRF1rKlj.l5AYMmJA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)**
+**[3. AWS Computer Vision: Getting Started with GluonCV](https://coursera.pxf.io/vn9m2W)**
 
 ***This course also provides an overview of Machine Learning with Amazon Web Services but with a specific emphasis on Computer Vision applications.***
 

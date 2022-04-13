@@ -24,7 +24,7 @@ Tags:
 - Awesome Guides
 - Best Content
 
-description: In this post, I will talk about installing Spark, standard Spark functionalities you will need to work with DataFrames, and finally some tips to handle the inevitable errors you will face  
+description: In this post, I will talk about installing Spark, standard Spark functionalities you will need to work with DataFrames, and finally some tips to handle the inevitable errors you will face
 
 thumbnail : /images/spark_df_complete_guide/main.png
 image : /images/spark_df_complete_guide/main.png
@@ -649,7 +649,7 @@ Hopefully, I’ve covered the Dataframe basics well enough to pique your interes
 
 ### Continue Learning
 
-Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out these excellent courses on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293556&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-essentials) and [Big Data Analysis: Hive, Spark SQL, DataFrames and GraphFrames](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11468293488&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbig-data-analysis) by Yandex on Coursera.
+Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://coursera.pxf.io/4exq73) on Coursera.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

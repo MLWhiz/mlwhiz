@@ -327,7 +327,7 @@ def train(train_iter, val_iter, model, optim, num_epochs,use_gpu=True):
             #print(size)
             np_mask = torch.triu(torch.ones(size, size)==1).transpose(0,1)
             np_mask = np_mask.float().masked_fill(np_mask == 0, float('-inf')).masked_fill(np_mask == 1, float(0.0))
-            np_mask = np_mask.cuda() if use_gpu else np_mask   
+            np_mask = np_mask.cuda() if use_gpu else np_mask
             # Forward, backprop, optimizer
             optim.zero_grad()
             preds = model(src.transpose(0,1), trg_input.transpose(0,1), tgt_mask = np_mask)#, src_mask = src_mask)#, tgt_key_padding_mask=trg_mask)
@@ -361,7 +361,7 @@ def train(train_iter, val_iter, model, optim, num_epochs,use_gpu=True):
                 np_mask = np_mask.cuda() if use_gpu else np_mask
 
                 preds = model(src.transpose(0,1), trg_input.transpose(0,1), tgt_mask = np_mask)#, src_mask = src_mask)#, tgt_key_padding_mask=trg_mask)
-                preds = preds.transpose(0,1).contiguous().view(-1, preds.size(-1))         
+                preds = preds.transpose(0,1).contiguous().view(-1, preds.size(-1))
                 loss = F.cross_entropy(preds,targets, ignore_index=0,reduction='sum')
                 valid_loss += loss.item()/1
 
@@ -534,7 +534,7 @@ In this post, We created an English to German translation network almost from sc
 
 For a closer look at the code for this post, please visit my [GitHub](https://github.com/MLWhiz/data_science_blogs/tree/master/transformers) repository where you can find the code for this post as well as all my posts.
 
-If you want to learn more about NLP, I would like to call out an excellent course on [**Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing)** from the Advanced Machine Learning Specialization. Do check it out.
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about them. Should I write on heavily technical topics or more beginner level articles? The comment section is your friend. Use it. Also, follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

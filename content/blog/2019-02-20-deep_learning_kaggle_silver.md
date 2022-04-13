@@ -51,7 +51,7 @@ type : post
 
 Kaggle is an excellent place for learning. And I learned a lot of things from the recently concluded competition on **Quora Insincere questions classification** in which I got a rank of **`182/4037`**. In this post, I will try to provide a summary of the things I tried. I will also try to summarize the ideas which I missed but were a part of other winning solutions.
 
-**As a side note**: if you want to know more about NLP, I would like to **recommend this awesome course** on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few. You can start for free with the 7-day Free Trial.
+As a side note: if you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 So first a little bit of summary about the competition for the uninitiated. In this competition, we had to develop models that identify and flag insincere questions. ***The challenge was not only a test for performance but also a test of efficient code writing skills.*** As it was a kernel competition with limited outside data options, competitors were limited to use only the word embeddings provided by the competition organizers. That means we were not allowed to use State of the art models like BERT. We were also limited in the sense that all our models should run in a time of 2 hours. So say bye bye to stacking and monster ensembles though some solutions were able to do this by making their code ultra-efficient. More on this later.
 
@@ -208,7 +208,7 @@ def load_glove(word_dict, lemma_dict):
             if embedding_vector is not None:
                 embedding_matrix[word_dict[key]] = embedding_vector
                 continue
-        embedding_matrix[word_dict[key]] = unknown_vector                    
+        embedding_matrix[word_dict[key]] = unknown_vector
     return embedding_matrix, nb_words
 ```
 
@@ -261,6 +261,6 @@ if epoch >= 3:
 ----------
 ## Conclusion:
 
-It was a good and long 2-month competition, and I learned a lot about Text and NLP during this time. I want to emphasize here is that **I ended up trying a lot of things that didn't work before reaching my final solution**. It was a little frustrating at times, but in the end, I was happy that I ended up with the best data science practices. Would also like to thank Kaggle master Kazanova who along with some of his friends released a [“How to win a data science competition”](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-BShznKdc3CUauhfsM7_8xw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) Coursera course. I learned a lot from this course.
+It was a good and long 2-month competition, and I learned a lot about Text and NLP during this time. I want to emphasize here is that **I ended up trying a lot of things that didn't work before reaching my final solution**. It was a little frustrating at times, but in the end, I was happy that I ended up with the best data science practices. Would also like to thank Kaggle master Kazanova who along with some of his friends released a [“How to win a data science competition”](https://coursera.pxf.io/yRPoZB) Coursera course. I learned a lot from this course.
 
 Let me know in the comments if you think something is missing/wrong or if I could add more tips/tricks for this competition.

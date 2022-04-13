@@ -33,7 +33,7 @@ type : post
 
 Graphs provide us with a very useful data structure. They can help us to find structure within our data. With the advent of Machine learning and big data we need to get as much information as possible about our data. Learning a little bit of graph theory can certainly help us with that.
 
-Here is a [Graph Analytics for Big Data course on Coursera by UCSanDiego](https://www.coursera.org/learn/big-data-graph-analytics?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-uD3tAFL0mCUdzcfwDd6FTQ&siteID=lVarvwc5BD0-uD3tAFL0mCUdzcfwDd6FTQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) which I highly recommend to learn the basics of graph theory. You can start for free with the 7-day Free Trial.
+Here is a [Graph Analytics for Big Data course on Coursera by UCSanDiego](https://coursera.pxf.io/YgKbbe) which I highly recommend to learn the basics of graph theory. You can start for free with the 7-day Free Trial.
 
 One of the algorithms I am going to focus in the current post is called **Connected Components**. Why it is important. We all know clustering.
 
@@ -471,10 +471,10 @@ The GraphFrames library implements the CC algorithm as well as a variety of othe
 
 The above post was a lot of code but hope it was helpful. It took me a lot of time to implement the algorithm so wanted to make it easy for the folks.
 
-If you want to read up more on Graph Algorithms here is an [Graph Analytics for Big Data course on Coursera by UCSanDiego](https://www.coursera.org/learn/big-data-graph-analytics?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-uD3tAFL0mCUdzcfwDd6FTQ&siteID=lVarvwc5BD0-uD3tAFL0mCUdzcfwDd6FTQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) which I highly recommend to learn the basics of graph theory.
+If you want to read up more on Graph Algorithms here is an [Graph Analytics for Big Data course on Coursera by UCSanDiego](https://coursera.pxf.io/YgKbbe) which I highly recommend to learn the basics of graph theory.
 
 ## References
 
 1. [Graphs in Python](https://www.python-course.eu/graphs_python.php)
 2. [A Gentle Intoduction to Graph Theory Blog](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8)
-3. [Graph Analytics for Big Data course on Coursera by UCSanDiego](https://www.coursera.org/learn/big-data-graph-analytics?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-uD3tAFL0mCUdzcfwDd6FTQ&siteID=lVarvwc5BD0-uD3tAFL0mCUdzcfwDd6FTQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
+3. [Graph Analytics for Big Data course on Coursera by UCSanDiego](https://coursera.pxf.io/YgKbbe)

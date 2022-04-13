@@ -414,6 +414,6 @@ I hope you found this post useful and worth your time. I tried to make this as s
 
 The whole code is posted in my [Github Repo](https://github.com/MLWhiz/data_science_blogs/tree/master/cudf), where I keep codes for all my posts. You can find the data at [Kaggle](https://www.kaggle.com/sobhanmoosavi/us-accidents).
 
-Also, if you want to learn more about Python 3, I would like to call out an excellent course on Learn [Intermediate level Python](https://bit.ly/2XshreA) from the University of Michigan. Do check it out.
+Also, if you want to learn more about Python 3, I would like to call out an excellent course on Learn [Intermediate level Python](https://coursera.pxf.io/0JMOOY) from the University of Michigan. Do check it out.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about them. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**)](https://mlwhiz.ck.page/a9b8bda70c).

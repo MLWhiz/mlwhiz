@@ -603,7 +603,7 @@ Defining your custom loss functions is again a piece of cake, and you should be 
 
 ```py
 def customMseLoss(output,target):
-    loss = torch.mean((output - target)**2)     
+    loss = torch.mean((output - target)**2)
     return loss
 ```
 
@@ -701,7 +701,7 @@ Pytorch provides a lot of customizability with minimal code. While at first, it 
 
 You can find the code for this post here on my [GitHub](https://github.com/MLWhiz/data_science_blogs/tree/master/pytorch_guide) repo, where I keep codes for all my blogs.
 
-If you want to learn more about Pytorch using a course based structure, take a look at the [Deep Neural Networks with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-Mh_whR0Q06RCh47zsaMVBQ&siteID=lVarvwc5BD0-Mh_whR0Q06RCh47zsaMVBQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course by IBM on Coursera. Also, if you want to know more about Deep Learning, I would like to recommend this excellent course on [Deep Learning in Computer Vision](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0).
+If you want to learn more about Pytorch using a course based structure, take a look at the [Deep Neural Networks with PyTorch](https://coursera.pxf.io/jWG2Db) course by IBM on Coursera. Also, if you want to know more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c)
 

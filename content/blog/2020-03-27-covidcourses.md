@@ -40,9 +40,9 @@ While these courses are not providing verified certificates if you take them for
 
 ## 1. Machine Learning
 
-![[Source](https://www.coursera.org/learn/machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&siteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0&source=post_page---------------------------&ranMID=40328&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-dEliPy0W03upl5lVg_ACYw&siteID=je6NUbpObpQ-dEliPy0W03upl5lVg_ACYw&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=je6NUbpObpQ): Free Courses are a way to go](/images/covidcourses/0.png)
+![[Source](https://coursera.pxf.io/NKERRq): Free Courses are a way to go](/images/covidcourses/0.png)
 
-Yes, you heard it right, Coursera is providing the Game Changer [Machine Learning course](https://www.coursera.org/learn/machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&siteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0&source=post_page---------------------------&ranMID=40328&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-dEliPy0W03upl5lVg_ACYw&siteID=je6NUbpObpQ-dEliPy0W03upl5lVg_ACYw&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=je6NUbpObpQ) by Andrew Ng for free right now.
+Yes, you heard it right, Coursera is providing the Game Changer [Machine Learning course](https://coursera.pxf.io/NKERRq) by Andrew Ng for free right now.
 
 As for my review, I think this is the one course that should be done by everyone interested in Machine Learning. For one, it contains the maths behind many of the Machine Learning algorithms and secondly Andrew Ng is a great instructor. Believe it or not, Andrew Ng not only taught but also motivated me to learn data science when I first started.
 
@@ -68,7 +68,7 @@ Many companies ask data structures and algorithms as part of their interview pro
 
 They will require the same zeal to crack as your Data Science interviews, and thus, you might want to give some time for the study of algorithms and Data structure and algorithms questions.
 
-This series of two courses offered by Robert Sedgewick covers all the essential algorithms and data structures. The [**first part** ](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Falgorithms-part1)of this course covers the elementary data structures, sorting, and searching algorithms, while the [second part](https://www.coursera.org/learn/algorithms-part2) focuses on the graph and string-processing algorithms.
+This series of two courses offered by Robert Sedgewick covers all the essential algorithms and data structures. The [**first part** ](https://coursera.pxf.io/9WjrP4) of this course covers the elementary data structures, sorting, and searching algorithms, while the [second part](https://coursera.pxf.io/rnqB3j) focuses on the graph and string-processing algorithms.
 
 You might also like to look at a few of my posts while trying to understand some of the material in these courses.
 
@@ -85,9 +85,9 @@ You might also like to look at a few of my posts while trying to understand some
 
 The war between a frequentist and bayesian is never over.
 
-In this [course](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbayesian-statistics), you will learn about MLE, priors, posteriors, conjugate priors, and a whole lot of other practical scenarios where we can use Bayesian Statistics. All in all, a well-packaged course which explains both frequentist and bayesian approach to statistics.
+In this [course](https://coursera.pxf.io/x9jRay), you will learn about MLE, priors, posteriors, conjugate priors, and a whole lot of other practical scenarios where we can use Bayesian Statistics. All in all, a well-packaged course which explains both frequentist and bayesian approach to statistics.
 
-From the [course](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fbayesian-statistics) website:
+From the [course](https://coursera.pxf.io/x9jRay) website:
 
 > This course introduces the Bayesian approach to statistics, starting with the concept of probability and moving to the analysis of data. We will compare the Bayesian approach to the more commonly-taught Frequentist approach, and see some of the benefits of the Bayesian approach.
 
@@ -95,9 +95,9 @@ From the [course](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=4032
 
 ## 4. Practical Time Series Analysis
 
-Have you heard about ARIMA models, Stationarity in time series, etc. and have been boggled by these terms? This course aims to teach Time series from a fairly mathematical perspective. I was not able to find such a [course](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fpractical-time-series-analysis) for a fairly long time. And now it is free for all.
+Have you heard about ARIMA models, Stationarity in time series, etc. and have been boggled by these terms? This course aims to teach Time series from a fairly mathematical perspective. I was not able to find such a [course](https://coursera.pxf.io/jWGB0Z) for a fairly long time. And now it is free for all.
 
-From the [course](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fpractical-time-series-analysis) website:
+From the [course](https://coursera.pxf.io/jWGB0Z) website:
 
 > In practical Time Series Analysis we look at data sets that represent sequential information, such as stock prices, annual rainfall, sunspot activity, the price of agricultural products, and more. We look at several mathematical models that might be used to describe the processes which generate these types of data
 
@@ -117,7 +117,7 @@ There are a lot of things to consider while building a great machine learning sy
 
 I have seen a lot of ML projects, and a lot of them are doomed to fail as they don’t have a set plan for production from the onset.
 
-Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.14884356434&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Faws-machine-learning) for implementing Machine Learning applications promises just that.
+Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://coursera.pxf.io/e45BJ6) for implementing Machine Learning applications promises just that.
 
 > *This course will teach you:*
 

@@ -248,7 +248,7 @@ Convolution Idea: For images, we move our conv. filter both horizontally as well
 
 Here is the text classification CNN network coded in [Pytorch](https://towardsdatascience.com/moving-from-keras-to-pytorch-f0d4fff4ce79%EF%BF%BD).
 
-    class CNN_Text(nn.Module):    
+    class CNN_Text(nn.Module):
         def __init__(self):
             super(CNN_Text, self).__init__()
             filter_sizes = [1,2,3,5]
@@ -262,12 +262,12 @@ Here is the text classification CNN network coded in [Pytorch](https://towardsda
             self.fc1 = nn.Linear(len(filter_sizes)*num_filters, n_classes)
 
     def forward(self, x):
-            x = self.embedding(x)  
-            x = x.unsqueeze(1)  
+            x = self.embedding(x)
+            x = x.unsqueeze(1)
             x = [F.relu(conv(x)).squeeze(3) for conv in self.convs1]
-            x = [F.max_pool1d(i, i.size(2)).squeeze(2) for i in x]  
+            x = [F.max_pool1d(i, i.size(2)).squeeze(2) for i in x]
             x = torch.cat(x, 1)
-            x = self.dropout(x)  
+            x = self.dropout(x)
             logit = self.fc1(x)
             return logit
 
@@ -361,7 +361,7 @@ Below is the code we use to train our BiLSTM Model. The code is well commented, 
         start_time = time.time()
         # Set model to train configuration
         model.train()
-        avg_loss = 0.  
+        avg_loss = 0.
         for i, (x_batch, y_batch) in enumerate(train_loader):
             # Predict/Forward Pass
             y_pred = model(x_batch)
@@ -373,7 +373,7 @@ Below is the code we use to train our BiLSTM Model. The code is well commented, 
             avg_loss += loss.item() / len(train_loader)
 
         # Set model to validation configuration -Doesn't get trained here
-        model.eval()        
+        model.eval()
         avg_val_loss = 0.
         val_preds = np.zeros((len(x_cv),len(le.classes_)))
 
@@ -425,9 +425,9 @@ There is still a lot that can be done to improve this model’s performance. Cha
 
 You can find the full working code here on [Github](https://github.com/MLWhiz/data_science_blogs/tree/master/multiclass), or this [Kaggle Kernel](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch?scriptVersionId=30273958).
 
-Also, if you want to learn more about NLP, [here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an excellent course.
+Also, if you want to learn more about NLP, [here](https://coursera.pxf.io/yRPoZB) is an excellent course.
 
-If you want to learn more about NLP, I would like to call out an excellent course on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) from the Advanced Machine Learning Specialization. Do check it out.
+If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

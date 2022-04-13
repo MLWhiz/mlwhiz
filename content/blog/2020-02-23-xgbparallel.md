@@ -76,7 +76,7 @@ plot = True
 
 # return xgboost dmatrix
 def load_higgs():
-    if os.path.isfile(dmatrix_train_filename) and os.path.isfile(dmatrix_test_filename):           
+    if os.path.isfile(dmatrix_train_filename) and os.path.isfile(dmatrix_test_filename):
         dtrain = xgb.DMatrix(dmatrix_train_filename)
         dtest = xgb.DMatrix(dmatrix_test_filename)
         if dtrain.num_row() == train_rows and dtest.num_row() == test_rows:
@@ -262,7 +262,7 @@ You can find the complete code for this post on [Github](https://github.com/MLWh
 
 ## Continue Learning
 
-If you are interested in Deep Learning and want to use your GPU for that, I would like to recommend this excellent course on [Deep Learning in Computer Vision](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0).
+If you want to learn more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c)
 

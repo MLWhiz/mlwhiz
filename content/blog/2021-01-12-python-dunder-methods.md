@@ -333,7 +333,7 @@ We can get the first trade done by the user or the second one based on the index
 
 Python is a magical language, and there are many constructs in Python that even advanced users may not know about. Dunder methods might be very well one of them. I hope with this post, you get a good glimpse of various dunder methods that Python offers and also understand how to implement them yourself. If you want to know about even more dunder methods, do take a look at [this blog](https://rszalski.github.io/magicmethods/#comparisons) from Rafe Kettler.
 
-If you want to learn more about [Python](https://amzn.to/2XPSiiG), I would like to call out an excellent course on Learn [Intermediate level Python](https://bit.ly/2XshreA) from the University of Michigan. Do check it out.
+If you want to learn more about [Python](https://amzn.to/2XPSiiG), I would like to call out an excellent course on Learn [Intermediate level Python](https://coursera.pxf.io/0JMOOY) from the University of Michigan. Do check it out.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](http://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
 

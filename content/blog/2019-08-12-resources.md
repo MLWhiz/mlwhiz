@@ -87,7 +87,7 @@ We need to get a taste of machine learning before understanding it fully. This s
 
 ### a) Introduction to Data Science in Python
 
-[This course](https://www.coursera.org/learn/python-data-analysis?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-NgrPIO5qeRsUYGEO5FSV5A&siteID=lVarvwc5BD0-NgrPIO5qeRsUYGEO5FSV5A&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) is about learning to use Python and creating things on your own. You will learn about *Python Libraries* like **Numpy, Pandas** for data science.
+[This course](https://coursera.pxf.io/LPyWGV) is about learning to use Python and creating things on your own. You will learn about *Python Libraries* like **Numpy, Pandas** for data science.
 
 You might also like my posts on [Minimal Pandas for Data Scientists](https://towardsdatascience.com/minimal-pandas-subset-for-data-scientists-6355059629ae) and [small shorts on advanced python](https://towardsdatascience.com/tagged/python-shorts) while going through this course.
 
@@ -100,7 +100,7 @@ Course description from Website:
 
 ![](/images/resources/4.jpg)
 
-[This course](https://www.coursera.org/learn/python-machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-FCkgMoHj8de0nEzYPONtOw&siteID=lVarvwc5BD0-FCkgMoHj8de0nEzYPONtOw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) gives an intro to many modern machine learning methods that you should know about. Not a thorough grinding but you will get the tools to build your own models. You will learn scikit-learn, which is the python library to create all sorts of models.
+[This course](https://coursera.pxf.io/QOvWga) gives an intro to many modern machine learning methods that you should know about. Not a thorough grinding but you will get the tools to build your own models. You will learn scikit-learn, which is the python library to create all sorts of models.
 
 The focus here is to start creating things as soon as possible. No one likes to wait too long to get something useful, and you will become useful after this course.
 
@@ -134,7 +134,7 @@ You need to understand what goes behind the `clf.fit`
 
 > If you don’t understand it you won’t be able to improve it
 
-Here comes the Game Changer [Machine Learning course](https://www.coursera.org/learn/machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&siteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0&source=post_page---------------------------&ranMID=40328&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-dEliPy0W03upl5lVg_ACYw&siteID=je6NUbpObpQ-dEliPy0W03upl5lVg_ACYw&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=je6NUbpObpQ). Contains the maths behind many of the Machine Learning algorithms.
+Here comes the Game Changer [Machine Learning course](https://coursera.pxf.io/NKERRq). Contains the maths behind many of the Machine Learning algorithms.
 
 I will put this course as the *one course you gotta take* as this course motivated me into getting in this field, and Andrew Ng is a great instructor. Also, this was the first course that I took myself when I started.
 
@@ -178,7 +178,7 @@ Not a hard requirement but a good to have skill. Shell is a big friend of data s
 You can read the below post by me to know about this:
 [**Impress Onlookers with your newly acquired Shell Skills**](https://towardsdatascience.com/impress-onlookers-with-your-newly-acquired-shell-skills-a02effb420c2)
 
-If you would like to take a course, you can look at [The UNIX workbench](https://www.coursera.org/learn/unix?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-EK0XnncSGKDui6jU1GFilw&siteID=lVarvwc5BD0-EK0XnncSGKDui6jU1GFilw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course on Coursera.
+If you would like to take a course, you can look at [The UNIX workbench](https://coursera.pxf.io/kj1N30) course on Coursera.
 
 **Congrats you are a “Hacker” now.**
 
@@ -194,7 +194,7 @@ You may want to take a totally different approach than what I took going from he
 
 ![](/images/resources/7.png)
 
-Mine Çetinkaya-Rundel teaches this course on [Inferential Statistics](https://www.coursera.org/learn/inferential-statistics-intro?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-ydEVG6k5kidzLtNqbbVQvQ&siteID=lVarvwc5BD0-ydEVG6k5kidzLtNqbbVQvQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). And it cannot get simpler than this one.
+Mine Çetinkaya-Rundel teaches this course on [Inferential Statistics](https://coursera.pxf.io/DVZ13d). And it cannot get simpler than this one.
 
 She is a great instructor and explains the fundamentals of Statistical inference nicely — a must-take course.
 
@@ -210,7 +210,7 @@ You will learn about hypothesis testing, confidence intervals, and statistical i
 
 [**Intro**](http://www.fast.ai/) — Making neural nets uncool again. This is a code-first class for neural nets. An excellent Deep learning class from Kaggle Master Jeremy Howard. Entertaining and enlightening at the same time.
 
-**Advanced** — You can try out this [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-m3SBadPJeg1Z1rWVng39OQ&siteID=lVarvwc5BD0-m3SBadPJeg1Z1rWVng39OQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) by Andrew Ng again. Pure Gold.
+**Advanced** — You can try out this [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY) by Andrew Ng again. Pure Gold.
 
 [**Advanced Math Book**](http://amzn.to/2npItnM) — A math-intensive book by Yoshua Bengio & Ian Goodfellow
 
@@ -238,7 +238,7 @@ I wrote a series of 6 posts on it. If you want, you can take a look.
 
 > Algorithms. Yes, you need them.
 
-Apart from that if you want to learn about Python and the underlying intricacies of the language you can take the [**Computer Science Mini Specialization from RICE university**](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=495576.1921197134&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fcomputer-fundamentals) too.
+Apart from that if you want to learn about Python and the underlying intricacies of the language you can take the [**Computer Science Mini Specialization from RICE university**](https://coursera.pxf.io/gbe4Kg) too.
 
 This is a series of 6 short but good courses.
 

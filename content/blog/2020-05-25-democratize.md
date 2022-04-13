@@ -98,7 +98,7 @@ So, while some people may think of data science as a pure coding job, it’s not
 
 It’s about finding the right problems that are useful for the business and coming up with best ways to solve them. To do that, you need domain knowledge, humility, a little bit of math, and, most importantly, a lifelong desire to learn.
 
-If you want to learn about Data Science, I would like to call out this [excellent course](https://www.coursera.org/learn/machine-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&siteID=lVarvwc5BD0-btd7XBdF681VKxRe2H_Oyg&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) by Andrew Ng. This was the one that got me started.
+If you want to learn about Data Science, I would like to call out this [excellent course](https://coursera.pxf.io/NKERRq) by Andrew Ng. This was the one that got me started.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

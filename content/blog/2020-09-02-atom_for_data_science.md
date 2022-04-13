@@ -183,7 +183,7 @@ In this post, I talked about how I use Atom in my Python Development flow.
 
 There are a plethora of other [packages](https://atom.io/packages) in Atom which you may like, and you can look at them to make your environment even more customizable. Or one can even write their own packages as well as Atom is called as the ***“Most Hackable Editor”***.
 
-If you want to learn about Python and not exactly a Python editor, I would like to call out an excellent course on Learn [Intermediate level Python](https://bit.ly/2XshreA) from the University of Michigan. Do check it out. Also, here are my [course recommendations](https://towardsdatascience.com/top-10-resources-to-become-a-data-scientist-in-2020-99a315194701?source=---------2------------------) to become a Data Scientist in 2020.
+If you want to learn about Python and not exactly a Python editor, I would like to call out an excellent course on Learn [Intermediate level Python](https://coursera.pxf.io/0JMOOY) from the University of Michigan. Do check it out. Also, here are my [course recommendations](https://towardsdatascience.com/top-10-resources-to-become-a-data-scientist-in-2020-99a315194701?source=---------2------------------) to become a Data Scientist in 2020.
 
 I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

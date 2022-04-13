@@ -47,7 +47,7 @@ toc : false
 
 This is the second post of the NLP Text classification series. To give you a recap, recently I started up with an NLP text classification competition on Kaggle called Quora Question insincerity challenge. And I thought to share the knowledge via a series of blog posts on text classification. The [first post](/blog/2019/01/17/deeplearning_nlp_preprocess/) talked about the various **preprocessing techniques that work with Deep learning models** and **increasing embeddings coverage**. In this post, I will try to take you through some **basic conventional models** like TFIDF, Count Vectorizer, Hashing etc. that have been used in text classification and try to access their performance to create a baseline. We will delve deeper into **Deep learning models** in the third post which will focus on different architectures for solving the text classification problem. We will try to use various other models which we were not able to use in this competition like **ULMFit transfer learning** approaches in the fourth post in the series.
 
-**As a side note**: if you want to know more about NLP, I would like to **recommend this awesome course** on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few. You can start for free with the 7-day Free Trial.
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 It might take me a little time to write the whole series. Till then you can take a look at my other posts too: [What Kagglers are using for Text Classification](/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP and [how to switch from Keras to Pytorch](/blog/2019/01/06/pytorch_keras_conversion/).
 
@@ -130,7 +130,7 @@ X = [
      'This is good',
      'This is bad',
      'This is awesome'
-     ]  
+     ]
 ```
 
 <div style="margin-top: 9px; margin-bottom: 10px;">
@@ -322,7 +322,8 @@ Also note that I didn't work on tuning the models, so these results are only cur
 ----------
 ## Conclusion
 
-While Deep Learning works a lot better for NLP classification task, it still makes sense to have an understanding of how these problems were solved in the past, so that we can appreciate the nature of the problem. I have tried to provide a perspective on the conventional methods and one should experiment with them too to create baselines before moving to Deep Learning methods. If you want to **learn more about NLP** [here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an awesome course. You can start for free with the 7-day Free Trial. If you think I can add something to the flow, do mention it in the comments.
+While Deep Learning works a lot better for NLP classification task, it still makes sense to have an understanding of how these problems were solved in the past, so that we can appreciate the nature of the problem. I have tried to provide a perspective on the conventional methods and one should experiment with them too to create baselines before moving to Deep Learning methods. If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+
 
 ----------
 ## Endnotes and References

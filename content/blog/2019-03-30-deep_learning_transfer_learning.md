@@ -45,8 +45,7 @@ type : post
 
 This post is the fourth post of the NLP Text classification series. To give you a recap, I started up with an NLP text classification competition on Kaggle called Quora Question insincerity challenge. So I thought to share the knowledge via a series of blog posts on text classification. The [first post](/blog/2019/01/17/deeplearning_nlp_preprocess/) talked about the different **preprocessing techniques that work with Deep learning models** and **increasing embeddings coverage**. In the [second post](/blog/2019/02/08/deeplearning_nlp_conventional_methods/), I talked through some **basic conventional models** like TFIDF, Count Vectorizer, Hashing, etc. that have been used in text classification and tried to access their performance to create a baseline. In the [third post](/blog/2019/03/09/deeplearning_architectures_text_classification/), I delved deeper into **Deep learning models and the various architectures** we could use to solve the text Classification problem. In this post, I will try to use ULMFit model which is a transfer learning approach to this data.
 
-**As a side note**: if you want to know more about NLP, I would like to **recommend this excellent course** on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few. You can start for free with the 7-day Free Trial.
-
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Before introducing the notion of transfer learning to NLP applications, we will first need to understand a little bit about Language models.
 
@@ -95,8 +94,8 @@ Let's follow up with the key research findings in the [ULMFit paper](https://arx
 
 Training a model as per ULMFiT we need to take these three steps:
 
-a) **Create a Base Language Model:** Training the language model on a general-domain corpus that captures high-level natural language features  
-b) **Finetune Base Language Model on Task Specific Data:** Fine-tuning the pre-trained language model on target task data  
+a) **Create a Base Language Model:** Training the language model on a general-domain corpus that captures high-level natural language features
+b) **Finetune Base Language Model on Task Specific Data:** Fine-tuning the pre-trained language model on target task data
 c) **Finetune Base Language Model Layers + Task Specific Layers on Task Specific Data:** Fine-tuning the classifier on target task data
 
 So let us go through these three steps one by one along with the code that is provided to us with the FastAI library.
@@ -280,7 +279,7 @@ Even if this approach didn't work well for this dataset, it is a valid approach 
 
 Finally, this post concludes my NLP Learning series. It took a lot of time to write, but the effort was well worth it. I hope you found it helpful in your work. I will try to write some more on this topic when I get some time. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my blog to be informed about my next posts.
 
-Also if you want to [**learn more about NLP** here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an excellent course. You can start for free with the 7-day Free Trial.
+If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Let me know if you think I can add something more to the post; I will try to incorporate it.
 

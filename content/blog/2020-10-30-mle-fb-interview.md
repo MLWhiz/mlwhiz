@@ -70,7 +70,7 @@ I started my preparation by creating a list of topics I would need to prepare. Y
 
 Then I proceeded to read about them using the Cracking the coding interview book and solved a lot of easy-level problems and a few medium-level problems on Leetcode for them. There are other platforms too to practice online but I liked Leetcode due to its good design with no ads and the class-based programming structure to the solutions. It also provided a good way to search for questions on various topics along with difficulty. I also gave many Mock Interviews on Leetcode just to practice. I did this for around a week or two, spending around 3–4 hours every day.
 
-I also started auditing the [Algorithm Specialization on Coursera by UCSanDiego](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdata-structures-algorithms) around this time period, which sort of provided me with an idea about the sort of content taught at undergraduate universities to deal with the coding interviews.
+I also started auditing the [Algorithm Specialization on Coursera by UCSanDiego](https://coursera.pxf.io/15MOo6) around this time period, which sort of provided me with an idea about the sort of content taught at undergraduate universities to deal with the coding interviews.
 
 I also wrote some blog posts around what I learned and tried to explain it simply. You are free to check them out at my blog.
 
@@ -204,7 +204,7 @@ So, I am joining Facebook London just a year later now as a Software Engineer(ML
 
 ### Continue Learning
 
-If you want to read up more on Algorithms and Data Structures in a more structured way, here is an [Algorithm Specialization on Coursera by UCSanDiego](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdata-structures-algorithms). I sort of audited this course while preparing.
+If you want to read up more on Algorithms and Data Structures in a more structured way, here is an [Algorithm Specialization on Coursera by UCSanDiego](https://coursera.pxf.io/15MOo6). I sort of audited this course while preparing.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them.
 

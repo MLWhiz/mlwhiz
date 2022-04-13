@@ -37,7 +37,7 @@ All of the above are examples of [image classification](https://lionbridge.ai/se
 
 In the past, I always used Keras for computer vision projects. However, recently when the opportunity to work on multiclass image classification presented itself, I decided to use PyTorch. I have already moved from Keras to PyTorch for all [NLP tasks](https://mlwhiz.com/blog/2019/01/06/pytorch_keras_conversion/), so why not vision, too?
 
-> [PyTorch](https://redirect.viglink.com/?format=go&jsonp=vglnk_159220215223010&key=0d3176c012db018d69225ad1c36210fa&libId=kbg41t7r0102t244000DAap2a6q0u&subId=fd1ffa7fd7152e4e20568fbe49a489d0&cuid=fd1ffa7fd7152e4e20568fbe49a489d0&loc=https%3A%2F%2Fmlwhiz.com%2Fblog%2F2020%2F02%2F21%2Fds2020%2F&v=1&out=https%3A%2F%2Fclick.linksynergy.com%2Flink%3Fid%3DlVarvwc5BD0%26offerid%3D467035.14805039480%26type%3D2%26murl%3Dhttps%253A%252F%252Fwww.coursera.org%252Flearn%252Fdeep-neural-networks-with-pytorch&ref=https%3A%2F%2Fwww.google.com%2F&title=Become%20a%20Data%20Scientist%20in%202020%20with%20these%2010%20resources&txt=Deep%20Neural%20Networks%20with%20Pytorch) is powerful, and I also like its more pythonic structure.
+> [PyTorch](https://coursera.pxf.io/jWG2Db) is powerful, and I also like its more pythonic structure.
 
 ***In this post, we’ll create an end to end pipeline for image multiclass classification using Pytorch.*** This will include training the model, putting the model’s results in a form that can be shown to business partners, and functions to help deploy the model easily. As an added feature we will look at Test Time Augmentation using Pytorch also.
 
@@ -721,7 +721,7 @@ In this post, I talked about the end to end pipeline for working on a multiclass
 
 You can find the complete code for this post on [Github](https://github.com/MLWhiz/data_science_blogs/tree/master/compvisblog).
 
-If you would like to learn more about Image Classification and Convolutional Neural Networks take a look at the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-qdJc22ApgTq6oWNEbD8fdw&siteID=lVarvwc5BD0-qdJc22ApgTq6oWNEbD8fdw&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) from Andrew Ng. Also, to learn more about PyTorch and start from the basics, you can take a look at the [Deep Neural Networks with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-qRrseBA2NWUg_WxbnxmDwQ&siteID=lVarvwc5BD0-qRrseBA2NWUg_WxbnxmDwQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course offered by IBM.
+If you would like to learn more about Image Classification and Convolutional Neural Networks take a look at the [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY) from Andrew Ng. Also, to learn more about PyTorch and start from the basics, you can take a look at the [Deep Neural Networks with PyTorch](https://coursera.pxf.io/jWG2Db) course offered by IBM.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

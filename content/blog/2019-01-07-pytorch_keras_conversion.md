@@ -52,7 +52,7 @@ type : post
 
 Recently I started up with a competition on kaggle on text classification, and as a part of the competition, I had to somehow move to Pytorch to get deterministic results. Now I have always worked with Keras in the past and it has given me pretty good results, but somehow I got to know that the **CuDNNGRU/CuDNNLSTM layers in keras are not deterministic**, even after setting the seeds. So Pytorch did come to rescue. And am  I  glad that I moved.
 
-As a **side note**: if you want to know more about **NLP**, I would like to recommend this awesome course on **[Natural Language Processing](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)** in the **[Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)**. You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: Sentiment Analysis, summarization, dialogue state tracking, to name a few.
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Also take a look at my other post: [Text Preprocessing Methods for Deep Learning](/blog/2019/01/17/deeplearning_nlp_preprocess/), which talks about different preprocessing techniques you can use for your NLP task and [What Kagglers are using for Text Classification](/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP.
 
@@ -88,7 +88,7 @@ def get_model(features,clipvalue=1.,num_filters=40,dropout=0.1,embed_size=501):
     x = Bidirectional(LSTM(num_filters, return_sequences=True))(x)
 
     # Layer 4: Bidirectional CuDNNGRU
-    x, x_h, x_c = Bidirectional(GRU(num_filters, return_sequences=True, return_state = True))(x)  
+    x, x_h, x_c = Bidirectional(GRU(num_filters, return_sequences=True, return_state = True))(x)
 
     # Layer 5: some pooling operations
     avg_pool = GlobalAveragePooling1D()(x)
@@ -307,7 +307,7 @@ def pytorch_model_run_cv(x_train,y_train,features,x_test, model_obj, feats = Fal
         loss_fn = torch.nn.BCEWithLogitsLoss(reduction='sum')
 
         step_size = 300
-        base_lr, max_lr = 0.001, 0.003   
+        base_lr, max_lr = 0.001, 0.003
         optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()),
                                  lr=max_lr)
 
@@ -328,9 +328,9 @@ def pytorch_model_run_cv(x_train,y_train,features,x_test, model_obj, feats = Fal
             start_time = time.time()
             model.train()
 
-            avg_loss = 0.  
+            avg_loss = 0.
             for i, (x_batch, y_batch, index) in enumerate(train_loader):
-                if feats:       
+                if feats:
                     f = kfold_X_features[index]
                     y_pred = model([x_batch,f])
                 else:
@@ -356,7 +356,7 @@ def pytorch_model_run_cv(x_train,y_train,features,x_test, model_obj, feats = Fal
             avg_val_loss = 0.
             for i, (x_batch, y_batch,index) in enumerate(valid_loader):
                 if feats:
-                    f = kfold_X_valid_features[index]            
+                    f = kfold_X_valid_features[index]
                     y_pred = model([x_batch,f]).detach()
                 else:
                     y_pred = model(x_batch).detach()

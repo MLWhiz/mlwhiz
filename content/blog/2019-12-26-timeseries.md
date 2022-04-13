@@ -43,7 +43,7 @@ While there are many techniques to solve this particular problem like ARIMA, Pro
 
 ![](https://cdn-images-1.medium.com/max/2000/0*gLUSm0_14D8A3NvR.jpg)
 
-Kaggle master Kazanova along with some of his friends released a [“How to win a data science competition”](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-BShznKdc3CUauhfsM7_8xw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) Coursera course. The Course involved a final project which itself was a time series prediction problem.
+Kaggle master Kazanova along with some of his friends released a [“How to win a data science competition”](https://coursera.pxf.io/yRPoZB) Coursera course. The Course involved a final project which itself was a time series prediction problem.
 
 In this competition, we are given a challenging time-series dataset consisting of daily sales data, provided by one of the largest Russian software firms — 1C Company.
 
@@ -298,13 +298,13 @@ In this post, we talked about how we can use trees for even time series modellin
 
 ![](https://cdn-images-1.medium.com/max/3004/0*vsyzeBzrG4q4Z33z.png)
 
-When I took part in this competition as part of the [course](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-BShznKdc3CUauhfsM7_8xw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0), a couple of years back, using trees I reached near the top of the leaderboard.
+When I took part in this competition as part of the [course](https://coursera.pxf.io/yRPoZB), a couple of years back, using trees I reached near the top of the leaderboard.
 
 Over time people have worked a lot on tweaking the model, hyperparameter tuning and creating even more informative features. But the basic approach has remained the same.
 
 You can find the whole running code on [GitHub](https://github.com/MLWhiz/data_science_blogs/tree/master/time_series_xgb).
 
-Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) by Kazanova. This course talks about a lot of ways to improve your models using feature engineering and hyperparameter tuning.
+Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://coursera.pxf.io/yRPoZB) course in the [Advanced machine learning specialization](https://coursera.pxf.io/yRPoZB) by Kazanova. This course talks about a lot of ways to improve your models using feature engineering and hyperparameter tuning.
 
 I am going to be writing more beginner-friendly posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).
 

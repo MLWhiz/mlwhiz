@@ -45,7 +45,7 @@ menu: nlpseries
 
 This post is the third post of the NLP Text classification series. To give you a recap, I started up with an NLP text classification competition on Kaggle called Quora Question insincerity challenge. So I thought to share the knowledge via a series of blog posts on text classification. The [first post](/blog/2019/01/17/deeplearning_nlp_preprocess/) talked about the different **preprocessing techniques that work with Deep learning models** and **increasing embeddings coverage**. In the [second post](/blog/2019/02/08/deeplearning_nlp_conventional_methods/), I talked through some **basic conventional models** like TFIDF, Count Vectorizer, Hashing, etc. that have been used in text classification and tried to access their performance to create a baseline. In this post, I delve deeper into **Deep learning models and the various architectures** we could use to solve the text Classification problem. To make this post platform generic, I am going to code in both Keras and Pytorch. I will use various other models which we were not able to use in this competition like **ULMFit transfer learning** approaches in the fourth post in the series.
 
-**As a side note**: if you want to know more about NLP, I would like to **recommend this excellent course** on [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few. You can start for free with the 7-day Free Trial.
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 So let me try to go through some of the models which people are using to perform text classification and try to provide a brief intuition for them — also, some code in Keras and Pytorch. So you can try them out for yourself.
 
@@ -87,13 +87,13 @@ class CNN_Text(nn.Module):
 
 
     def forward(self, x):
-        x = self.embedding(x)  
-        x = x.unsqueeze(1)  
+        x = self.embedding(x)
+        x = x.unsqueeze(1)
         x = [F.relu(conv(x)).squeeze(3) for conv in self.convs1]
-        x = [F.max_pool1d(i, i.size(2)).squeeze(2) for i in x]  
+        x = [F.max_pool1d(i, i.size(2)).squeeze(2) for i in x]
         x = torch.cat(x, 1)
-        x = self.dropout(x)  
-        logit = self.fc1(x)  
+        x = self.dropout(x)
+        logit = self.fc1(x)
         return logit
 ```
 And for the Keras enthusiasts:
@@ -114,7 +114,7 @@ def model_cnn(embedding_matrix):
                                      kernel_initializer='he_normal', activation='relu')(x)
         maxpool_pool.append(MaxPool2D(pool_size=(maxlen - filter_sizes[i] + 1, 1))(conv))
 
-    z = Concatenate(axis=1)(maxpool_pool)   
+    z = Concatenate(axis=1)(maxpool_pool)
     z = Flatten()(z)
     z = Dropout(0.1)(z)
 
@@ -246,7 +246,7 @@ In essence, we want to create scores for every word in the text, which is the at
 
 To do this, we start with a weight matrix(W), a bias vector(b) and a context vector u. The optimization algorithm learns all of these weights. On this note I would like to highlight something I like a lot about neural networks - If you don't know some params, let the network learn them. We only have to worry about creating architectures and params to tune.
 
-Then there are a series of mathematical operations. See the figure for more clarification. We can think of u1 as nonlinearity on RNN word output. After that v1 is a dot product of u1 with a context vector u raised to exponentiation. From an intuition viewpoint, the value of v1 will be high if u and u1 are similar. Since we want the sum of scores to be 1, we divide v by the sum of v’s to get the Final Scores,s  
+Then there are a series of mathematical operations. See the figure for more clarification. We can think of u1 as nonlinearity on RNN word output. After that v1 is a dot product of u1 with a context vector u raised to exponentiation. From an intuition viewpoint, the value of v1 will be high if u and u1 are similar. Since we want the sum of scores to be 1, we divide v by the sum of v’s to get the Final Scores,s
 
 These final scores are then multiplied by RNN output for words to weight them according to their importance. After which the outputs are summed and sent through dense layers and softmax for the task of text classification.
 
@@ -483,7 +483,7 @@ Here are the final results of all the different approaches I have tried on the K
 
 In this post, I went through with the explanations of various deep learning architectures people are using for Text classification tasks. In the next post, we will delve further into the next new phenomenon in NLP space - Transfer Learning with BERT and ULMFit. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my blog to be informed about my next post.
 
-Also if you want to [**learn more about NLP** here](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) is an excellent course. You can start for free with the 7-day Free Trial.
+If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Let me know if you think I can add something more to the post; I will try to incorporate it.
 

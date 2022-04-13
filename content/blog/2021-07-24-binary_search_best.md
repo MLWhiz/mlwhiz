@@ -181,7 +181,7 @@ And that is it. Here we have “**Binary Searched the Answer**”. And it is app
 
 ***In this post, I talked about Binary Search.*** This is one of the most popular algorithms that is asked in Data Structures interviews, and a good understanding of these might help you land your dream job. And while you can go a fair bit in data science without learning it, you can learn it just for a little bit of fun and maybe to improve your programming skills.
 
-Also take a look at my other posts in the [series](https://towardsdatascience.com/tagged/algorithms-interview) , if you want to learn about algorithms and Data structures. If you want to read up more on Algorithms, here is an [Algorithm Specialization on Coursera by UCSanDiego](https://click.linksynergy.com/deeplink?id=lVarvwc5BD0&mid=40328&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fdata-structures-algorithms), which I highly recommend to learn the basics of algorithms.
+Also take a look at my other posts in the [series](https://towardsdatascience.com/tagged/algorithms-interview) , if you want to learn about algorithms and Data structures. If you want to read up more on Algorithms, here is an [Algorithm Specialization on Coursera by UCSanDiego](https://coursera.pxf.io/15MOo6), which I highly recommend to learn the basics of algorithms.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
 

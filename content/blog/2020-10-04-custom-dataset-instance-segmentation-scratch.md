@@ -30,39 +30,39 @@ type : "post"
 
 Recently, I was looking for a toy dataset for my new book’s chapter (you can subscribe to the updates [here](https://mlwhiz.ck.page/9a2ffe9e2c)) on instance segmentation. And, I really wanted to have something like the Iris Dataset for Instance Segmentation so that I would be able to explain the model without worrying about the dataset too much. But, alas, it is not always possible to get a dataset that you are looking for.
 
-I actually ended up looking through various sources on the internet but inadvertently found that I would need to download a huge amount of data to get anything done. Given that is not at all the right way to go about any tutorial, I thought why not create my own dataset. 
+I actually ended up looking through various sources on the internet but inadvertently found that I would need to download a huge amount of data to get anything done. Given that is not at all the right way to go about any tutorial, I thought why not create my own dataset.
 
 In the end, it turned out to be the right decision as it was a fun task and as it provides an end to end perspective on what goes on in a real-world image detection/segmentation project.
 
-This post is about creating your own custom dataset for Image Segmentation/Object Detection. 
+This post is about creating your own custom dataset for Image Segmentation/Object Detection.
 
 ---
 
 ## So, Why Not OID or any other dataset on the internet?
 
-Though I was able to find out many datasets for Object Detection and classification per se, finding a dataset for instance segmentation was really hard. For example, Getting the images and annotations from the Open image dataset meant that I had to download all the mask images for the whole OID dataset effectively making it a 60GB download. Something I didn’t want to do for a tutorial. 
+Though I was able to find out many datasets for Object Detection and classification per se, finding a dataset for instance segmentation was really hard. For example, Getting the images and annotations from the Open image dataset meant that I had to download all the mask images for the whole OID dataset effectively making it a 60GB download. Something I didn’t want to do for a tutorial.
 
-So I got to create one myself with the next question being which images I would want to tag? As the annotation work is pretty manual and lackluster, I wanted to have something that would at least induce some humor for me. 
+So I got to create one myself with the next question being which images I would want to tag? As the annotation work is pretty manual and lackluster, I wanted to have something that would at least induce some humor for me.
 
-So I went with tagging the Simpson’s. 
+So I went with tagging the Simpson’s.
 
 ---
 
-## What I created? 
+## What I created?
 
-In the end, I created a [dataset](https://www.kaggle.com/mlwhiz/simpsons-main-characters)(currently open-sourced on Kaggle) which contains ***81 image segmentations each for the five Simpson’s main characters*** (Homer, Lisa, Bert, Marge, and Maggie). While I could have started with even downloading Simpson’s images myself from the internet, I used the existing [Simpsons Characters Image Dataset](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset?select=simpsons_dataset) from Kaggle to start with to save some time. This particular Simpsons character dataset had a lot of images, so I selected the first 80 for each of these 5 characters to manually annotate masks. And it took me a day and a half from start to finish with just around 400 images but yeah I like the end result which is shown below. 
+In the end, I created a [dataset](https://www.kaggle.com/mlwhiz/simpsons-main-characters)(currently open-sourced on Kaggle) which contains ***81 image segmentations each for the five Simpson’s main characters*** (Homer, Lisa, Bert, Marge, and Maggie). While I could have started with even downloading Simpson’s images myself from the internet, I used the existing [Simpsons Characters Image Dataset](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset?select=simpsons_dataset) from Kaggle to start with to save some time. This particular Simpsons character dataset had a lot of images, so I selected the first 80 for each of these 5 characters to manually annotate masks. And it took me a day and a half from start to finish with just around 400 images but yeah I like the end result which is shown below.
 
 ![Author Image: Annotations for Bert, Maggie, Homer, Marge, and Lisa(Clockwise) ](/images/custom-dataset-instance-segmentation-scratch/0.png "Author Image: Annotations for Bert, Maggie, Homer, Marge, and Lisa(Clockwise)")
 
 ### File Descriptions:
 
-You can also make use of this dataset under the Creative Commons license. And here are the file descriptions in the dataset. 
+You can also make use of this dataset under the Creative Commons license. And here are the file descriptions in the dataset.
 
 1. img folder: Contains images that I selected (81 per character) for annotation from the simpsons_dataset directory in Simpsons Characters Data.
 
 1. instances.json : Contains annotations for files in img folder in the COCO format.
 
-1. test_images folder: Contains all the other images that I didn't annotate from the simpsons_dataset directory in Simpsons Characters Data. These could be used to test or review your final model. 
+1. test_images folder: Contains all the other images that I didn't annotate from the simpsons_dataset directory in Simpsons Characters Data. These could be used to test or review your final model.
 
 ---
 ## The Process
@@ -112,12 +112,12 @@ But in the image community, it has gotten pretty normal to call the format that 
 
     register_coco_instances("simpsons_dataset", {}, "instances.json", "path/to/image/dir")
 
-Don’t worry if you don’t understand the above code as I will get back to it in my next post where I will explain the COCO format along with creating an instance segmentation model on this dataset. Right now, just understand that COCO is a good format because it plays well with a lot of advanced libraries for such tasks and thus makes our lives a lot easier while moving between different models. 
+Don’t worry if you don’t understand the above code as I will get back to it in my next post where I will explain the COCO format along with creating an instance segmentation model on this dataset. Right now, just understand that COCO is a good format because it plays well with a lot of advanced libraries for such tasks and thus makes our lives a lot easier while moving between different models.
 
 ---
 ## Conclusion
 
-Creating your own dataset might take a lot of time but it is nonetheless a rewarding task. You help the community by providing a good resource, you also are able to understand and work on the project end to end when you create your own datasets. 
+Creating your own dataset might take a lot of time but it is nonetheless a rewarding task. You help the community by providing a good resource, you also are able to understand and work on the project end to end when you create your own datasets.
 
 For instance, I understood just by annotating all these characters that it would be hard for the model to differentiate between Lisa and Maggie as they just look so similar.  Also, I would be amazed if the model is able to make a good mask around Lisa, Maggie, or Bert’s Zigzag Hair. At least for me, it took a long time to annotate them.
 
@@ -125,6 +125,6 @@ In my next post, I aim to explain the COCO format along with creating an instanc
 
 ### Keep Learning
 
-If you want to know more about various ***Object Detection techniques, motion estimation, object tracking in video, etc***., I would like to recommend this excellent course on [Deep Learning in Computer Vision](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). If you wish to know more about how the object detection field has evolved over the years, you can also take a look at my last [post](https://towardsdatascience.com/a-hitchhikers-guide-to-object-detection-and-instance-segmentation-ac0146fe8e11) on Object detection.
+If you want to know more about various ***Object Detection techniques, motion estimation, object tracking in video, etc***., I would like to recommend this excellent specialization on [Deep Learning](https://coursera.pxf.io/7mKnnY). If you wish to know more about how the object detection field has evolved over the years, you can also take a look at my last [post](https://towardsdatascience.com/a-hitchhikers-guide-to-object-detection-and-instance-segmentation-ac0146fe8e11) on Object detection.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](http://eepurl.com/dbQnuX) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)

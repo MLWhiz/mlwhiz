@@ -337,7 +337,7 @@ Multiprocessing is a nice concept and something every data scientist should at l
 
 ### Continue Learning
 
-If you want to learn more about [Python](https://amzn.to/2XPSiiG) 3, I would like to call out an excellent course on Learn [Intermediate level Python](https://bit.ly/2XshreA) from the University of Michigan. Do check it out.
+If you want to learn more about [Python](https://amzn.to/2XPSiiG) 3, I would like to call out an excellent course on Learn [Intermediate level Python](https://coursera.pxf.io/0JMOOY) from the University of Michigan. Do check it out.
 
 I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](http://mlwhiz.medium.com) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz).
 

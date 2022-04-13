@@ -39,7 +39,7 @@ type : post
 ---
 
 Distributions play an important role in the life of every Statistician. I coming from a non-statistic background am not so well versed in these and keep forgetting about the properties of these famous distributions. That is why I chose to write my own understanding in an intuitive way to keep a track.
-One of the most helpful way to learn more about these is the [STAT110](https://projects.iq.harvard.edu/stat110/home) course by Joe Blitzstein and his [book](http://amzn.to/2xAsYzE). You can check out this [Coursera](https://www.coursera.org/specializations/statistics?siteID=lVarvwc5BD0-1nQtJg8.ENATqSUIufAaaw&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0) course too. Hope it could be useful to someone else too. So here goes:
+One of the most helpful way to learn more about these is the [STAT110](https://projects.iq.harvard.edu/stat110/home) course by Joe Blitzstein and his [book](http://amzn.to/2xAsYzE). You can check out this [Coursera](https://coursera.pxf.io/2rL7KM) course too. Hope it could be useful to someone else too. So here goes:
 
 ## 1. Bernoulli Distribution:
 

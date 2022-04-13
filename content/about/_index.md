@@ -13,7 +13,7 @@ description: "this is meta description"
 type : "about"
 ---
 
-I’m a data scientist consultant and big data engineer based in Bangalore, where I am currently working with **WalmartLabs** .
+I’m a data scientist consultant and big data engineer based in London, where I am currently working with **Facebook** .
 
 Previously, I have worked at startups like **Fractal** and **MyCityWay** and coglomerates like **Citi**.I Started this blog with a purpose to augment my own understanding about new things while helping others learn about them. I also write for publications on Medium like [Towards Data Science](https://towardsdatascience.com/) and [HackerNoon](https://hackernoon.com/)
 

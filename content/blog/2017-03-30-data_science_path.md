@@ -108,7 +108,7 @@ Again by Professor Blitzstein. Again an awesome course. *Watch it after Stat110 
 Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries.
 </div>
 
-## 3. [CS229: Andrew Ng](https://click.linksynergy.com/fs-bin/click?id=lVarvwc5BD0&offerid=495576.248&type=3&subid=0)
+## 3. [CS229: Andrew Ng](https://coursera.pxf.io/yRPoZB)
 After doing these two above courses you will gain the status of what I would like to call a **"Beginner"**. Congrats!!!. *You know stuff, you know how to implement stuff*. Yet you do not fully understand all the math and grind that goes behind all this.
 
 Here comes the Game Changer machine learning course. Contains the maths behind many of the Machine Learning algorithms.  I will put this course as the *one course you gotta take* as this course motivated me into getting in this field and Andrew Ng is a great instructor. Also this was the first course that I took.
@@ -185,7 +185,7 @@ If you want a book, go for:
 
 **Congrats you are an "Hacker" now.** You have got all the main tools in your belt to be a data scientist. On to more advanced topics. From here it depends on you what you want to learn. You may want to take a totally different approach than what I took going from here. There is no particular order. **"All Roads lead to Rome"** as long as you are running.
 
-## 7. [Learn Statistical Inference and Bayesian Statistics](https://click.linksynergy.com/fs-bin/click?id=lVarvwc5BD0&offerid=467035.204&type=3&subid=0)
+## 7. [Learn Statistical Inference and Bayesian Statistics](https://coursera.pxf.io/yRPoZB)
 
 I took the previous version of the specialization which was a single course taught by Mine Çetinkaya-Rundel. She is a great instrucor and explains the fundamentals of Statistical inference nicely. A must take course. You will learn about hypothesis testing, confidence intervals, and statistical inference methods for numerical and categorical data.
 You can also use these books:
@@ -214,7 +214,7 @@ You can learn from this book too:
 <a href="https://www.amazon.com/Mining-Massive-Datasets-Jure-Leskovec/dp/1107077230/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=mlwhizcon-20&linkId=ba893a022640a279d427fd0c5ea44c1a" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1107077230&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mlwhizcon-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mlwhizcon-20&l=li2&o=1&a=1107077230" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </div>
 
-Apart from that if you want to learn about Python and the basic intricacies of the language you can take the **[Computer Science Mini Specialization from RICE university](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=495576.1921197134&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Fspecializations%2Fcomputer-fundamentals)** too. This is a series of 6 short but good courses. I worked on these courses as Data science will require you to do a lot of programming. And the best way to learn programming is by doing programming. The lectures are good but the problems and assignments are awesome. If you work on this you will learn Object Oriented Programming,Graph algorithms and games in Python. Pretty cool stuff.
+Apart from that if you want to learn about Python and the basic intricacies of the language you can take the **[Computer Science Mini Specialization from RICE university](https://coursera.pxf.io/gbe4Kg)** too. This is a series of 6 short but good courses. I worked on these courses as Data science will require you to do a lot of programming. And the best way to learn programming is by doing programming. The lectures are good but the problems and assignments are awesome. If you work on this you will learn Object Oriented Programming,Graph algorithms and games in Python. Pretty cool stuff.
 
 
 ## 10. Advanced Maths:
