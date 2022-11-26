@@ -6,14 +6,22 @@ theme = "liva-hugo"
 summaryLength = "10"
 paginate = 10
 disqusShortname = "mlwhiz"
-pygmentsCodeFences = true
-pygmentsStyle = "monokai"
 timeout = 120000
+
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsStyle = "native"
+
+
 # TODO
 enableGitInfo = true
 enableRobotsTXT = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+#ME
+[markup.goldmark.renderer]
+  unsafe = true
 
 
 [sitemap]
@@ -55,9 +63,7 @@ enableRobotsTXT = true
   expiryDate = ["expiryDate"]
 
 
-#ME
-[markup.goldmark.renderer]
-  unsafe = true
+
 
 ############################# Plugins ##############################
 [params.plugins]
