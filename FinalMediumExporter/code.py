@@ -40,9 +40,11 @@ ext=None
 
 for i,img_name in enumerate(images_list):
     if i==0:
-        os.system(f"cp {img_name} {img_dir}/{output}/main.{img_name.split('.')[-1]}")
         ext = img_name.split('.')[-1]
-        print(f"cp {img_name} {img_dir}/{output}/main.{img_name.split('.')[-1]}")
+        if len(ext)>=5: 
+            ext = 'png'
+        os.system(f"cp {img_name} {img_dir}/{output}/main.{ext}")
+        print(f"cp {img_name} {img_dir}/{output}/main.{ext}")
         
     os.system(f"cp {img_name} {img_dir}/{output}")
     contents = contents.replace("/".join((img_name.split("/")[-3:])), 
@@ -50,8 +52,7 @@ for i,img_name in enumerate(images_list):
                     )
     print("/".join((img_name.split("/")[-3:])), 
                      f"/images/{output}/{img_name.split('/')[-1]}"
-                    )
-                    
+                    )                    
 
 title = contents.split("title:")[1].split("\n")[0].strip()
 pattern = re.compile(r"---\n[\s\S]*\n---\n")

@@ -7,11 +7,7 @@ url : blog/2021/07/24/parallel-processing/
 slug: parallel-processing
 
 Keywords:
-- transformers from scratch
-- create own transformer
-- understanding transformers
-- layman transformers
-- layman transformers guide
+- parallel
 
 Tags:
 - Python
@@ -23,7 +19,7 @@ Categories:
 - Natural Language Processing
 - Awesome Guides
 
-description:
+description: How can data scientists use parallel processing?
 
 thumbnail : /images/parallel-processing/main.png
 image : /images/parallel-processing/main.png
