@@ -1,0 +1,107 @@
+---
+title: How to Set Environment Variables in Linux?
+author: Rahul Agarwal
+date: 2022-11-07T19:38:30.341+0000
+last_modified_at: 2022-11-27T14:19:12.875+0000
+categories: 
+tags: [data-science,machine-learning,programming,artificial-intelligence,python]
+description: Or How to use the export command
+image:
+  path: assets/7dd4850f140e/1*P5jm3DtX16Q0E155jgWX6A.png
+---
+
+
+
+![Photo by [Mert Guller](https://unsplash.com/ja/@mertguller?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](assets/7dd4850f140e/0*H7mgqGgOTKE0ukip)
+
+Photo by [Mert Guller](https://unsplash.com/ja/@mertguller?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+### How to Set Environment Variables in Linux?
+#### Or How to use the export command
+
+Linux shell has become a constant part of every ML Engineer, Data Scientist and Programmer’s life\. We need linux to login to servers, write complex scripts, and run various programs\. And sometimes we need linux to install certain programs too\.
+
+In such particular cases, you might have seen usage of commands like `export` and `unset.` In this article, I will try to explain environment variables, why and when they are used, and how to set them up\.
+#### What is an Environment Variable?
+
+As per Wikipedia, “An **environment variable** is a [dynamic\-named](https://en.wikipedia.org/wiki/Name_resolution_(programming_languages)) [value](https://en.wikipedia.org/wiki/Value_(computer_science)) that can affect the way running [processes](https://en.wikipedia.org/wiki/Process_(computing)) will behave on a computer\. They are part of the environment in which a process runs\. The variables can be used both in scripts and on the [command line](https://en.wikipedia.org/wiki/Command_line) \.”\.
+
+Simply stated, they are just variables, that can be used in a shell or the command line and its subprocesses\. So for example: You might have used Anaconda and might have needed to set an global environment variable called “PATH” in your `bash_profile` \. Or even if you didn’t set it, it might have been added automatically for you\. If you want you can check it:
+- Open the terminal app on Linux/your Mac\.
+- Run `cat ~/.bash_profile`
+- You should be able to see something like: `export PATH=”/Users/raha/anaconda3/bin:$PATH”`
+
+
+What this command usually does is:
+1. Appends a new binary path to existing path variable\. So that the shell knows the location of the anaconda binary\.
+2. Why does it exist in `~/.bash_profile` ? So that it is initialized automatically for every user\.
+
+
+This makes sure that the next time you run `jupyter notebook` command in your terminal to open a jupyter notebook, the process knows where to look for the anaconda binary\.
+#### Checking Environment Variables?
+
+You can check all the set variables using the `printenv` or the `env` command:
+
+
+![](assets/7dd4850f140e/1*P5jm3DtX16Q0E155jgWX6A.png)
+
+
+You can also look at a single environment variable using the echo command:
+```
+echo $PWD
+Output: /Users/raha
+```
+#### Local And Global Variables
+
+In Linux, Environment variables can also be categorized into local and global variables just like many common programming languages\. So for example, in Python, a global variable is one that can be used anywhere in the program while a local variable is defined in a function and can only be used in that particular function\. In Linux, an environment variable can also be local which is only inside a shell in which it is initialized while a global variable can be accesed in all the sub shells\.
+
+This is why, when you open a Jupyter Notebook in a Shell, it is able to access the shell variables in the main shell it is started from, using the \! commands\. So if you do something like:
+
+
+![](assets/7dd4850f140e/1*-19L8Qs25xZOoocZCLRkWg.png)
+
+
+And then try to print using:
+
+
+![](assets/7dd4850f140e/1*0h35VchWglR9WIJPc1qbgA.png)
+
+
+You can see that the local variable, LOCAL\_VAR is not accesible while the global variable GLOBAL\_VAR is accesible in the Jupyter Notebook\.
+#### How to Set Environment Variables?
+
+Setting up environment variables is pretty easy\. It just depends upon the purpose you want to solve by setting them up\. So, for example if you want to set them up globally \(the most common use case\), you would use the export command:
+```
+export GLOBAL_VAR="/usr/raha/"
+```
+
+If you would like to set this variable whenever you open up your shell you can put it the above export statement in the `bash_profile.sh` file\. This makes sure the next time you open up a new shell instance your `GLOBAL_VAR` would be set to `“/usr/raha/”`
+#### How to Unset global environment Variables?
+
+Unsetting a set environment variable is pretty straightforward\. You can just use the keyword `unset` \. So if you were to unset an environment variable, you can use:
+```
+unset LOCAL_VAR
+unset GLOBAL_VAR
+```
+
+
+![](assets/7dd4850f140e/1*4hZ3jTes55J5OCfaN8LL2Q.png)
+
+
+or `unset LOCAL_VAR GLOBAL_VAR` to unset them both\.
+
+What happens if you unset a Global Variable in a subshell? Just what you would expect\. It gets unset in the subshell while it persists in the main shell\. For Example:
+
+
+![](assets/7dd4850f140e/1*0FFEKtaLKdbY2TDtuZj3vQ.png)
+
+
+If you would like to know more about shell, which I guess you would, here are some books that I would recommend for a beginner:
+1. [The Linux Command Line](https://amzn.to/39LYy1R)
+2. [Learning the bash Shell: Unix Shell Programming](https://amzn.to/3kTbwND)
+
+
+The first book is more of a fun read while the second one is a little more serious and goes much more deeper\. Also If you would like to learn more using a course, there is [**The UNIX workbench**](https://coursera.pxf.io/kj1N30) course on Coursera which you can try out\.
+
+
+
+_Converted [Medium Post](https://mlwhiz.medium.com/how-to-set-environment-variables-in-linux-7dd4850f140e) by [ZMediumToMarkdown](https://github.com/ZhgChgLi/ZMediumToMarkdown)._
