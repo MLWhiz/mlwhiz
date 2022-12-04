@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @MLWhiz <a href='https://ko-fi.com/rahulagarwal' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+- 👀 I’m interested in Machine Learning and Data Science.
+- :cyclone: I am currently working with Roku and previously worked with Facebook, Walmart and CitiBank as a Machine Learning Engineer and a Data Scientist.
+- :mailbox: Reach me at: rahul@mlwhiz.com or on Linkedin: https://www.linkedin.com/in/rahulagwl/
+- Here is my most famous repo where I keep track of the code I write for my blogs: https://github.com/MLWhiz/data_science_blogs
