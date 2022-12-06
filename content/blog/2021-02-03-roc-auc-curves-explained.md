@@ -7,6 +7,75 @@ slug: roc-auc-curves-explained
 
 Keywords:
 - ROC AUC
+- auc roc
+- roc auc curve
+- auc roc curve
+- roc and auc
+- roc curve explained
+- auc and roc
+- roc curve and auc
+- roc auc explained
+- roc curve auc
+- auc-roc
+- roc curve interpretation
+- roc auc score interpretation
+- roc curves
+- how to interpret roc auc score
+- roc explained
+- auc-roc curve
+- roc curve
+- auc and roc curve
+- auroc curve
+- auc roc explained
+- explain roc curve
+- what does roc auc score mean
+- roc curve explained simply
+- roc-auc
+- roc auc curve explained
+- how to interpret auc roc
+- roc-auc curve
+- what is roc auc score
+- auc of roc curve
+- roc score
+- how to interpret roc curve
+- how to plot roc curve
+- plot roc curve
+- roc auc score
+- roc and auc explained
+- roc curve simple explanation
+- roc curve for dummies
+- auc of roc
+- roc auc score meaning
+- what is auc in roc curve
+- how to read auc roc curve
+- roc curve python example
+- roc and auc clearly explained
+- roc curve machine learning
+- roc curves explained
+- roc machine learning
+- auc roc curve explained
+- roc and auc curve
+- roc and auc curves
+- understand roc curve
+- how roc
+- roc in ml
+- understanding auc roc curve
+- auc roc meaning
+- auc-roc score
+- roc curve in machine learning
+- area under roc curve
+- how to roc
+- auc-roc curve in machine learning clearly explained
+- how to make roc curve in python
+- python roc curve
+- roc curve python
+- how to interpret auc roc curve
+- roc auc interpretation
+- auc roc curve python
+- how to create roc curve in python
+- python plot roc curve
+- auc in roc curve
+- auc vs roc
 
 Tags:
 - Statistics

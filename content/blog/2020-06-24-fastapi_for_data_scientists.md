@@ -9,6 +9,24 @@ Category: Python
 Keywords:
 - Pandas
 - Statistics
+- building data science applications with fastapi pdf
+- building data science applications with fastapi epub
+- building data science applications with fastapi read online
+- building data science applications with fastapi
+- fastapi book pdf
+- learn fastapi
+- apis data science
+- apis in data science
+- data science apis
+- fast api book
+- fast api tutorial
+- fastapi frontend example
+- fastapi put request example
+- fastapi query parameter
+- fastapi use cases
+- fastapi vs flask
+- omdb api
+- omdb api python
 
 Catregories:
 - Awesome Guides
