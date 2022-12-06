@@ -28,7 +28,7 @@ Keywords:
 - omdb api
 - omdb api python
 
-Catregories:
+Categories:
 - Awesome Guides
 - Data Science
 
