@@ -1,4 +1,3 @@
-
 ---
 title:  How should I start Reading code?
 date:  2022-11-27
