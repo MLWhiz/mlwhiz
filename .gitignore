@@ -1,2 +1,4 @@
 resources/_gen/images/
 .DS_Store
+
+node_modules

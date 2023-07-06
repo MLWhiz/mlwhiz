@@ -5,12 +5,6 @@ draft: false
 url : blog/2020/11/13/look-like-a-developer/
 slug: look-like-a-developer
 
-Keywords:
-- transformers from scratch
-- create own transformer
-- understanding transformers
-- layman transformers
-- layman transformers guide
 
 Keywords:
 - data science
