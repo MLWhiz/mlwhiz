@@ -123,8 +123,8 @@
           {{ range $paginator.Pages }}
           <div class="col-md-6 mb-4">
             <article class="card">
-              {{ if .Params.Thumbnail }}
-              {{ $image := .Params.Thumbnail }}
+              {{ if .Params.Image }}
+              {{ $image := .Params.Image }}
               {{ $src := resources.Get $image }}
 
                   {{if $src}}
@@ -134,7 +134,7 @@
                       </a>
                   {{else}}
                     <a href="{{ .Permalink }}">
-                    <img src="{{ .Params.Thumbnail | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+                    <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
                     </a>
                   {{ end }}
               {{ end }}

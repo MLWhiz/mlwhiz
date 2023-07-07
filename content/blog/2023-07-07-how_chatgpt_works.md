@@ -17,7 +17,7 @@ Categories:
 - ChatGPT Series
 
 description:
-thumbnail : /images/how_chatgpt_works/main.png
+image : /images/how_chatgpt_works/main.png
 toc : false
 type : "post"
 ---
