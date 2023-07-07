@@ -87,15 +87,15 @@
       {{ range first 3 (where .Site.RegularPages "Type" "featured")}}
       <div class="col-lg-4 small-post-border">
         <article class="media">
-          {{ if .Params.Image }}
-          {{ $image := .Params.Image }}
+          {{ if .Params.Thumbnail }}
+          {{ $image := .Params.Thumbnail }}
           {{ $src := resources.Get $image }}
           
           {{if $src}}
               {{ $small := $src.Resize "360x q85 Box" }}
               <div class="recent-post-thumb mr-3" style="background-image: url('{{ $small.RelPermalink | absURL }}');"></div>
           {{else}}
-            <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
+            <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Thumbnail | absURL }}');"></div>
           {{ end }}
           {{ end }}
           <div class="media-body">
@@ -128,8 +128,8 @@
           {{ range $paginator.Pages }}
           <div class="col-md-6 mb-4">
             <article class="card">
-              {{ if .Params.Image }}
-              {{ $image := .Params.Image }}
+              {{ if .Params.Thumbnail }}
+              {{ $image := .Params.Thumbnail }}
               {{ $src := resources.Get $image }}
 
                   {{if $src}}
@@ -139,7 +139,7 @@
                       </a>
                   {{else}}
                     <a href="{{ .Permalink }}">
-                    <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+                    <img src="{{ .Params.Thumbnail | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
                     </a>
                   {{ end }}
               {{ end }}
