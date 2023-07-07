@@ -13,9 +13,9 @@ description: "this is meta description"
 type : "about"
 ---
 
-I’m a data scientist consultant and big data engineer based in London, where I am currently working with **Facebook** .
+I’m a Machine Learning Engineer based in London, where I am currently working with **Roku** .
 
-Previously, I have worked at startups like **Fractal** and **MyCityWay** and coglomerates like **Citi**.I Started this blog with a purpose to augment my own understanding about new things while helping others learn about them. I also write for publications on Medium like [Towards Data Science](https://towardsdatascience.com/) and [HackerNoon](https://hackernoon.com/)
+Previously, I have worked at coglomerates like **Facebook(Meta)**, **Walmart**, and **Citi**. I Started this blog with a purpose to augment my own understanding about new things while helping others learn about them. I also write for publications on [Medium](https://medium.com/@mlwhiz/membership) and on [HackerNoon](https://hackernoon.com/)
 
 As Feynman said: **"I couldn't do it. I couldn't reduce it to the freshman level. That means we don't really understand it"**
 
@@ -27,7 +27,7 @@ I also really like working with data intensive problems and am constantly in sea
 
 ## Contact Me
 
-**[Get in touch](mailto:rahul.374@gmail.com?subject=coffee)** if you’re in Mumbai and would like to grab coffee together. We can talk about tech, data, startups or new opportunities. We’ll both probably learn something new in the process, and that’s fun.
+**[Get in touch](mailto:rahul.374@gmail.com?subject=coffee)** if you’re in London and would like to grab coffee together. We can talk about tech, data, startups or new opportunities. We’ll both probably learn something new in the process, and that’s fun.
 
 Apart from that if you have any ideas or suggestions Contact me at : rahul.374@gmail.com, leave a comment or holler me up on [LinkedIn](https://www.linkedin.com/profile/view?id=AAIAAAUGZtoBLDbgvT7glPvnjVgGY_AwnWpn73w&trk=nav_responsive_tab_profile_pic) or [twitter](https://twitter.com/MLWhiz).
 
