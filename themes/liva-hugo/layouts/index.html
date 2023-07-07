@@ -10,7 +10,6 @@
         {{if $src}}
             {{ $small := $src.Resize "1080x q85 Box" }}
             <div class="bg-img" style="background-image: url('{{ $small.RelPermalink | absURL }}')"></div>
-
         {{else}}
           <div class="bg-img" style="background-image: url('/images/category_bgs/default_bg.jpg')"></div>
         {{ end }}
