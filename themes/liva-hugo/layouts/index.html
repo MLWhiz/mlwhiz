@@ -1,10 +1,8 @@
 {{ define "main" }}
 
-<!-- featured post -->
+<!-- TOP BAR -->
 
-<section id="hero" class="block block-hero has-gradient outer" style="padding-top:5.5em;padding-bottom:3.5em">
-
-
+<section id="hero" class="block block-hero has-gradient outer" style="padding-top:1.5em;padding-bottom:0.5em">
 
         {{ $image := "/images/category_bgs/default_bg.jpg" }}
         {{ $src := resources.Get $image }}
@@ -17,17 +15,14 @@
           <div class="bg-img" style="background-image: url('/images/category_bgs/default_bg.jpg')"></div>
         {{ end }}
 
-
-
         <div class="inner-sm">
-
           <div class="block-header">
-            <h1 class="block-title">Thinking of starting with Deep Learning,<br>
-              Machine Learning and Data Science?</h1>
+            <h2 class="block-title">Thinking of starting with Deep Learning,<br>
+              Machine Learning and Data Science?</h2>
           </div>
 
           <div class="block-content" style="font-color:white">
-            <p style="color:white;font-size:2em">But don't know the path yet? </p>
+            <p style="color:white;font-size:1em">But don't know the path yet? </p>
           </div>
 
           <div class="block-buttons">
@@ -42,44 +37,42 @@
 <br>
 </div>
 
-<!-- featured post
-<section class="section-sm">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-10 featured-post-slider">
 
-        {{ range ( where .Site.RegularPages "Type" "featured" )}}
-        <article class="card featured-post">
-          <div class="row no-gutters align-items-center">
-            <div class="col-md-5">
-              {{ if .Params.Image }}
-              <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
-              {{ end }}
-            </div>
-            <div class="col-md-6 offset-md-1">
-              <div class="card-body">
-                <div class="mb-3 post-meta">
-                  <span>By {{ .Site.Params.Author }}</span>
-                  {{ if not .Params.HideDate }}
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02 January 2006" }}</span>
-                  {{ end }}
-                </div>
-                <a href="{{ .Permalink }}"
-                  class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</a>
-                <p class="card-text">{{.Summary}}...</p>
-              </div>
-            </div>
+<!-- Featured Courses -->
+
+<section>
+  <div class="container">
+    <p class="">Featured Courses</p>
+    <div class="row">
+
+      {{ range first 3 (where .Site.RegularPages "Type" "course")}}
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          {{ if .Params.Thumbnail }}
+          {{ $image := .Params.Thumbnail }}
+          {{ $src := resources.Get $image }}
+          
+          {{if $src}}
+              {{ $small := $src.Resize "360x q85 Box" }}
+              <div class="recent-post-thumb mr-3" style="background-image: url('{{ $small.RelPermalink | absURL }}');"></div>
+          {{else}}
+            <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Thumbnail | absURL }}');"></div>
+          {{ end }}
+          {{ end }}
+          <div class="media-body">
+            <a href="{{.Params.Link}}" class="h5 d-block mb-3">{{ .Title | markdownify }}</a>
+            <a href="{{.Params.Link}}" class="rmStyle">Go to Course</a>
           </div>
         </article>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
- -->
+<!-- Featured Courses -->
 
-<!-- recent post -->
+
+<!-- fetured articles  
 <section>
   <div class="container">
     <p class="">Featured articles</p>
@@ -115,7 +108,9 @@
     </div>
   </div>
 </section>
-<!-- /recent post -->
+-->
+
+
 
 <!-- blog post -->
 
@@ -169,6 +164,7 @@
       {{ partial "sidebar.html" . }}
       <!-- /sidebar -->
 
+
       <!-- pagination -->
       <div class="col-12 mt-5">
         {{ template "_internal/pagination.html" . }}
@@ -177,5 +173,7 @@
   </div>
 </section>
 <!-- /blog post -->
+
+
 
 {{ end }}

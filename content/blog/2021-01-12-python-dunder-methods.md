@@ -24,7 +24,7 @@ description: In this post, I would talk about five of the most used magic functi
 thumbnail : /images/dunder-methods-python/main.png
 image : /images/dunder-methods-python/main.png
 toc : false
-type : "post"
+type : "featured"
 ---
 
 In my last [post](https://towardsdatascience.com/object-oriented-programming-explained-simply-for-data-scientists-ce2c7b5db1d?source=post_stats_page-------------------------------------), I talked about Object-Oriented Programming(OOP). And I specifically talked about a single magic method `__init__` which is also called as a constructor method in the OOP terminology.

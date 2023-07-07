@@ -28,7 +28,7 @@ description:
 thumbnail : /images/huggingface-bert/main.png
 image : /images/huggingface-bert/main.png
 toc : false
-type : "post"
+type : "featured"
 ---
 
 
