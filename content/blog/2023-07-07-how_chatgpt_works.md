@@ -99,4 +99,6 @@ So, we were learning something each step of the way\. The Attention paper taught
 
 In this blog post, I aimed to provide an overview of the evolutionary journey that led to the development of the ChatGPT model\. By examining various pivotal research papers, we have traced the path that brought us to the model's current state\. And to see that the research is still going at a breakneck pace and we see new things every day is nothing short of extraordinary\.
 
+If you want to learn more about LLMs and ChatGPT, I would like to call out this excellent course [Generative AI with Large Language Models](https://imp.i384100.net/B02Ra0), from Deeplearning.ai. This course talks about specific techniques like RLHF, Proximal policy optimization(PPO), zero-shot, one-shot, and few-shot learning with LLMs, fine-tuning LLMs, and helps gain hands-on practice with all these techniques. Do check it out.✨
+
 I will continue providing more info on these GPT models as we go through the GPT Series\. Let me know what you think about them\. Also, follow me up on [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) \. Optionally, you may also [sign up](https://medium.com/@mlwhiz/membership) for a Medium membership to get full access to every story on Medium\.
