@@ -186,6 +186,7 @@ enableRobotsTXT = true
 #################### default parameters ################################
 [params]
 logo = "images/logos/logo.svg"
+logo_bottom = "images/logos/mlwhiz_black.png"
 koficolor = "#972EB4"
 home = "Home"
 # Meta data
