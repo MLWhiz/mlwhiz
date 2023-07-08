@@ -166,13 +166,13 @@ zoom: 125%;
     a {
       height: 35px;
       width: 35px;
-      background: $primary-color;
-      color: $white;
+      background: $social-links-color;
+      color: $social-links-color-text;
       display: block;
       line-height: 35px;
 
       &:hover {
-        color: $white;
+        color: $social-links-color-text;
       }
     }
   }
@@ -351,3 +351,157 @@ zoom: 125%;
 }
 
 /* /markdown style */
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+	margin: auto;
+	display: block;
+
+}
+
+/*For shareholic
+@media (min-width: 992px)
+.shareaholic-canvas {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: inherit;
+}
+*/
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.YellowWarning {
+    background: #fff7e6;
+    border-left: 5px solid #fcb41d;
+    border-radius: 5px;
+    color: #283040;
+    margin-bottom: 1.875em;
+    padding: 1em 1.125em;
+}
+.PaintitRed {
+    background: #ffe9e6;
+    border-left: 5px solid #fc381d;
+    border-radius: 5px;
+    color: #283040;
+    margin-bottom: 1.875em;
+    padding: 1em 1.125em;
+}
+
+
+.img-fluid-custom{
+    max-width: 45%;
+    height: auto;
+}
+
+
+.img-fluid-custom-bottom{
+    max-width: 10%;
+    height: auto;
+}
+
+/*categories css*/
+categoryStyle,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.categoryStyle {
+    background-color: $category-color;
+    border-radius: 1.75em;
+    box-sizing: border-box;
+    color: $category-text-color;
+    display: inline-block;
+    font-size: .675em;
+    font-weight: bold;
+    letter-spacing: 0.035em;
+    line-height: 1.2;
+    padding: 0.5em 1.25em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    vertical-align: middle;
+		margin: 0.15em; }
+    .categoryStyle:hover,
+    .categoryStyle:focus,
+    .categoryStyle:active {
+        color: $category-text-color;
+  }
+
+tagStyle,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.tagStyle {
+    background-color: $tag-color;
+    border-radius: 1.75em;
+    box-sizing: border-box;
+    color: $tag-text-color;
+    display: inline-block;
+    font-size: .675em;
+    font-weight: bold;
+    letter-spacing: 0.035em;
+    line-height: 1.2;
+    padding: 0.5em 1.25em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    vertical-align: middle; }
+    .tagStyle:hover,
+    .tagStyle:focus,
+    .tagStyle:active {
+        color: $tag-text-color;
+
+  }
+
+  rmStyle,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  .rmStyle {
+      text-transform:capitalize;
+      background-color: $btn-color;
+      border-radius: 0em;
+      box-sizing: border-box;
+      color: $btn-text-color;
+      display: inline-block;
+      font-size: .675em;
+      font-weight: bold;
+      letter-spacing: 0.035em;
+      line-height: 1.2;
+      padding: 0.5em 1.25em;
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition: .3s ease;
+      transition: .3s ease;
+      vertical-align: middle; }
+      .rmStyle:hover,
+      .rmStyle:focus,
+      .rmStyle:active {
+          color: $btn-text-color;
+          background-color: $btn-hover-color;
+    }
+
+
+		figure {
+			padding-bottom:1px;
+		}
+		figcaption {
+		  font-size: 0.75rem;
+			font-color:  #67758d;
+		  text-align: center;
+		}
+
+
+/**
+ * Reset
+ * normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css
+ */
+
+/* Buttons */

@@ -2,8 +2,10 @@
   <!-- about -->
 
   <div class="widget">
+
+    
     <!-- Buy coffee ko-fi Form -->
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#00aaa1', 'S6S3NPCD');kofiwidget2.draw();</script>
+<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '{{ .Site.Params.koficolor}}', 'S6S3NPCD');kofiwidget2.draw();</script>
 
 </div>
   <div class="widget">
@@ -26,7 +28,7 @@
     {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
     <ul class="list-unstyled">
       {{- range $name, $items := .Site.Taxonomies.categories }}
-      <li><a class="categoryStyle" style="color:#fff"
+      <li><a class="categoryStyle text-white"
           href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize | title }}</a>
       </li>
       {{- end }}

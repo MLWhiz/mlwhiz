@@ -4,7 +4,7 @@ body {
 }
 
 ::selection {
-  background: lighten($color: $primary-color, $amount: 10);
+  background: lighten($color: $selection-color, $amount: 10);
   color: $white;
 }
 

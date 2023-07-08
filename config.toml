@@ -63,6 +63,8 @@ enableRobotsTXT = true
   expiryDate = ["expiryDate"]
 
 
+[params.colors]
+  kofi_button_color = "#000"
 
 
 ############################# Plugins ##############################
@@ -183,7 +185,8 @@ enableRobotsTXT = true
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logos/logo.svg"
+koficolor = "#972EB4"
 home = "Home"
 # Meta data
 opengraph = true # Enable OpenGraph if true
@@ -197,7 +200,7 @@ mobile = "+91-9711261345"
 email = "rahul@mlwhiz.com"
 location = "India, Bangalore"
 # copyright
-copyright = "Copyright &copy; 2020 [MLWhiz](https://mlwhiz.com) All Rights Reserved "
+copyright = "Copyright &copy; 2023 [MLWhiz](https://mlwhiz.com) All Rights Reserved "
 
   # Preloader
   [params.preloader]

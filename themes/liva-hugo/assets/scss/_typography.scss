@@ -1,18 +1,19 @@
 /*  typography */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
 body {
   line-height: 1.2;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: $font-size*15px;
   color: $text-color;
 }
 
 p, .paragraph {
   font-weight: 400;
   color: $text-color;
-  font-size: 15px;
+  font-size: $font-size*15px;
   line-height: 1.7;
   font-family: $primary-font;
 }
@@ -31,19 +32,19 @@ a{
 }
 
 h1, .h1{
-  font-size: 45px;
+  font-size: $font-size*45px;
 }
 
 h2, .h2{
-  font-size: 36px;
+  font-size: $font-size*30px;
 }
 
 h3, .h3{
-  font-size: 28px;
+  font-size: $font-size*26px;
 }
 
 h4, .h4{
-  font-size: 22px;
+  font-size: $font-size*22px;
 }
 
 h5, .h5{

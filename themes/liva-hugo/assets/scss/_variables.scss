@@ -1,14 +1,52 @@
+
 // Color Variables
-$primary-color: #00AAA1;
-$text-color: black;
-$text-color-dark: #222222;
-$text-color-light: #959595;
-$body-color: #fff;
-$border-color: #ACB9C4;
+$orange: #F2A640;
+$pink: #EA336B;
+$purple: #972EB4;
 $black: #000;
 $white: #fff;
-$gray: #f4fcff;
+$gray: #EDF6F5;
+$green:#50AB74;
+
+// Link Color changes using this one:
+$primary-color: $purple;
+$text-color: $black;
+$text-color-dark: $black;
+$text-color-light: #999;
+$body-color: #fff;
+$border-color: #ECECEC;
+$selection-color: $green;
 
 // Font Variables
-$primary-font: 'Raleway', sans-serif;
+$primary-font: 'work sans','Raleway', sans-serif;
 $icon-font: 'themify';
+$font-size: .9;
+
+// category colors
+$category-color: $pink;
+$category-text-color: $white;
+
+
+//tag colors
+$tag-color: $orange;
+$tag-text-color: $white;
+
+// button colors for read-more etc
+$btn-color:$black;
+$btn-text-color:$white;
+$btn-hover-color:$purple;
+
+// social-links
+
+$social-links-color: $primary-color;
+$social-links-color-text: $white;
+
+// $hero
+
+$hero-button: $orange;
+$hero-button-hover: $purple;
+$hero-gradient-left: $orange;
+$hero-gradient-right: $purple;
+
+
+// kofi-color comes from config.toml
