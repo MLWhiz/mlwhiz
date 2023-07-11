@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://mlwhiz.com/"
 languageCode = "en-us"
-title = "Helping You Learn Data Science!"
+title = "DS, ML, AI!"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 10
