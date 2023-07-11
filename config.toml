@@ -12,7 +12,6 @@ pygmentsCodeFences = true
 pygmentsUseClasses = false
 pygmentsStyle = "native"
 
-
 # TODO
 enableGitInfo = true
 enableRobotsTXT = true
