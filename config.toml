@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://mlwhiz.com/"
 languageCode = "en-us"
-title = "DS, ML, AI!"
+title = "MLWhiz - Your Home for DS, ML, AI!"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 10
