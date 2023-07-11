@@ -224,7 +224,7 @@ content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/in/rahulagwl/"
+link = "www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=rahulagwl"
 
 [[params.social]]
 title = "medium"
