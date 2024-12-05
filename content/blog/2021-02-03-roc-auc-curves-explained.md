@@ -226,6 +226,6 @@ An important step while creating any [Machine learning pipeline](https://towards
 
 If you want to learn more about how to structure a machine learning project and the best practices for doing so, I would recommend this excellent [third course](https://coursera.pxf.io/KeEOO7) named “Structuring Machine Learning Projects” in the Coursera [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). Do check it out. It addresses the pitfalls and a lot of basic ideas to improve your models.
 
-I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](http://mlwhiz.medium.com) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
+I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](http://mlwhiz.medium.com) or Subscribe to my [blog](mlwhiz.com) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

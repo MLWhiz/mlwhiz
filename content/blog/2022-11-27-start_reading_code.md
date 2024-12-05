@@ -75,9 +75,9 @@ The final step once you change code is to get it reviewed, and put it in product
 
 ## Continue Learning
 
-If you want to learn more about [Python](https://amzn.to/2XPSiiG) , I would like to call out an excellent course on Learn [Intermediate level Python](https://bit.ly/2XshreA) from the University of Michigan\. Do check it out\.
+If you want to learn more about [Python](https://amzn.to/2XPSiiG) , I would like to call out an excellent course on Learn [Intermediate level Python](https://imp.i384100.net/6yyWGV) from the University of Michigan\. Do check it out\.
 
-I am going to be writing more beginner\-friendly posts in the future too\. Follow me up at [Medium](http://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them\. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz) \.
+I am going to be writing more beginner\-friendly posts in the future too\. Follow me up at [Medium](http://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com) to be informed about them\. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz) \.
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea\.
 

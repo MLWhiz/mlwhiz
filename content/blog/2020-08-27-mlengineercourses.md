@@ -67,18 +67,18 @@ The main services you learn in this specialization are ***AWS Lambda***(serverle
 
 *This particular Amazon specialization is engineering heavy and by the end, you would understand how to build and deploy serverless applications with AWS.*
 
-**[2. Getting Started with AWS Machine Learning](https://coursera.pxf.io/e45BJ6)**
+**[2. Getting Started with AWS Machine Learning](https://imp.i384100.net/9LLAQW)**
 
 ![Photo by [Pietro Jeng](https://unsplash.com/@pietrozj?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](/images/mlengineercourses/1.png)
 
 There are a lot of things to consider while building a great machine learning system. We, as data scientists, only worry about the data and modeling part of the project but do we ever think about how we will deploy our models once we have them?
 
-I have seen a lot of ML projects, and a lot of them are doomed to fail as they don’t have a set plan for production from the onset. Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://coursera.pxf.io/e45BJ6) for implementing Machine Learning applications promises just that.
+I have seen a lot of ML projects, and a lot of them are doomed to fail as they don’t have a set plan for production from the onset. Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://imp.i384100.net/9LLAQW) for implementing Machine Learning applications promises just that.
 
 > This course will teach you:<br>
 >	1. How to build, train and deploy a model using Amazon SageMaker with built-in algorithms and Jupyter Notebook instance.<br>
 > 2. How to build intelligent applications using Amazon AI services like Amazon Comprehend, Amazon Rekognition, Amazon Translate and others.<br><br>
-> [Source](https://coursera.pxf.io/e45BJ6)
+> [Source](https://imp.i384100.net/9LLAQW)
 
 **[3. AWS Computer Vision: Getting Started with GluonCV](https://coursera.pxf.io/vn9m2W)**
 
@@ -97,6 +97,6 @@ In this post, I talked about the best courses I would recommend for people who a
 
 Also, here are my [course recommendations](https://towardsdatascience.com/top-10-resources-to-become-a-data-scientist-in-2020-99a315194701?source=---------2------------------) to become a Data Scientist in 2020.
 
-I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

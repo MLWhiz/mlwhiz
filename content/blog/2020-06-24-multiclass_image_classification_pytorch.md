@@ -723,7 +723,7 @@ You can find the complete code for this post on [Github](https://github.com/MLWh
 
 If you would like to learn more about Image Classification and Convolutional Neural Networks take a look at the [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY) from Andrew Ng. Also, to learn more about PyTorch and start from the basics, you can take a look at the [Deep Neural Networks with PyTorch](https://coursera.pxf.io/jWG2Db) course offered by IBM.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
 

@@ -278,8 +278,8 @@ Hopefully, I’ve covered the column creation process well to help you with your
 
 ***You can find all the code for this post at the [GitHub repository](https://github.com/MLWhiz/data_science_blogs/blob/master/spark_columns/Columns.ipynb) or the [published notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7664398068420572/312750581110937/3797400441762013/latest.html) on databricks.***
 
-Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://coursera.pxf.io/4exq73) on Coursera.
+Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://imp.i384100.net/555ALj) on Coursera.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c)
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](mlwhiz.com)
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

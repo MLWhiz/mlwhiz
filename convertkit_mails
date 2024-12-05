@@ -1,0 +1,261 @@
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+I am writing to you as you downloaded my Book or signed up for my curated Newsletter! In the last email, I sent you the PDF titled "Advanced Python Tricks". If you somehow missed that here is the ​link​ to download it again. 
+My goal with this email newsletter is to share with you sneak peeks at my upcoming stories, favorite books I am reading, provide you with awesome learning resources, and basically anything that can help the reader learn about Data Science, Machine Learning, and Artificial Intelligence.
+To get started, if you don't know much about me here's a couple of places you can connect and find out more:
+​My Website​ - This has my Bio, Latest Blogs, and some awesome Learning resources.​Medium​ - I love the clean interface of Medium Blog. Also just so you know, I am working on a new version of my website being inspired by that. If you are on medium too, you can join my 14k+ Followers there.​LinkedIn​ - Connect with me. This is where I am the most conversant and am most available.SneakPeak: I am writing a new book named "Deep Learning Projects with Pytorch". In this book, my main task would be to demystify various Deep Learning concepts in an easy to understand way while providing tools to the reader enabling them to create their own DL projects fast. So it is going to be code first approach. It is already 30% Complete. If you would like to be notified about when it is published, join the subscription list on the ​Book Landing Page​. It will also help me gauge interest in the book.  
+I hope you’ll enjoy learning Data Science along with me. 
+
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science. If you think you don't need awesome content you can unsubscribe at any time.
+
+
+
+
+
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+A few days ago you signed up for my newsletter and made a great choice trusting me with your inbox, I'm going to continue sending you some great content over the next few months, but first, I want to answer a question that a lot of my readers ask me.
+
+So, I get many questions regarding how I learned Data Science? Or which books I find good? Or how to begin with Machine Learning? It is actually hard for a beginner to go through the plethora of resources that exist on the internet and find the correct ones. So, I thought of sharing the resources I found useful and which I recommend wholeheartedly to my subscribers to make the journey a little easy for them. 
+1. ​Machine Learning From Stanford:​ It is the Game Changer Machine Learning course. It contains the maths behind many of the Machine Learning algorithms. I will put this course as the one course you have to take as this course motivated me into getting into this field, and Andrew Ng is a great instructor. Also, this was the first course that I took myself when I started.
+2. ​Inferential Statistics:​ Mine Çetinkaya-Rundel teaches this course on Inferential Statistics. And it cannot get simpler than this one. She is a great instructor and explains the fundamentals of Statistical inference nicely — a must-take course. You will learn about hypothesis testing, confidence intervals, and statistical inference methods for numerical and categorical data.
+3. ​Deep Learning Specialization​: This Deep Learning specialization by deeplearning.ai will help you understand the capabilities, challenges, and consequences of deep learning and prepare you to participate in the development of leading-edge AI technology. 
+I hope you’ll really enjoy learning Data Science. 
+Also one more thing it would be great if you could share this newsletter with your friends, colleagues, and people interested in Data Science or Machine Learning. Or they can themselves subscribe to my list using this ​subscription link​. Also, don't worry, it's FREE for everyone.
+{{ snippet.send_and_sub }}
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+Want to Learn Big Data?
+Big Data has become synonymous with Data engineering. But the line between Data Engineering and Data scientists is blurring day by day. At this point in time, I think that Big Data must be in the repertoire of all Data Scientists.
+Reason: Too much data is getting generated day by day
+And that brings us to Spark. Now most of the Spark documentation, while good, did not explain it from the perspective of a data scientist.
+So, I thought of giving it a shot. This series of posts on Spark is all that is needed to understand and work with Spark. These posts are some of the best content I have ever created so I am really excited about sharing it with you:
+
+1. ​The Hitchhikers guide to handle Big Data using Spark​: In this post, we will learn about Spark Basics - RDD actions and Transformations.
+2. ​The Most Complete Guide to pySpark DataFrames​: In this post, I will talk about installing Spark, standard Spark functionalities you will need to work with DataFrames, and finally some tips to handle the inevitable errors you will face.
+3. ​Practical Spark Tips for Data Scientists​: Practical Spark and memory management tips for Data Scientists
+4. ​Spark 3.0 With GPU on DataProc​: This post is about setting up your own Dataproc Spark Cluster with NVIDIA GPUs on Google Cloud.
+Also, if you want to learn more about Spark and Spark DataFrames, and would like to take a Course based approach, 
+I would like to call out these excellent courses on Big Data: 
+1. ​Big Data Essentials: HDFS, MapReduce, and Spark RDD​ and 
+2. ​Big Data ​Graph Analytics
+I hope you’ll really enjoy learning about Big Data with these posts and Courses. 
+{{ snippet.send_and_sub }}
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+Are you a beginner to Data Science?
+Don't worry, We have all been there. Not knowing where to start and getting stuck with fairly trivial tasks. So here is where you should start. I will keep this short and provide some good resources to start with data manipulations in this mail.
+But before doing anything, you will need to setup your own developmet environment. You can use Atom​(Create an Awesome Development Setup for Data Science using Atom​) or Jupyter Notebooks. I prefer both for certain tasks. When i am working with scripts I use Atom, and whe I have to work with Pandas or Plots, I use Jupyter. For a beginner I would recommed Jupyter Notebooks only.
+Once, you are done with Setting up an environment, you need to start working with some data. Doing groupby's, Joins, aggregations etc as well as understanding them. You can do that using Pandas which is one of the best libraries in Python( ​Minimal Pandas Subset for Data Scientists​) Or SQL​(Learning SQL the Hard Way​)
+I recommend everyone to learn both Pandas as SQL as they solve most of data manipulation needs and form the backbone of all the different systems we tend to use while working with data be it small data or big data.
+Again, if you want to take a course based approach, here are some good courses for ​SQL for Data Science​ and ​Intermediate level Python​ for Pandas.
+I hope you’ll really enjoy learning about Manipulating Data with these posts and Courses. 
+{{ snippet.send_and_sub }}
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} Hello {{ subscriber.first_name }}, {% else %} Hello, {% endif %}
+An Year back I wrote this post on Graph Data Structures.
+This post completely blew up on social media. It was something quick that I wrote over the weekend, but it really resonated and was shared like crazy.
+Read it here:
+​https://mlwhiz.com/blog/2019/09/02/graph_algs/​
+
+
+I think you'll really enjoy it.
+Also one more thing it would be great if you could share this newsletter with your friends, colleagues, and people interested in Data Science or Machine Learning. Or they can themselves subscribe to my list using this ​subscription link​. Also, don't worry, it's FREE for everyone.
+{{ snippet.send_and_sub }}
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} Hello {{ subscriber.first_name }}, {% else %} Hello, {% endif %}
+Want to Learn Computer Vision?
+Have you ever wondered how Facebook takes care of the abusive and inappropriate images shared by some of its users? Or how an image tagging feature works? Or how Google Lens recognizes products through images? Or how the fake AI-generated people and deep fakes work?
+All of the above are examples of ​C​omputer Vision in different settings including the use of Classification, Object Detection/Instance Segmentation, and GANs.
+This series of posts are some of the best content I have ever created around Computer Vision so I am really excited about sharing it with you:
+1. ​The Most Complete Guide to PyTorch for Data Scientists​: Learning the Basics of the Library we use for Neural Nets. This is a highly comprehensive guide that will help you to understand how we work in the next few posts.
+2. ​End to End Pipeline for setting up Multiclass Image Classification for Data Scientists​: In this post, we’ll create an end to end pipeline for image multiclass classification using Pytorch. This will include training the model, putting the model’s results in a form that can be shown to business partners, and functions to help deploy the model easily.
+3. ​Demystifying Object Detection and Instance Segmentation for Data Scientists​​Button​​Button​​Button​: Here we delve into the object detection theory to get a sense of how the whole object detection field evolved.
+4. ​How to Create an End to End Object Detector using Yolov5​: We will build upon the theory in last post to create our own Object detector.
+5. ​A Layman’s Introduction to GANs for Data Scientists using PyTorch​: We’re going to look at How generative adversarial networks behind AI-generated images work, and create and build an similar application with PyTorch
+6. ​Deployment could be easy — A Data Scientist’s Guide to deploy an Image detection FastAPI API using Amazon ec2​​Button​: What is a model if it can't be deployed. We are going to look at how to use fastAPI to deploy any model in this case specifically an image model.
+Also, if you want to learn more about Computer Vision, and would like to take a Course based approach,
+I would like to call out these excellent courses:
+1. ​Deep Neural Networks with PyTorch​
+2. ​Deep Learning Specialization by Andrew Ng​. and
+I hope you’ll really enjoy learning about Computer Vision with these posts and Courses. I am also be working on extending these posts into a book and you can subscribe to the ​mailing list​ for updates on the same.
+Also one more thing it would be great if you could share this newsletter with your friends, colleagues, and people interested in Data Science or Machine Learning. Or they can themselves subscribe to my list using this ​subscription link​. Also, don't worry, it's FREE for everyone.
+{{ snippet.send_and_sub }}
+
+
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} Hello {{ subscriber.first_name }}, {% else %} Hello, {% endif %}
+Lately, a lot of folks are asking me questions around how to learn DSA and how to get better at it and crack DSA interviews.
+
+
+The simplest answer is Practice and Perseverance. I remember practising almost 100 problems before appearing for my data structure coding rounds and I still felt that it was not enough. People who were selected with me had done as many as "500 Leetcodes" as they like to say it.
+That said a comprehensive plan to study is also pretty important here. Here are my suggestions to crack almost any coding interview:
+
+
+Read up "​Cracking the Coding Interview"​ book by Gayle Laakmann McDowell.Focus on simple Data Structures like Array, Sets, Stack/Queue, Hashmap/Dictionary, Tree/Binary Tree, Heap, Graphs without worrying too much about more advanced Data structures like AVL or Red-Black trees.Get a hold of these common algorithms: Divide-and-Conquer, DP/memoization, Recursion, Binary Search, BFS/DFS, Tree traversals.Practice a lot of problems on a platform like Leetcode.
+Also for me, the following step by step procedure worked:
+Understand the problem by asking the interviewer more about it.Keep the interviewer involved in what you are thinkingCome up with a Naive solution in most casesTry to find a better solution by thinking about which algorithm or data structure might fit the problem.
+Apart from this have a look at some of the posts I have written on some of these algorithms and data structures:
+
+
+​A simple introduction to Linked Lists for Data Scientists​​3 Programming concepts for Data Scientists​ — Recursion/Memoization, DP and Binary Search​Dynamic Programming for Data Scientists​​Handling Trees in Data Science Algorithmic Interview​
+If you would like to take a course approach have a look at ​Algorithm Specialization on Coursera by UCSanDiego​.
+{{ snippet.send_and_sub }}
+
+
+All the best,
+
+
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} Hello {{ subscriber.first_name }}, {% else %} Hello, {% endif %}
+A few days ago you signed up for my newsletter and made a great choice trusting me with your inbox, I’m going to continue sending you some great content over the next few months, but first, I want to answer a question that a lot of my readers ask me.
+So, I get many questions regarding how I learned Data Science? Or which books I find good? Or how to begin with Machine Learning? It is actually hard for a beginner to go through the plethora of resources that exist on the internet and find the correct ones. So, I thought of sharing the resources I found useful and which I recommend wholeheartedly to my subscribers to make the journey a little easy for them.
+Become a Data Scientist in 2023 with these 10 ResourcesI hope you’ll really enjoy learning Data Science. 
+{{ snippet.send_and_sub }}
+All the best, Rahul Agarwal at MLWhiz P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+Let me tell you a story. 
+It was 2013, and I was struggling to decide what I wanted to do in my career. 
+I was frigging so confused. Should I do an MBA, or keep on being a Business analyst? After all, how much SQL can a guy write? (The answer to this is - Not enough my friend :P ).
+​
+And, at this time I found the Machine Learning course from Andrew Ng, and I was instantly hooked. It felt like he was doing some magic with Maths. And now, 8 Years later, I am still hooked to machine learning and whenever someone asks me where to start their ML Journey, I wholeheartedly direct them towards this course.
+​
+But, though the course was pretty great at explaining basics of machine learning, the course was getting somewhat out of touch in 2022. Learning Octave just for this course, no focus on Tree based methods and not any focus on current DL frameworks were some of the problems that the course had.
+​
+Not Now though.
+​
+I am excited to announce that Andrew Ng’s new Machine Learning Specialization from DeepLearning.AI and Stanford University just launched. This Specialization summarizes the advances made over the ten years since the original course was released and includes:
+Graded assignments and lectures that teach Python instead of Octave/Matlab.3 in-depth courses providing a broad introduction to machine learning, supervised learning, and unsupervised learning.Dozens of additional code notebooks and interactive graphs to help learners better understand concepts.
+
+I am so excited to take this one again. Are you?
+Enroll For Free{{ snippet.send_and_sub }}
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+When we prepare for jobs, we start thinking about it in nearly a very simplistic manner. I mean we think about preparing for a job and then only applying. And we never do prepare anything. And thus never apply, getting comfortable with our current “situation”.
+
+This is not how it should work. The decision to change a job needs to come from within first and then you need to ask the question to yourself:
+
+What do I need from my next stint?
+
+Is it leadership opportunity, more scope, domain switch or anything else? There wont be a simple answer to it and it will be personal to everyone.
+
+Once you get the answer, think of how you will achieve such a goal and start preparing for it.
+
+Meanwhile you also need to apply for such positions. Don’t wait to be prepared. Never will come such a time. Go to linkedin, contact recruiters, ask for referrals from your connections. Fail a few interviews. Keep on preparing even more by learning from failures. Worst that could happen is that you can apply again into the failed role after 6 months. And that is still not a failure. You would know about the process and would have eome sort of relationship with the recruiter too. So it is all good. In time it will come.
+
+Now for a few generic tips:
+
+1. DSA is important for a lot of jobs but that is not the whole of it. Get to an average level in solving those medium level leetcode problems and just move on. Most of the companies are not looking for competitive programming level stuff. Even FAANGs. If you want to read my Interview experience at FB: ​https://towardsdatascience.com/how-i-cracked-my-mle-interview-at-facebook-fe55726f0096​
+
+2. There is a common misconception that behavioural interviews are not that important and if you do the tech rounds well you are through. I would suggest preparing well for behavioural and design interviews. Many a times i have seen people being rejected or downlevelled due to them.
+
+3. Don’t specialize. Or if you do, specialize but know your basics well too. Talking about deep learning and not being able to answer a simple question about logistic regression doesn’t put you in a good light. Remember that until you are applying for a very specialised role your interviewer might not know what to ask you if you only focus on some obscure topic.
+
+4. Research. Each company has a structure for interviews. Understand that structure well. Try to Minimise surprises on interviewing day. Ask your recruiter about the process. Dont be shy to do that.
+{{ snippet.send_and_sub }}
+All the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.
+
+
+{% if subscriber.first_name != blank %} 
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+LLMs are all the craze right now. In this post I have curated various articles highlighting different aspects of artificial intelligence and resources to get started with LLMs. Let's dive in!
+
+​A Survey of Large Language Models​: Stay up-to-date with the latest research on Large Language Models (LLMs) with this comprehensive survey. Whether you're a researcher or an engineer, this resource will provide valuable insights into the current landscape of LLMs.​How Does ChatGPT Work?​: Join ​Rahul Agarwal​ as he takes us on a journey through the history of various AI models and their evolution. Learn how ChatGPT and similar models have transformed the field of natural language processing.​GPT4 Architecture Details:​​ Dylan Patel​ has put together an intriguing post that delves into the architecture of GPT4, covering crucial aspects such as infrastructure, training dataset, costs, vision, and the intriguingly fascinating MoE (Mixture of Experts). You won't want to miss this captivating read!
+Learning Resources:
+Today, We have a fantastic lineup of Paid and Free resources explicitly curated for using LLMs in Applications!
+
+1️⃣ ​Generative AI with Large Language Models:​
+Dive into the exciting world of a generative AI project and learn specific techniques like RLHF, Proximal policy optimization(PPO), zero-shot, one-shot, and few-shot learning with LLMs; fine-tuning LLMs, and gain hands-on practice with all of these techniques ✨
+2️⃣ ​Building Systems with the ChatGPT API:​
+Unlock the power of ChatGPT and learn how to build cutting-edge systems using the ChatGPT API.
+3️⃣ ​ChatGPT Prompt Engineering for Developers:​
+Understand "Prompt Engineering" and Enhance your prompt engineering skills to guide language models to generate desired outputs.
+4️⃣ ​LangChain for LLM Application Development:​
+Looking to revolutionize the world of LLM application development? Look no further! LangChain is here to transform your language models into powerful applications.
+I hope you find this selection of articles and learning resources insightful and enriching. Stay tuned for more updates in the next edition of this newsletter. Feel free to contact me with any suggestions or if you would like to contribute. 
+{{ snippet.send_and_sub }}
+Thanks a lot, and Happy reading!
+
+
+
+
+
+
+
+{% if subscriber.first_name != blank %}
+Hello {{ subscriber.first_name }},
+{% else %} 
+Hello,
+{% endif %}
+Just Wrote this. 
+Post template
+​{{post.title}}​
+Published on {{post.date}}
+​Read more...​
+
+Let me know what you think. 
+Also, one more thing it would be great if you could share this post with your friends, colleagues, and people interested in Data Science or Machine Learning. Or they can themselves subscribe to my list using this ​subscription link​. Also, don't worry, it's FREE for everyone.
+
+
+Follow Me on MediumFollow Me on LinkedinAll the best,
+Rahul Agarwal at MLWhiz
+P.S. I’ll be back in your inbox with more great content on Data Science.

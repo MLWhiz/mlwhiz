@@ -204,6 +204,6 @@ So go and show on these Mad skills. To end on a lighter note, as Sten Sootla say
 
 If you want to learn more about how to structure a Machine Learning project and the best practices, I would like to call out his excellent [third course](https://coursera.pxf.io/KeEOO7) named Structuring Machine learning projects in the Coursera [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). Do check it out.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c)
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](mlwhiz.com)
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

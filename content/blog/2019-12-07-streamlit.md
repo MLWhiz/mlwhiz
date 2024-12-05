@@ -370,6 +370,6 @@ You can find the full code for the final app [here](https://github.com/MLWhiz/da
 
 If you want to learn about the best strategies for creating Visualizations, I would like to call out an excellent course about [**Data Visualization and applied plotting**](https://coursera.pxf.io/e45JOX) from the University of Michigan, which is a part of a pretty good [**Data Science Specialization with Python**](https://coursera.pxf.io/e45JOX) in itself. Do check it out.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](mlwhiz.com).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

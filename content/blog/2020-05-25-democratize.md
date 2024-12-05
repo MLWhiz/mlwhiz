@@ -100,7 +100,7 @@ It’s about finding the right problems that are useful for the business and com
 
 If you want to learn about Data Science, I would like to call out this [excellent course](https://coursera.pxf.io/NKERRq) by Andrew Ng. This was the one that got me started.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
 

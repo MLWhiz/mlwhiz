@@ -227,7 +227,7 @@ In one of my previous posts I talked about the influence of GCP and AWS and the 
 
 ---
 
-### 5. [Getting Started with AWS Machine Learning](https://coursera.pxf.io/e45BJ6)
+### 5. [Getting Started with AWS Machine Learning](https://imp.i384100.net/9LLAQW)
 
 AWS users don't fret as this one focusses on ML with AWS. As per description from course page: "This course will teach you how to get started with AWS Machine Learning. Key topics include: Machine Learning on AWS, Computer Vision on AWS, and Natural Language Processing (NLP) on AWS." Pretty Nice.
 
@@ -235,4 +235,4 @@ AWS users don't fret as this one focusses on ML with AWS. As per description fro
 
 There seems to be a lot of other courses that can pique your interest. If you are excited go take a look at them yourself [here](https://coursera.pxf.io/yRPoZB) Also nnotice that you can avail this discount only till 30 June so get started while the fun lasts.
 
-Hope this Helped! I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c) to be informed about them.
+Hope this Helped! I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page or Subscribe to my [blog](mlwhiz.com) to be informed about them.

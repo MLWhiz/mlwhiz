@@ -223,6 +223,6 @@ I am totally amazed by the concept of using a GPU on Spark and the different str
 
 ## Continue Learning
 
-Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://coursera.pxf.io/4exq73) on Coursera.
+Also, if you want to learn more about Spark and Spark DataFrames, I would like to call out an excellent course on [Big Data Essentials: HDFS, MapReduce and Spark RDD](https://imp.i384100.net/555ALj) on Coursera.
 
-I am going to be writing more of such posts in the future too. Let me know what you think about them. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more of such posts in the future too. Let me know what you think about them. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).

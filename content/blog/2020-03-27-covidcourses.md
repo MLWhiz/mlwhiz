@@ -117,7 +117,7 @@ There are a lot of things to consider while building a great machine learning sy
 
 I have seen a lot of ML projects, and a lot of them are doomed to fail as they don’t have a set plan for production from the onset.
 
-Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://coursera.pxf.io/e45BJ6) for implementing Machine Learning applications promises just that.
+Having a good platform and understanding how that platform deploys machine Learning apps will make all the difference in the real world. This [course on AWS](https://imp.i384100.net/9LLAQW) for implementing Machine Learning applications promises just that.
 
 > *This course will teach you:*
 
@@ -143,6 +143,6 @@ Also, don’t worry if you don’t want to learn the above ones. I have collecte
 
 ## Continue Learning
 
-I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.

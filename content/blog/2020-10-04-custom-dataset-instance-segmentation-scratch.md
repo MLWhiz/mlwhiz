@@ -28,7 +28,7 @@ toc : false
 type : "post"
 ---
 
-Recently, I was looking for a toy dataset for my new book’s chapter (you can subscribe to the updates [here](https://mlwhiz.ck.page/9a2ffe9e2c)) on instance segmentation. And, I really wanted to have something like the Iris Dataset for Instance Segmentation so that I would be able to explain the model without worrying about the dataset too much. But, alas, it is not always possible to get a dataset that you are looking for.
+Recently, I was looking for a toy dataset for my new book’s chapter (you can subscribe to the updates [here](mlwhiz.com)) on instance segmentation. And, I really wanted to have something like the Iris Dataset for Instance Segmentation so that I would be able to explain the model without worrying about the dataset too much. But, alas, it is not always possible to get a dataset that you are looking for.
 
 I actually ended up looking through various sources on the internet but inadvertently found that I would need to download a huge amount of data to get anything done. Given that is not at all the right way to go about any tutorial, I thought why not create my own dataset.
 
@@ -127,4 +127,4 @@ In my next post, I aim to explain the COCO format along with creating an instanc
 
 If you want to know more about various ***Object Detection techniques, motion estimation, object tracking in video, etc***., I would like to recommend this excellent specialization on [Deep Learning](https://coursera.pxf.io/7mKnnY). If you wish to know more about how the object detection field has evolved over the years, you can also take a look at my last [post](https://towardsdatascience.com/a-hitchhikers-guide-to-object-detection-and-instance-segmentation-ac0146fe8e11) on Object detection.
 
-Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](http://eepurl.com/dbQnuX) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
+Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)

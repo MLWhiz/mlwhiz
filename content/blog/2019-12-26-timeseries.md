@@ -306,6 +306,6 @@ You can find the whole running code on [GitHub](https://github.com/MLWhiz/data_s
 
 Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://coursera.pxf.io/yRPoZB) course in the [Advanced machine learning specialization](https://coursera.pxf.io/yRPoZB) by Kazanova. This course talks about a lot of ways to improve your models using feature engineering and hyperparameter tuning.
 
-I am going to be writing more beginner-friendly posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://mlwhiz.ck.page/a9b8bda70c).
+I am going to be writing more beginner-friendly posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](mlwhiz.com).
 
 Also, a small disclaimer — There might be some affiliate links in this post to relevant resources, as sharing knowledge is never a bad idea.
