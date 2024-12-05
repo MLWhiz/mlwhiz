@@ -262,7 +262,7 @@ You can find the complete code for this post on [Github](https://github.com/MLWh
 
 ## Continue Learning
 
-If you want to learn more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
+If you want to learn more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://imp.i384100.net/LXZO13). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [**blog**](mlwhiz.com)
 

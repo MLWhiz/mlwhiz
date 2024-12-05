@@ -368,7 +368,7 @@ I don’t have an idea if it will perform well in a production environment yet, 
 
 You can find the full code for the final app [here](https://github.com/MLWhiz/data_science_blogs/tree/master/streamlit_football_demo).
 
-If you want to learn about the best strategies for creating Visualizations, I would like to call out an excellent course about [**Data Visualization and applied plotting**](https://coursera.pxf.io/e45JOX) from the University of Michigan, which is a part of a pretty good [**Data Science Specialization with Python**](https://coursera.pxf.io/e45JOX) in itself. Do check it out.
+If you want to learn about the best strategies for creating Visualizations, I would like to call out an excellent course about [**Data Visualization and applied plotting**](https://imp.i384100.net/JKKJZa) from the University of Michigan, which is a part of a pretty good [**Data Science Specialization with Python**](https://imp.i384100.net/JKKJZa) in itself. Do check it out.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](mlwhiz.com).
 

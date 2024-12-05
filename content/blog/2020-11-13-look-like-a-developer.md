@@ -121,7 +121,7 @@ So what are you waiting for? Make your terminal great again.
 Do read some of my previous articles on working with shell commands also if you like to get better at working with the shell.
 [Impress Onlookers with your newly acquired Shell Skills](https://towardsdatascience.com/impress-onlookers-with-your-newly-acquired-shell-skills-a02effb420c2)
 
-If you would like to know more about the command line, which I guess you would, there is [The UNIX workbench](https://coursera.pxf.io/kj1N30) course on Coursera which you can try out.
+If you would like to know more about the command line, which I guess you would, there is [The UNIX workbench](https://imp.i384100.net/7aay9y) course on Coursera which you can try out.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](mlwhiz.com) to be informed about them.
 

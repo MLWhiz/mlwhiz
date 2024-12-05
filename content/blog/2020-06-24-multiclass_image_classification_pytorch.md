@@ -37,7 +37,7 @@ All of the above are examples of [image classification](https://lionbridge.ai/se
 
 In the past, I always used Keras for computer vision projects. However, recently when the opportunity to work on multiclass image classification presented itself, I decided to use PyTorch. I have already moved from Keras to PyTorch for all [NLP tasks](https://mlwhiz.com/blog/2019/01/06/pytorch_keras_conversion/), so why not vision, too?
 
-> [PyTorch](https://coursera.pxf.io/jWG2Db) is powerful, and I also like its more pythonic structure.
+> [PyTorch](https://imp.i384100.net/e11q5j) is powerful, and I also like its more pythonic structure.
 
 ***In this post, we’ll create an end to end pipeline for image multiclass classification using Pytorch.*** This will include training the model, putting the model’s results in a form that can be shown to business partners, and functions to help deploy the model easily. As an added feature we will look at Test Time Augmentation using Pytorch also.
 
@@ -721,7 +721,7 @@ In this post, I talked about the end to end pipeline for working on a multiclass
 
 You can find the complete code for this post on [Github](https://github.com/MLWhiz/data_science_blogs/tree/master/compvisblog).
 
-If you would like to learn more about Image Classification and Convolutional Neural Networks take a look at the [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY) from Andrew Ng. Also, to learn more about PyTorch and start from the basics, you can take a look at the [Deep Neural Networks with PyTorch](https://coursera.pxf.io/jWG2Db) course offered by IBM.
+If you would like to learn more about Image Classification and Convolutional Neural Networks take a look at the [Deep Learning Specialization](https://imp.i384100.net/LXZO13) from Andrew Ng. Also, to learn more about PyTorch and start from the basics, you can take a look at the [Deep Neural Networks with PyTorch](https://imp.i384100.net/e11q5j) course offered by IBM.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 

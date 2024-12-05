@@ -375,7 +375,7 @@ The codes for both examples are sourced at [Github](https://github.com/MLWhiz/MC
 4. <a href="http://www.utstat.toronto.edu/wordpress/WSFiles/technicalreports/1005.pdf" target="_blank" rel="nofollow">Decrypting Classical Cipher Text Using Markov Chain Monte Carlo, Jian Chen and Jeffrey S. Rosenthal</a>
 
 
-One of the newest and best resources that you can keep an eye on is the course on **<a href="https://coursera.pxf.io/4exMaL" target="_blank" rel="nofollow">Bayesian Statistics on Coursera</a>**. In the process of doing it right now so couldn't really comment on it. But since I had done an course on **<a href="https://coursera.pxf.io/DVZ13d" target="_blank" rel="nofollow">Inferential Statistics</a>** taught by the same professor before(Mine Çetinkaya-Rundel), I am very hopeful for this course. Let's see.
+One of the newest and best resources that you can keep an eye on is the course on **<a href="https://imp.i384100.net/e11qjr" target="_blank" rel="nofollow">Bayesian Statistics on Coursera</a>**. In the process of doing it right now so couldn't really comment on it. But since I had done an course on **<a href="https://imp.i384100.net/vPPz2O" target="_blank" rel="nofollow">Inferential Statistics</a>** taught by the same professor before(Mine Çetinkaya-Rundel), I am very hopeful for this course. Let's see.
 
 Also look out for these two books to learn more about MCMC. I have not yet read them whole but still I liked whatever I read:
 

@@ -45,7 +45,7 @@ menu: nlpseries
 
 This post is the third post of the NLP Text classification series. To give you a recap, I started up with an NLP text classification competition on Kaggle called Quora Question insincerity challenge. So I thought to share the knowledge via a series of blog posts on text classification. The [first post](/blog/2019/01/17/deeplearning_nlp_preprocess/) talked about the different **preprocessing techniques that work with Deep learning models** and **increasing embeddings coverage**. In the [second post](/blog/2019/02/08/deeplearning_nlp_conventional_methods/), I talked through some **basic conventional models** like TFIDF, Count Vectorizer, Hashing, etc. that have been used in text classification and tried to access their performance to create a baseline. In this post, I delve deeper into **Deep learning models and the various architectures** we could use to solve the text Classification problem. To make this post platform generic, I am going to code in both Keras and Pytorch. I will use various other models which we were not able to use in this competition like **ULMFit transfer learning** approaches in the fourth post in the series.
 
-**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://imp.i384100.net/555ABL). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 So let me try to go through some of the models which people are using to perform text classification and try to provide a brief intuition for them — also, some code in Keras and Pytorch. So you can try them out for yourself.
 
@@ -483,7 +483,7 @@ Here are the final results of all the different approaches I have tried on the K
 
 In this post, I went through with the explanations of various deep learning architectures people are using for Text classification tasks. In the next post, we will delve further into the next new phenomenon in NLP space - Transfer Learning with BERT and ULMFit. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my blog to be informed about my next post.
 
-If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://imp.i384100.net/555ABL). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Let me know if you think I can add something more to the post; I will try to incorporate it.
 

@@ -36,7 +36,7 @@ ConvNet as fixed feature extractor. Take a ConvNet pretrained on ImageNet, remov
 </div>
 <br>
 
-As a side note: if you want to know more about convnets and Transfer Learning I would like to recommend this awesome [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
+As a side note: if you want to know more about convnets and Transfer Learning I would like to recommend this awesome [Deep Learning Specialization](https://imp.i384100.net/LXZO13). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
 
 But there are a lot many interesting problems in the Image domain. The one which we are going to focus on today is the Segmentation, Localization and Detection problem.
 So what are these problems?

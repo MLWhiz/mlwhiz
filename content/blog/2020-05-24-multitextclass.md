@@ -425,9 +425,9 @@ There is still a lot that can be done to improve this model’s performance. Cha
 
 You can find the full working code here on [Github](https://github.com/MLWhiz/data_science_blogs/tree/master/multiclass), or this [Kaggle Kernel](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch?scriptVersionId=30273958).
 
-Also, if you want to learn more about NLP, [here](https://coursera.pxf.io/yRPoZB) is an excellent course.
+Also, if you want to learn more about NLP, [here](https://imp.i384100.net/kjX9md) is an excellent course.
 
-If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://imp.i384100.net/555ABL). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 

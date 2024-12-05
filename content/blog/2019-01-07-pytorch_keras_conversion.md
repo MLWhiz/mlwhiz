@@ -52,7 +52,7 @@ type : post
 
 Recently I started up with a competition on kaggle on text classification, and as a part of the competition, I had to somehow move to Pytorch to get deterministic results. Now I have always worked with Keras in the past and it has given me pretty good results, but somehow I got to know that the **CuDNNGRU/CuDNNLSTM layers in keras are not deterministic**, even after setting the seeds. So Pytorch did come to rescue. And am  I  glad that I moved.
 
-**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+**As a side note**: If you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://imp.i384100.net/555ABL). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Also take a look at my other post: [Text Preprocessing Methods for Deep Learning](/blog/2019/01/17/deeplearning_nlp_preprocess/), which talks about different preprocessing techniques you can use for your NLP task and [What Kagglers are using for Text Classification](/blog/2018/12/17/text_classification/), which talks about various deep learning models in use in NLP.
 

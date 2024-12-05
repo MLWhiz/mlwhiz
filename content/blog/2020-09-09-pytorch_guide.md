@@ -701,7 +701,7 @@ Pytorch provides a lot of customizability with minimal code. While at first, it 
 
 You can find the code for this post here on my [GitHub](https://github.com/MLWhiz/data_science_blogs/tree/master/pytorch_guide) repo, where I keep codes for all my blogs.
 
-If you want to learn more about Pytorch using a course based structure, take a look at the [Deep Neural Networks with PyTorch](https://coursera.pxf.io/jWG2Db) course by IBM on Coursera. Also, if you want to know more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
+If you want to learn more about Pytorch using a course based structure, take a look at the [Deep Neural Networks with PyTorch](https://imp.i384100.net/e11q5j) course by IBM on Coursera. Also, if you want to know more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://imp.i384100.net/LXZO13). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [blog](mlwhiz.com)
 

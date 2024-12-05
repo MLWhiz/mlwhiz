@@ -304,6 +304,6 @@ To end this post, I would be giving an exercise for you to implement as I think 
 
 I will put the ***answer in the comments for this article.***
 
-If you want to learn more about [Python](https://amzn.to/2XPSiiG), I would like to call out an excellent course on Learn [Intermediate level Python](https://coursera.pxf.io/0JMOOY) from the University of Michigan. Do check it out.
+If you want to learn more about [Python](https://amzn.to/2XPSiiG), I would like to call out an excellent course on Learn [Intermediate level Python](https://imp.i384100.net/6yyWGV) from the University of Michigan. Do check it out.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.comx) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz).

@@ -125,6 +125,6 @@ In my next post, I aim to explain the COCO format along with creating an instanc
 
 ### Keep Learning
 
-If you want to know more about various ***Object Detection techniques, motion estimation, object tracking in video, etc***., I would like to recommend this excellent specialization on [Deep Learning](https://coursera.pxf.io/7mKnnY). If you wish to know more about how the object detection field has evolved over the years, you can also take a look at my last [post](https://towardsdatascience.com/a-hitchhikers-guide-to-object-detection-and-instance-segmentation-ac0146fe8e11) on Object detection.
+If you want to know more about various ***Object Detection techniques, motion estimation, object tracking in video, etc***., I would like to recommend this excellent specialization on [Deep Learning](https://imp.i384100.net/LXZO13). If you wish to know more about how the object detection field has evolved over the years, you can also take a look at my last [post](https://towardsdatascience.com/a-hitchhikers-guide-to-object-detection-and-instance-segmentation-ac0146fe8e11) on Object detection.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)

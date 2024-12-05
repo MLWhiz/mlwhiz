@@ -198,7 +198,7 @@ type : "post"
 
 In one of my previous posts, I talked about [how to become a data Scientist using some awesome resources from Coursera](https://mlwhiz.com/blog/2020/02/21/ds2020/).
 
-But just recently I came to know from Coursera that they have floated few of there courses for learners in India in these trying times for free and I couldn't stop myself to rave about them in this post. If you are excited go take a look at them yourself [here](https://coursera.pxf.io/yRPoZB)
+But just recently I came to know from Coursera that they have floated few of there courses for learners in India in these trying times for free and I couldn't stop myself to rave about them in this post. If you are excited go take a look at them yourself [here](https://imp.i384100.net/kjX9md)
 
 Or you can carry on and below are some of the good Courses you can do for Free on Coursera.
 So what's stopping you now?
@@ -233,6 +233,6 @@ AWS users don't fret as this one focusses on ML with AWS. As per description fro
 
 ---
 
-There seems to be a lot of other courses that can pique your interest. If you are excited go take a look at them yourself [here](https://coursera.pxf.io/yRPoZB) Also nnotice that you can avail this discount only till 30 June so get started while the fun lasts.
+There seems to be a lot of other courses that can pique your interest. If you are excited go take a look at them yourself [here](https://imp.i384100.net/kjX9md) Also nnotice that you can avail this discount only till 30 June so get started while the fun lasts.
 
 Hope this Helped! I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/?source=post_page or Subscribe to my [blog](mlwhiz.com) to be informed about them.

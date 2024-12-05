@@ -87,7 +87,7 @@ We need to get a taste of machine learning before understanding it fully. This s
 
 ### a) Introduction to Data Science in Python
 
-[This course](https://coursera.pxf.io/LPyWGV) is about learning to use Python and creating things on your own. You will learn about *Python Libraries* like **Numpy, Pandas** for data science.
+[This course](https://imp.i384100.net/6yyARr) is about learning to use Python and creating things on your own. You will learn about *Python Libraries* like **Numpy, Pandas** for data science.
 
 You might also like my posts on [Minimal Pandas for Data Scientists](https://towardsdatascience.com/minimal-pandas-subset-for-data-scientists-6355059629ae) and [small shorts on advanced python](https://towardsdatascience.com/tagged/python-shorts) while going through this course.
 
@@ -100,7 +100,7 @@ Course description from Website:
 
 ![](/images/resources/4.jpg)
 
-[This course](https://coursera.pxf.io/QOvWga) gives an intro to many modern machine learning methods that you should know about. Not a thorough grinding but you will get the tools to build your own models. You will learn scikit-learn, which is the python library to create all sorts of models.
+[This course](https://imp.i384100.net/yqqyP2) gives an intro to many modern machine learning methods that you should know about. Not a thorough grinding but you will get the tools to build your own models. You will learn scikit-learn, which is the python library to create all sorts of models.
 
 The focus here is to start creating things as soon as possible. No one likes to wait too long to get something useful, and you will become useful after this course.
 
@@ -134,7 +134,7 @@ You need to understand what goes behind the `clf.fit`
 
 > If you don’t understand it you won’t be able to improve it
 
-Here comes the Game Changer [Machine Learning course](https://coursera.pxf.io/NKERRq). Contains the maths behind many of the Machine Learning algorithms.
+Here comes the Game Changer [Machine Learning course](https://imp.i384100.net/Z66Xe1). Contains the maths behind many of the Machine Learning algorithms.
 
 I will put this course as the *one course you gotta take* as this course motivated me into getting in this field, and Andrew Ng is a great instructor. Also, this was the first course that I took myself when I started.
 
@@ -178,7 +178,7 @@ Not a hard requirement but a good to have skill. Shell is a big friend of data s
 You can read the below post by me to know about this:
 [**Impress Onlookers with your newly acquired Shell Skills**](https://towardsdatascience.com/impress-onlookers-with-your-newly-acquired-shell-skills-a02effb420c2)
 
-If you would like to take a course, you can look at [The UNIX workbench](https://coursera.pxf.io/kj1N30) course on Coursera.
+If you would like to take a course, you can look at [The UNIX workbench](https://imp.i384100.net/7aay9y) course on Coursera.
 
 **Congrats you are a “Hacker” now.**
 
@@ -194,7 +194,7 @@ You may want to take a totally different approach than what I took going from he
 
 ![](/images/resources/7.png)
 
-Mine Çetinkaya-Rundel teaches this course on [Inferential Statistics](https://coursera.pxf.io/DVZ13d). And it cannot get simpler than this one.
+Mine Çetinkaya-Rundel teaches this course on [Inferential Statistics](https://imp.i384100.net/vPPz2O). And it cannot get simpler than this one.
 
 She is a great instructor and explains the fundamentals of Statistical inference nicely — a must-take course.
 
@@ -210,7 +210,7 @@ You will learn about hypothesis testing, confidence intervals, and statistical i
 
 [**Intro**](http://www.fast.ai/) — Making neural nets uncool again. This is a code-first class for neural nets. An excellent Deep learning class from Kaggle Master Jeremy Howard. Entertaining and enlightening at the same time.
 
-**Advanced** — You can try out this [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY) by Andrew Ng again. Pure Gold.
+**Advanced** — You can try out this [Deep Learning Specialization](https://imp.i384100.net/LXZO13) by Andrew Ng again. Pure Gold.
 
 [**Advanced Math Book**](http://amzn.to/2npItnM) — A math-intensive book by Yoshua Bengio & Ian Goodfellow
 
@@ -238,7 +238,7 @@ I wrote a series of 6 posts on it. If you want, you can take a look.
 
 > Algorithms. Yes, you need them.
 
-Apart from that if you want to learn about Python and the underlying intricacies of the language you can take the [**Computer Science Mini Specialization from RICE university**](https://coursera.pxf.io/gbe4Kg) too.
+Apart from that if you want to learn about Python and the underlying intricacies of the language you can take the [**Computer Science Mini Specialization from RICE university**](https://imp.i384100.net/nXXNV7) too.
 
 This is a series of 6 short but good courses.
 

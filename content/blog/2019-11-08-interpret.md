@@ -247,7 +247,7 @@ To use ELI5 with your models you can follow along with the code in this [Kaggle 
 
 ## Continue Learning
 
-If you wantIf you want to learn more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.You might also like to take a look at some of my [posts on NLP](https://towardsdatascience.com/tagged/nlp-learning-series) in the NLP Learning series.
+If you wantIf you want to learn more about Deep Learning, I would like to recommend this awesome [Deep Learning Specialization](https://imp.i384100.net/LXZO13). You can start for free with the 7-day Free Trial. This specialization talks about various CNN architetures and covers a wide variety of problems in the image domain including detection and segmentation.You might also like to take a look at some of my [posts on NLP](https://towardsdatascience.com/tagged/nlp-learning-series) in the NLP Learning series.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [**Medium**](https://mlwhiz.medium.com/?source=post_page---------------------------) or Subscribe to my [**blog**](mlwhiz.com)
 

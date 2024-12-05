@@ -40,9 +40,9 @@ While these courses are not providing verified certificates if you take them for
 
 ## 1. Machine Learning
 
-![[Source](https://coursera.pxf.io/NKERRq): Free Courses are a way to go](/images/covidcourses/0.png)
+![[Source](https://imp.i384100.net/Z66Xe1): Free Courses are a way to go](/images/covidcourses/0.png)
 
-Yes, you heard it right, Coursera is providing the Game Changer [Machine Learning course](https://coursera.pxf.io/NKERRq) by Andrew Ng for free right now.
+Yes, you heard it right, Coursera is providing the Game Changer [Machine Learning course](https://imp.i384100.net/Z66Xe1) by Andrew Ng for free right now.
 
 As for my review, I think this is the one course that should be done by everyone interested in Machine Learning. For one, it contains the maths behind many of the Machine Learning algorithms and secondly Andrew Ng is a great instructor. Believe it or not, Andrew Ng not only taught but also motivated me to learn data science when I first started.
 

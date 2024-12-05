@@ -111,7 +111,7 @@ If you want to learn more about using Streamlit to create and deploy apps, take 
 - [**How to write Web apps using simple Python for Data Scientists?**](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
 - [**How to Deploy a Streamlit App using an Amazon Free ec2 instance?**](https://towardsdatascience.com/how-to-deploy-a-streamlit-app-using-an-amazon-free-ec2-instance-416a41f69dc3)
 
-If you want to learn about the best strategies for creating Visualizations, I would like to call out an excellent course about [Data Visualization and applied plotting](https://coursera.pxf.io/e45JOX) from the University of Michigan, which is a part of a pretty good [Data Science Specialization with Python](https://coursera.pxf.io/e45JOX) in itself. Do check it out.
+If you want to learn about the best strategies for creating Visualizations, I would like to call out an excellent course about [Data Visualization and applied plotting](https://imp.i384100.net/JKKJZa) from the University of Michigan, which is a part of a pretty good [Data Science Specialization with Python](https://imp.i384100.net/JKKJZa) in itself. Do check it out.
 
 Thanks for the read. I am going to be writing more beginner-friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my [blog](mlwhiz.com).
 

@@ -45,7 +45,7 @@ And much more. The whole internet is filled with text and to categorise that inf
 
 Here I am going to use the data from Quora's Insincere questions to talk about the different models that people are building and sharing to perform this task. Obviously these standalone models are not going to put you on the top of the leaderboard, yet I hope that this ensuing discussion would be helpful for people who want to learn more about text classification. This is going to be a long post in that regard.
 
-As a side note: if you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://coursera.pxf.io/9WjZo0). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
+As a side note: if you want to know more about NLP, I would like to recommend this awesome [Natural Language Processing Specialization](https://imp.i384100.net/555ABL). You can start for free with the 7-day Free Trial. This course covers a wide range of tasks in Natural Language Processing from basic to advanced: sentiment analysis, summarization, dialogue state tracking, to name a few.
 
 Also take a look at my other post: [Text Preprocessing Methods for Deep Learning](/blog/2019/01/17/deeplearning_nlp_preprocess/), which talks about different preprocessing techniques you can use for your NLP task and [how to switch from Keras to Pytorch](/blog/2019/01/06/pytorch_keras_conversion/).
 

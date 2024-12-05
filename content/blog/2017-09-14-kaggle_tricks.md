@@ -26,7 +26,7 @@ image: /images/category_bgs/default_bg.jpg
 
 Often times it happens that we fall short of creativity. And creativity is one of the basic ingredients of what we do. Creating features needs creativity. So here is the list of ideas I gather in day to day life, where people have used creativity to get great results on Kaggle leaderboards.
 
-Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://coursera.pxf.io/yRPoZB) course in the [Advanced machine learning specialization](https://coursera.pxf.io/yRPoZB) by Kazanova(Number 3 Kaggler at the time of writing). You can start for free with the 7-day Free Trial.
+Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://imp.i384100.net/kjX9md) course in the [Advanced machine learning specialization](https://imp.i384100.net/kjX9md) by Kazanova(Number 3 Kaggler at the time of writing). You can start for free with the 7-day Free Trial.
 
 
 This post is inspired by a [Kernel](https://www.kaggle.com/gaborfodor/from-eda-to-the-top-lb-0-368) on Kaggle written by Beluga, one of the top Kagglers, for a knowledge based [competition](https://www.kaggle.com/c/nyc-taxi-trip-duration).

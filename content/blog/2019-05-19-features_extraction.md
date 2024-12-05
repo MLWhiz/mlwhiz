@@ -670,6 +670,6 @@ While I have tried to keep this post as exhaustive as possible, I might have mis
 
 You can find all the code for this post and run it yourself in this [Kaggle Kernel](https://www.kaggle.com/mlwhiz/feature-creation/)
 
-Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://coursera.pxf.io/yRPoZB) course in the [Advanced machine learning specialization](https://coursera.pxf.io/yRPoZB) by Kazanova. This course talks about a lot of intuitive ways to improve your model. Definitely recommended.
+Take a look at the [How to Win a Data Science Competition: Learn from Top Kagglers](https://imp.i384100.net/kjX9md) course in the [Advanced machine learning specialization](https://imp.i384100.net/kjX9md) by Kazanova. This course talks about a lot of intuitive ways to improve your model. Definitely recommended.
 
 I am going to be writing more beginner friendly posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](mlwhiz.com).

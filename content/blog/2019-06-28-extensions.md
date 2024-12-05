@@ -211,6 +211,6 @@ It has made my life a lot easier when it comes to checking execution times, scro
 
 There are many other extensions this package does provide. Do take a look at them and try to see which ones you find useful.
 
-Also, if you want to learn more about Python 3, I would like to call out an excellent course on Learn [Intermediate level Python](https://coursera.pxf.io/0JMOOY) from the University of Michigan. Do check it out.
+Also, if you want to learn more about Python 3, I would like to call out an excellent course on Learn [Intermediate level Python](https://imp.i384100.net/6yyWGV) from the University of Michigan. Do check it out.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](mlwhiz.com).

@@ -81,7 +81,7 @@ Visualizations are awesome. **However, a good visualization is annoyingly hard t
 
 Moreover, it takes time and effort when it comes to present these visualizations to a bigger audience.
 
-We all know how to make [Bar-Plots, Scatter Plots, and Histograms](https://coursera.pxf.io/e45JOX), yet **we don't pay much attention to beautify them.**
+We all know how to make [Bar-Plots, Scatter Plots, and Histograms](https://imp.i384100.net/JKKJZa), yet **we don't pay much attention to beautify them.**
 
 This hurts us - our credibility with peers and managers. You won't feel it now, but it happens.
 
@@ -467,7 +467,7 @@ So to recap, in this post, we talked about calculating and reading correlations 
 
 ---
 
-Also if you want to learn more about Visualizations, I would like to call out an excellent course about [Data Visualization and applied plotting](https://coursera.pxf.io/e45JOX) from the University of Michigan which is a part of a pretty good [Data Science Specialization with Python](https://coursera.pxf.io/e45JOX) in itself. Do check it out
+Also if you want to learn more about Visualizations, I would like to call out an excellent course about [Data Visualization and applied plotting](https://imp.i384100.net/JKKJZa) from the University of Michigan which is a part of a pretty good [Data Science Specialization with Python](https://imp.i384100.net/JKKJZa) in itself. Do check it out
 
 
 If you liked this post, do look at my other [post](https://mlwhiz.com/blog/2015/09/13/seaborn_visualizations/) on Seaborn too where I have created some more straightforward reusable graphs. I am going to be writing more beginner friendly posts in the future too. Follow me up at [Medium](https://mlwhiz.medium.com/) or Subscribe to my blog to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)

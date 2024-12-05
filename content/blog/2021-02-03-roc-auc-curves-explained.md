@@ -224,7 +224,7 @@ And that is in fact what I got. Only the threshold changes as the scale changes.
 
 An important step while creating any [Machine learning pipeline](https://towardsdatascience.com/6-important-steps-to-build-a-machine-learning-system-d75e3b83686) is evaluating different models against each other. Picking the wrong evaluation metric or not understanding what your metric really means could wreak havoc to your whole system. I hope that, with this post, I was able to clear some confusion that you might have had with ROC curves and AUC.
 
-If you want to learn more about how to structure a machine learning project and the best practices for doing so, I would recommend this excellent [third course](https://coursera.pxf.io/KeEOO7) named “Structuring Machine Learning Projects” in the Coursera [Deep Learning Specialization](https://coursera.pxf.io/7mKnnY). Do check it out. It addresses the pitfalls and a lot of basic ideas to improve your models.
+If you want to learn more about how to structure a machine learning project and the best practices for doing so, I would recommend this excellent [third course](https://imp.i384100.net/qzzALy) named “Structuring Machine Learning Projects” in the Coursera [Deep Learning Specialization](https://imp.i384100.net/LXZO13). Do check it out. It addresses the pitfalls and a lot of basic ideas to improve your models.
 
 I am going to be writing more of such posts in the future too. Let me know what you think about the series. Follow me up at [Medium](http://mlwhiz.medium.com) or Subscribe to my [blog](mlwhiz.com) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz)
 
